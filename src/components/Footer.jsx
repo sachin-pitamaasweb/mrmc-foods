@@ -5,8 +5,6 @@ import { Grid } from '@mui/material';
 import '../style/Footer.css';
 import QuickLinks from "./QuickLinks";
 import SocialIcons from "../common/SocialIcons";
-// import FooterContact from "./FooterContact";
-
 const Footer = () => {
 
     return (
@@ -20,32 +18,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <Grid container spacing={2} className="footer-container">
-                    {/* <Grid item xs={12}>
-                        <div className="social-icon">
-                            <img src={require('../assets/images/Instagram.png')} alt="Instagram" className="icon"
-                                onClick={() => window.open("https://www.instagram.com/mrmc_foods/", "_blank", "noopener,noreferrer")}
-                                style={{ cursor: 'pointer' }} />
-                            <img src={require('../assets/images/Facebook.png')} alt="Facebook" className="icon"
-                                onClick={() => window.open("https://www.facebook.com/mrmcfoods", "_blank", "noopener,noreferrer")}
-                                style={{ cursor: 'pointer' }} />
-                        </div>
-                    </Grid> */}
                     <SocialIcons />
-                    {/* <Grid items xs={12}>
-                        <div className='quick-links-container'>
-                            <div className='quick-links'>
-                                <div className='quick-links-title'>Quick-Links</div>
-                                <div className='quick-links-lists'>
-                                    <span className='quick-links-span' >Home</span>
-                                    <span className='quick-links-span'>About Us</span>
-                                    <span className='quick-links-span'>Products</span>
-                                    <span className='quick-links-span'>Events</span>
-                                    <span className='quick-links-span'>Infrastructure</span>
-                                    <span className='quick-links-span'>Contacts Us</span>
-                                </div>
-                            </div>
-                        </div>
-                    </Grid> */}
                     <QuickLinks />
                     <Grid items xs={12} className="contact-us">
                         <div className='contact-us'>
@@ -67,7 +40,6 @@ const Footer = () => {
                             </div>
                         </div>
                     </Grid>
-                    {/* <FooterContact /> */}
                 </Grid>
             </footer>
         </>

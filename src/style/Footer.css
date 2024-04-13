@@ -29,7 +29,7 @@
 .footer-logo {
     position: relative;
     z-index: 1;
-    background-color: #ffffff;
+    background-color: #FEFAE0;
     border-radius: 50%;
     width: 200px;
     height: 200px;
@@ -112,7 +112,7 @@
 }
 
 .hr-line {
-    width: 110%;
+    width: 100%;
     border-top: 7px solid #efe3e3;
 }
 
@@ -460,7 +460,7 @@
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        padding-left: 127px !important;
+        padding-left: 137px !important;
         padding-top: 20px !important; 
     }
 
@@ -909,8 +909,6 @@
 
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
-
-    
     .contact-us {
         margin-top: -284px !important;
         display: flex !important;
