@@ -9,7 +9,9 @@ const FooterLogo = () => {
         <Grid container className="footer-logo-container" spacing={2}>
             <Grid item xs={12} className="footer-logo-grid">
                 <div className="footer-logo-div">
-                    <img  src={require('../assets/images/Logo.png')} className="footer-logo-image"/>
+                   <div className="footer-logo-div1">
+                   <img  src={require('../assets/images/Logo.png')} className="footer-logo-image" alt='footer-logo' />
+                   </div>
                 </div>
             </Grid>
         </Grid>

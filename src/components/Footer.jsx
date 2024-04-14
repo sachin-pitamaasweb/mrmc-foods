@@ -1,49 +1,28 @@
-
-import React from "react";
+import React from 'react';
 import { Grid } from '@mui/material';
 
 import '../style/Footer.css';
-import QuickLinks from "./QuickLinks";
-import SocialIcons from "../common/SocialIcons";
-const Footer = () => {
 
+import SocialIcons from '../common/SocialIcons.jsx';
+import FooterLogo from '../common/FooterLogo.jsx';
+import QuickLinks from './QuickLinks.jsx';
+
+const Footer = () => {
     return (
         <>
-            <footer className="footer">
-                <div className="logo-container">
-                    <div className="logo-background">
-                        <div className="footer-logo">
-                            <img src={require('../assets/images/Logo.png')} width={290} height={178} alt='footer-logo' className="footer-logo-img" />
+            <Grid container className="footer-container" spacing={2}>
+                <Grid className="footer-grid" item xs={12}>
+                    <footer className='footer'>
+                        <FooterLogo />
+                        <SocialIcons />
+                        <div className="QuickLinks-Contacts">
+                            <QuickLinks />
                         </div>
-                    </div>
-                </div>
-                <Grid container spacing={2} className="footer-container">
-                    <SocialIcons />
-                    <QuickLinks />
-                    <Grid items xs={12} className="contact-us">
-                        <div className='contact-us'>
-                            <div className='contact-us-container'>
-                                <div className='contact-us-icons-details'>
-                                    <img src={require('../assets/images/Phone.png')} alt="phone" className='contact-us-icons' style={{ objectFit: 'contain' }} />
-                                    <a style={{ textDecoration: 'none' }} href="tel:+91 9876543210"><h3 className='contact-us-span'>+91 9876543210</h3></a>
-                                </div>
-                                <hr className='hr-line' />
-                                <div className='contact-us-icons-details'>
-                                    <img src={require('../assets/images/location.png')} alt="location" className='contact-us-icons' style={{ objectFit: 'contain' }} />
-                                    <a style={{ textDecoration: 'none' }} href="https://www.google.com/maps/place/Feroz+Punjab/@30.8307583,74.0780589,17z/data=!3m1!4b1!4m5!3m4!1s0x3918f5d8b9b0b8b1:0x5c7d6e2e6a5e2b8d!8m2!3d30.8307577!4d74.0802476"><h3 className='contact-us-span'>Punjab-India</h3></a>
-                                </div>
-                                <hr className='hr-line' />
-                                <div className='contact-us-icons-details'>
-                                    <img src={require('../assets/images/Email.png')} alt="Email" className='contact-us-icons' style={{ objectFit: 'contain' }} />
-                                    <a style={{ textDecoration: 'none' }} href="mailto:rajiv@mrmc.in"><h3 className='contact-us-span'>xyz@gmail.coms</h3></a>
-                                </div>
-                            </div>
-                        </div>
-                    </Grid>
+                    </footer>
                 </Grid>
-            </footer>
+            </Grid>
         </>
     )
 }
-export default Footer;
 
+export default Footer;

@@ -1,4 +1,4 @@
-
+/* 
 .footer {
     background-color: #29336A !important;
     height: auto;
@@ -29,7 +29,7 @@
 .footer-logo {
     position: relative;
     z-index: 1;
-    background-color: #FEFAE0;
+    background-color: #ffffff;
     border-radius: 50%;
     width: 200px;
     height: 200px;
@@ -1218,4 +1218,28 @@
     }
     
 }
+ */
 
+
+ .footer-container {
+    background-color: #29336A !important;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 50px;
+}
+
+.QuickLinks-Contacts{
+    display: flex;
+}
+
+
+@media screen and (max-width: 500px) {
+    .QuickLinks-Contacts{
+        display: block !important;
+    }
+}
+
+@media screen and (min-width:501px) and (max-width: 768px) {
+    .QuickLinks-Contacts{
+        display: flex !important;
+    }
+}
