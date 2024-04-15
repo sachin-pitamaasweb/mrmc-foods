@@ -183,7 +183,21 @@
 }
 
 
-@media screen and (min-width: 1441px) and (max-width: 2560px) {
+@media screen and (min-width: 1441px) and (max-width: 1800px) {
+  .quality {
+    overflow: hidden !important;
+    margin-top: 0px !important;
+}
+
+.quality-h4 {
+  font-size: 20px !important;
+  text-align: center !important;
+  font-family: 'Libre Baskerville', serif !important;
+  margin-left: 60px !important;
+}
+}
+
+@media screen and (min-width: 1801px) and (max-width: 2560px) {
   .quality-h4 {
     text-align: center !important;
     font-family: 'Libre Baskerville', serif !important;

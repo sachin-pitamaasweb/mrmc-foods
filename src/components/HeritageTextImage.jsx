@@ -8,7 +8,7 @@ const HeritageTextImage = () => {
 
         <>
             <Grid container className="heritage-text-image-container" spacing={2}>
-                <div className="heritage-background-image"></div>
+                {/* <div className="heritage-background-image"></div> */}
                 <Grid className="heritage-text-image-grid" item xs={12} sm={12} md={6} lg={6}>
                     <div className="heritage-image-div-text">
                         <img src={require('../assets/images/heritage.png')} alt="heritage" className="heritage-image-img" />

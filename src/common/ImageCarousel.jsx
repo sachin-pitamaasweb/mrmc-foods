@@ -28,12 +28,7 @@ const ImageCarousel = () => {
         return () => window.removeEventListener('resize', handleResize);
     }, []);
 
-    // const bgTextStyle = {
-    //     width: '30%',
-    //     marginTop: '-720px',
-    //     marginLeft: '-1271px',
-    //     animation: 'swing 2s infinite alternate'
-    // };
+;
 
     const carouselDivStyle = {
         position: 'relative',

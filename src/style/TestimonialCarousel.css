@@ -310,7 +310,36 @@
 }
 
 
-@media screen and (min-width: 1501px) and (max-width: 1920px) {}
+@media screen and (min-width: 1501px) and (max-width: 1800px) {
+    .testimonials-carousel {
+        background-color: #F5C583 !important;
+        width: 375px !important;
+        height: 370px !important;
+        margin-left: 30px !important;
+        margin-right: 30px !important;
+        border: 3px solid black !important;
+        border-radius: 30px !important;
+        margin-top: 100px !important;
+        padding-top: 100px !important;
+
+    }
+
+    .testimonials-subtitle1 {
+        font-size: 15px !important;
+        font-weight: 400 !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+
+
+    .testimonials-h5 {
+        font-size: 40px !important;
+        font-weight: 400 !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+}
+
+
+@media screen and (min-width: 1801px) and (max-width: 1920px) {}
 
 
 @media screen and (min-width: 1921px) and (max-width: 2048px) {

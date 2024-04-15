@@ -7,8 +7,6 @@ import EmailIcon from '@mui/icons-material/Email';
 
 import '../style/QuickLinks.css';
 
-import { googleMap } from '../Hepler';
-
 const QuickLinks = () => {
     return (
         <><Grid item xs={12} lg={6}>
@@ -57,7 +55,7 @@ const QuickLinks = () => {
                             variant="body1"
                             className="footer-contact-info-links"
                             component="a"
-                            href={googleMap}
+                            href='https://maps.app.goo.gl/KXxctzqzSZA7Ybhp7'
                             target="_blank"
                             rel="noopener noreferrer"
                         >

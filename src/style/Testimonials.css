@@ -92,8 +92,25 @@
     
 }
 
+@media screen and (min-width: 1441px) and (max-width: 1800px) {
+    .testimonials-h4 {
+        font-size: 45px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 400 !important;
+        color: #316C2F !important;
+        letter-spacing: 15px !important;
+    }
 
-@media screen and (min-width: 1440px) and (max-width: 2560px) {
+    .testimonials-subtitle {
+        font-size: 85px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 400 !important;
+        color: #316C2F !important;
+    }
+  }
+
+
+@media screen and (min-width: 1801px) and (max-width: 2560px) {
     .testimonials-container-grid {
         padding-left: 100px !important;
         padding-right: 100px !important;
