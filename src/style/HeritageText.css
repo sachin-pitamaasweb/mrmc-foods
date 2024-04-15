@@ -164,6 +164,27 @@
     } 
 }
 
+@media screen and (min-width: 1441px) and (max-width: 1800px) {
+    .heritage-text-container{
+        padding-top: 70px;
+    }
+    
+    .heritage-text{
+        font-size: 48px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 600 !important;
+        letter-spacing: 15px !important;
+        color: #316C2F !important;
+    }
+    
+    .heritage-text-sub{
+        font-size: 70px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        color: #316C2F !important;
+    } 
+}
+
+
 @media screen and (min-width: 1801px) and (max-width: 1920px) {
     .heritage-text-container{
         padding-top: 70px;
