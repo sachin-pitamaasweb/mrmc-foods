@@ -6,6 +6,11 @@
     display: block;
 }
 
+.testimonials-carousel-container {
+    padding-left: 50px;
+    padding-right: 0px;
+}
+
 .testimonials-carousel {
     background-color: #F5C583;
     width: 540px;
@@ -211,7 +216,7 @@
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .testimonials-carousel {
         background-color: #F5C583 !important;
-        width: 464px !important;
+        width: 400px !important;
         height: 306px !important;
         margin-left: 42px !important;
         margin-right: 94px !important;
@@ -236,13 +241,13 @@
     }
 
     .testimonials-h5 {
-        font-size: 45px !important;
+        font-size: 35px !important;
         font-weight: 400 !important;
         font-family: 'Libre Baskerville', serif !important;
     }
 
     .testimonials-subtitle1 {
-        font-size: 15px !important;
+        font-size: 13px !important;
         font-weight: 400 !important;
         font-family: 'Libre Baskerville', serif !important;
     }
@@ -252,28 +257,43 @@
 
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
     .testimonials-carousel {
-
         background-color: #F5C583 !important;
-        width: 375px !important;
-        height: 370px !important;
+        width: 286px !important;
+        height: 210px !important;
         margin-left: 30px !important;
         margin-right: 30px !important;
         border: 3px solid black !important;
         border-radius: 30px !important;
         margin-top: 100px !important;
         padding-top: 100px !important;
+    }
+    .testimonials-img-div {
+        display: flex !important;
+        justify-content: center !important;
+        margin-top: -167px !important;
+    }
 
+    .testimonials-img {
+        width: 122px !important;
+        height: 102px !important;
+        border: 3px solid black !important;
+        border-radius: 30px !important;
+        display: block !important;
+    }
+    .testimonials-carousel-container {
+        padding-left: 20px !important;
+        padding-right: 0px !important;
     }
 
     .testimonials-subtitle1 {
-        font-size: 15px !important;
+        font-size: 18px !important;
         font-weight: 400 !important;
         font-family: 'Libre Baskerville', serif !important;
     }
 
 
     .testimonials-h5 {
-        font-size: 40px !important;
+        font-size: 9px !important;
         font-weight: 400 !important;
         font-family: 'Libre Baskerville', serif !important;
     }
@@ -313,7 +333,7 @@
 @media screen and (min-width: 1501px) and (max-width: 1800px) {
     .testimonials-carousel {
         background-color: #F5C583 !important;
-        width: 455px !important;
+        width: 393px !important;
         height: 370px !important;
         margin-left: 30px !important;
         margin-right: 30px !important;

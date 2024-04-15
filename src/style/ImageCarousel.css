@@ -77,7 +77,7 @@
     }
 
     .bg-text-image-web {
-        width: 28% !important;
+        width: 25% !important;
         margin-top: -410px !important;
         margin-left: -710px !important;
         animation: swing 2s infinite alternate !important;
@@ -85,7 +85,7 @@
 
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1280px) {
+@media screen and (min-width: 1025px) and (max-width: 1060px) {
     .carousel-caption {
         position: none !important;
         right: 0% !important;
@@ -98,7 +98,71 @@
     }
 
     .bg-text-image-web {
-        width: 28% !important;
+        width: 25% !important;
+        margin-top: -410px !important;
+        margin-left: -710px !important;
+        animation: swing 2s infinite alternate !important;
+    }
+
+}
+
+@media screen and (min-width: 1061px) and (max-width: 1120px) {
+    .carousel-caption {
+        position: none !important;
+        right: 0% !important;
+        bottom: 0px !important;
+        left: 0% !important;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        color: #fff;
+        text-align: center;
+    }
+
+    .bg-text-image-web {
+        width: 25% !important;
+        margin-top: -432px !important;
+        margin-left: -766px !important;
+        animation: swing 2s infinite alternate !important;
+    }
+
+}
+
+
+@media screen and (min-width:  1121px) and (max-width: 1180px) {
+    .carousel-caption {
+        position: none !important;
+        right: 0% !important;
+        bottom: 0px !important;
+        left: 0% !important;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        color: #fff;
+        text-align: center;
+    }
+
+    .bg-text-image-web {
+        width: 25% !important;
+        margin-top: -461px !important;
+        margin-left: -825px !important;
+        animation: swing 2s infinite alternate !important;
+    }
+
+}
+
+@media screen and (min-width: 1181px) and (max-width: 1280px) {
+    .carousel-caption {
+        position: none !important;
+        right: 0% !important;
+        bottom: 0px !important;
+        left: 0% !important;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        color: #fff;
+        text-align: center;
+    }
+
+    .bg-text-image-web {
+        width: 25% !important;
         margin-top: -500px !important;
         margin-left: -854px !important;
         animation: swing 2s infinite alternate !important;
@@ -118,7 +182,7 @@
     }
 
     .bg-text-image-web {
-        width: 28% !important;
+        width: 25% !important;
         margin-top: -540px !important;
         margin-left: -920px !important;
         animation: swing 2s infinite alternate !important;
@@ -139,14 +203,15 @@
     }
 
     .bg-text-image-web {
-        width: 28% !important;
+        width: 25% !important;
         margin-top: -562px !important;
         margin-left: -980px !important;
         animation: swing 2s infinite alternate !important;
     }
 }
 
-@media screen and (min-width: 1501px) and (max-width: 1800px) {
+
+@media screen and (min-width: 1501px) and (max-width: 1640px) {
     .carousel-caption {
         position: none !important;
         right: 0% !important;
@@ -159,8 +224,49 @@
     }
 
     .bg-text-image-web {
-        width: 28% !important;
-        margin-top: -710px !important;
+        width: 25% !important;
+        margin-top: -634px !important;
+        margin-left: -1102px !important;
+        animation: swing 2s infinite alternate !important;
+    }
+}
+
+@media screen and (min-width: 1641px) and (max-width: 1700px) {
+    .carousel-caption {
+        position: none !important;
+        right: 0% !important;
+        bottom: 0px !important;
+        left: 0% !important;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        color: #fff;
+        text-align: center;
+    }
+
+    .bg-text-image-web {
+        width: 25% !important;
+        margin-top: -670px !important;
+        margin-left: -1142px !important;
+        animation: swing 2s infinite alternate !important;
+    }
+}
+
+
+@media screen and (min-width: 1701px) and (max-width: 1800px) {
+    .carousel-caption {
+        position: none !important;
+        right: 0% !important;
+        bottom: 0px !important;
+        left: 0% !important;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        color: #fff;
+        text-align: center;
+    }
+
+    .bg-text-image-web {
+        width: 25% !important;
+        margin-top: -700px !important;
         margin-left: -1175px !important;
         animation: swing 2s infinite alternate !important;
     }

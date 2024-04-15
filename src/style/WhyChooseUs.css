@@ -115,7 +115,7 @@
     padding-left: 100px !important;
     padding-right: 100px !important;
     margin-top: 50px !important;
-    height: 250px !important;
+    height: 218px !important;
   }
 
   .why-choose-us-title {
@@ -124,8 +124,7 @@
     color: #ffffff !important;
     letter-spacing: 5px !important;
     font-family: 'Libre Baskerville', serif !important;
-  }
-
+}
   .why-choose-us-p {
     text-align: left !important;
     font-size: 22px !important;
@@ -133,28 +132,129 @@
     margin-top: 18px !important;
     margin-bottom: 0px !important;
     font-family: 'Libre Baskerville', serif !important;
-  }
-
-  .why-choose-us-img {
-    width: 100% !important;
-    margin-top: -75px !important;
-    margin-left: 100px !important;
-    animation: swing 1s ease-in-out infinite alternate !important;
-  }
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  .why-choose-us-img {
+    width: 82% !important;
+    margin-top: -55px !important;
+    margin-left: 100px !important;
+    animation: swing 1s ease-in-out infinite alternate !important;
+}
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1060px) {
   .why-choose-us-container {
     background-color: #29336A !important;
     padding-left: 100px !important;
     padding-right: 100px !important;
     margin-top: 50px !important;
-    height: 310px !important;
+    height: 235px !important;
   }
 
   .why-choose-us-title {
     text-align: left !important;
-    font-size: 72px !important;
+    font-size: 50px !important;
+    color: #ffffff !important;
+    letter-spacing: 0px !important;
+    font-family: 'Libre Baskerville', serif !important;
+}
+  .why-choose-us-p {
+    text-align: left !important;
+    font-size: 22px !important;
+    color: #ffffff !important;
+    margin-top: 18px !important;
+    margin-bottom: 0px !important;
+    font-family: 'Libre Baskerville', serif !important;
+}
+
+  .why-choose-us-img {
+    width: 82% !important;
+    margin-top: -55px !important;
+    margin-left: 100px !important;
+    animation: swing 1s ease-in-out infinite alternate !important;
+}
+}
+
+
+@media screen and (min-width: 1061px) and (max-width: 1170px) {
+  .why-choose-us-container {
+    background-color: #29336A !important;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+    margin-top: 50px !important;
+    height: 234px !important;
+  }
+
+  .why-choose-us-title {
+    text-align: left !important;
+    font-size: 54px !important;
+    color: #ffffff !important;
+    letter-spacing: 0px !important;
+    font-family: 'Libre Baskerville', serif !important;
+}
+.why-choose-us-p {
+  text-align: left !important;
+  font-size: 23px !important;
+  color: #ffffff !important;
+  margin-top: 20px !important;
+  margin-bottom: 0px !important;
+  font-family: 'Libre Baskerville', serif !important;
+}
+
+  .why-choose-us-img {
+    width: 82% !important;
+    margin-top: -55px !important;
+    margin-left: 100px !important;
+    animation: swing 1s ease-in-out infinite alternate !important;
+}
+}
+
+@media screen and (min-width: 1171px) and (max-width: 1210px) {
+  .why-choose-us-container {
+    background-color: #29336A !important;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+    margin-top: 50px !important;
+    height: 262px !important;
+  }
+
+  .why-choose-us-title {
+    text-align: left !important;
+    font-size: 66px !important;
+    color: #ffffff !important;
+    letter-spacing: 0px !important;
+    font-family: 'Libre Baskerville', serif !important;
+}
+.why-choose-us-p {
+  text-align: left !important;
+  font-size: 26px !important;
+  color: #ffffff !important;
+  margin-top: 20px !important;
+  margin-bottom: 0px !important;
+  font-family: 'Libre Baskerville', serif !important;
+}
+
+  .why-choose-us-img {
+    width: 86% !important;
+    margin-top: -55px !important;
+    margin-left: 100px !important;
+    animation: swing 1s ease-in-out infinite alternate !important;
+}
+}
+
+
+@media screen and (min-width: 1211px) and (max-width: 1253px) {
+  .why-choose-us-container {
+    background-color: #29336A !important;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+    margin-top: 50px !important;
+    height: 290px !important;
+  }
+
+  .why-choose-us-title {
+    text-align: left !important;
+    font-size: 66px !important;
     color: #ffffff !important;
     letter-spacing: 0px !important;
     font-family: 'Libre Baskerville', serif !important;
@@ -162,15 +262,59 @@
 
   .why-choose-us-p {
     text-align: left !important;
-    font-size: 29px !important;
+    font-size: 25px !important;
     color: #ffffff !important;
-    margin-top: 18px !important;
+    margin-top: 35px !important;
     margin-bottom: 0px !important;
     font-family: 'Libre Baskerville', serif !important;
   }
+
+  .why-choose-us-img {
+    width: 90% !important;
+    margin-top: -72px !important;
+    margin-left: 100px !important;
+    animation: swing 1s ease-in-out infinite alternate !important;
+}
 }
 
-@media screen and(min-width: 1281px) and (max-width: 1366px) {
+
+@media screen and (min-width: 1254px) and (max-width: 1280px) {
+  .why-choose-us-container {
+    background-color: #29336A !important;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+    margin-top: 50px !important;
+    height: 305px !important;
+  }
+
+  .why-choose-us-title {
+    text-align: left !important;
+    font-size: 66px !important;
+    color: #ffffff !important;
+    letter-spacing: 0px !important;
+    font-family: 'Libre Baskerville', serif !important;
+  }
+
+  .why-choose-us-p {
+    text-align: left !important;
+    font-size: 26px !important;
+    color: #ffffff !important;
+    margin-top: 35px !important;
+    margin-bottom: 0px !important;
+    font-family: 'Libre Baskerville', serif !important;
+  }
+
+  .why-choose-us-img {
+    width: 90% !important;
+    margin-top: -72px !important;
+    margin-left: 100px !important;
+    animation: swing 1s ease-in-out infinite alternate !important;
+}
+}
+
+
+ @media screen and (min-width: 1281px) and (max-width: 1366px) {
+
   .why-choose-us-container {
     background-color: #29336A !important;
     padding-left: 100px !important;
@@ -181,7 +325,7 @@
 
   .why-choose-us-title {
     text-align: left !important;
-    font-size: 70px !important;
+    font-size: 62px !important;
     color: #ffffff !important;
     letter-spacing: 5px !important;
     font-family: 'Libre Baskerville', serif !important;
@@ -189,20 +333,21 @@
 
   .why-choose-us-p {
     text-align: left !important;
-    font-size: 31px !important;
+    font-size: 28px !important;
     color: #ffffff !important;
-    margin-top: 18px !important;
+    margin-top: 40px !important;
     margin-bottom: 0px !important;
     font-family: 'Libre Baskerville', serif !important;
   }
 
   .why-choose-us-img {
-    width: 100% !important;
-    margin-top: -100px !important;
+    width: 84% !important;
+    margin-top: -69px !important;
     margin-left: 100px !important;
     animation: swing 1s ease-in-out infinite alternate !important;
-  }
 }
+  
+ }
 
 @media screen and (min-width: 1367px) and (max-width: 1500px) {
 
@@ -211,12 +356,83 @@
     padding-left: 100px !important;
     padding-right: 100px !important;
     margin-top: 100px !important;
-    height: 380px !important;
+    height: 345px !important;
   }
 
   .why-choose-us-title {
     text-align: left !important;
-    font-size: 86px !important;
+    font-size: 80px !important;
+    color: #ffffff !important;
+    letter-spacing: 0px !important;
+    font-family: 'Libre Baskerville', serif !important;
+  }
+
+  .why-choose-us-p {
+    text-align: left !important;
+    font-size: 32px !important;
+    color: #ffffff !important;
+    margin-top: 40px !important;
+    margin-bottom: 0px !important;
+    font-family: 'Libre Baskerville', serif !important;
+  }
+
+  .why-choose-us-img {
+    width: 82% !important;
+    margin-top: -86px !important;
+    margin-left: 100px !important;
+    animation: swing 1s ease-in-out infinite alternate !important;
+  }
+}
+
+@media screen and (min-width: 1501px) and (max-width: 1626px) {
+
+  .why-choose-us-container {
+    background-color: #29336A !important;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+    margin-top: 100px !important;
+    height: 347px !important;
+  }
+
+  .why-choose-us-title {
+    text-align: left !important;
+    font-size: 78px !important;
+    color: #ffffff !important;
+    letter-spacing: 0px !important;
+    font-family: 'Libre Baskerville', serif !important;
+  }
+
+  .why-choose-us-p {
+    text-align: left !important;
+    font-size: 34px !important;
+    color: #ffffff !important;
+    margin-top: 35px !important;
+    margin-bottom: 0px !important;
+    font-family: 'Libre Baskerville', serif !important;
+  }
+
+  .why-choose-us-img {
+    width: 83% !important;
+    margin-top: -94px !important;
+    margin-left: 100px !important;
+    animation: swing 1s ease-in-out infinite alternate !important;
+  }
+}
+
+
+@media screen and (min-width: 1626px) and (max-width: 1709px) {
+
+  .why-choose-us-container {
+    background-color: #29336A !important;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+    margin-top: 100px !important;
+    height: 395px !important;
+  }
+
+  .why-choose-us-title {
+    text-align: left !important;
+    font-size: 90px !important;
     color: #ffffff !important;
     letter-spacing: 0px !important;
     font-family: 'Libre Baskerville', serif !important;
@@ -226,21 +442,23 @@
     text-align: left !important;
     font-size: 36px !important;
     color: #ffffff !important;
-    margin-top: 18px !important;
+    margin-top: 47px !important;
     margin-bottom: 0px !important;
     font-family: 'Libre Baskerville', serif !important;
   }
 
   .why-choose-us-img {
-    width: 100% !important;
-    margin-top: -100px !important;
+    width: 82% !important;
+    margin-top: -84px !important;
     margin-left: 100px !important;
     animation: swing 1s ease-in-out infinite alternate !important;
   }
 }
 
 
-@media screen and (min-width: 1501px) and (max-width: 1800px) {
+
+
+@media screen and (min-width: 1710px) and (max-width: 1800px) {
   .why-choose-us-p {
     text-align: left !important;
     font-size: 41px !important;
@@ -280,12 +498,12 @@
     padding-left: 100px !important;
     padding-right: 100px !important;
     margin-top: 100px !important;
-    height: 560px !important;
+    height: 435px !important;
   }
 
   .why-choose-us-title {
     text-align: left !important;
-    font-size: 110px !important;
+    font-size: 90px !important;
     color: #ffffff !important;
     letter-spacing: 5px !important;
     font-family: 'Libre Baskerville', serif !important;
@@ -293,16 +511,16 @@
 
   .why-choose-us-p {
     text-align: left !important;
-    font-size: 55px !important;
+    font-size: 43px !important;
     color: #ffffff !important;
-    margin-top: 18px !important;
+    margin-top: 55px !important;
     margin-bottom: 0px !important;
     font-family: 'Libre Baskerville', serif !important;
   }
 
   .why-choose-us-img {
-    width: 100% !important;
-    margin-top: -100px !important;
+    width: 82% !important;
+    margin-top: -90px !important;
     margin-left: 100px !important;
     animation: swing 1s ease-in-out infinite alternate !important;
   }
