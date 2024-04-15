@@ -243,7 +243,7 @@
 @media screen and (min-width: 1501px) and (max-width: 1800px) {
   .why-choose-us-p {
     text-align: left !important;
-    font-size: 31px !important;
+    font-size: 41px !important;
     color: #ffffff !important;
     margin-top: 18px !important;
     margin-bottom: 0px !important;
@@ -252,7 +252,7 @@
 
 .why-choose-us-title {
   text-align: left !important;
-  font-size: 70px !important;
+  font-size: 95px !important;
   color: #ffffff !important;
   letter-spacing: 5px !important;
   font-family: 'Libre Baskerville', serif !important;
@@ -263,7 +263,7 @@
   padding-left: 100px;
   padding-right: 100px;
   margin-top: 100px !important;
-  height: 334px;
+  height: 395px !important;
 }
 
 .why-choose-us-img {

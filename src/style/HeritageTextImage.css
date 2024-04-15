@@ -365,13 +365,13 @@
 
 @media screen and (min-width: 1501px) and (max-width: 1800px) {
     .heritage-image-p-text {
-        font-size: 32px !important;
-        margin-left: -52px !important;
+        font-size: 38px !important;
+        margin-left: -80px !important;
     }
     
     
     .heritage-text-sub {
-        font-size: 104px !important;
+        font-size: 121px !important;
         font-family: 'Libre Baskerville', serif !important;
         color: #316C2F !important;
     }
@@ -389,13 +389,13 @@
     }
 
     .heritage-button {
-        width: 131px !important;
+        width: 147px !important;
         background: #316C2F !important;
-        height: 43px !important;
+        height: 47px !important;
         border: none !important;
         border-radius: 100px !important;
         color: #ffff !important;
-        font-size: 14px !important;
+        font-size: 18px !important;
     }
 }
 
