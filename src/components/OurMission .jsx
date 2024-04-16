@@ -4,6 +4,9 @@ import { Grid } from '@mui/material';
 
 import '../style/OurMission.css';
 
+import { companyName } from '../Hepler';
+
+
 const OurMission = () => {
     return (
             <Grid container spacing={2} className="mission-container">
@@ -13,7 +16,7 @@ const OurMission = () => {
                 <Grid item xs={12}>
                     <div className="mission-description">
                         <p className="mission-description-p">
-                            At MRMC Foods, our mission is simple: to deliver premium rice products that exceed expectations.
+                            At {companyName}, our mission is simple: to deliver premium rice products that exceed expectations.
                             We're committed to quality, sustainability, and creating memorable dining experiences for our customers worldwide.
                         </p>
                     </div>

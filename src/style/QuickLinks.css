@@ -56,11 +56,11 @@
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 649px) {
 
     .quick-links-title-typo {
         color: #DDA15E !important;
-        font-size: 35px !important;
+        font-size: 30px !important;
         font-family: 'Libre Baskerville', serif !important;
         font-weight: 400 !important;
        
@@ -105,7 +105,7 @@
     }
 }
 
-@media screen and (min-width: 501px) and (max-width: 768px) {
+@media screen and (min-width: 650px) and (max-width: 768px) {
     .quick-links {
         display: flex !important;
         flex-direction: column !important;
@@ -134,9 +134,9 @@
 
     .footer-contact-grid {
         display: flex !important;
-        justify-content: center !important;
-        margin-top: 30px !important;
-        margin-bottom: 30px !important;
+        justify-content: left !important;
+        margin-top: 40px !important;
+        margin-bottom: 48px !important;
     }
 
     .footer-contact-info-links {
@@ -189,13 +189,292 @@
 
     .footer-contact-grid {
         display: flex !important;
-        justify-content: center !important;
-        margin-top: 30px !important;
-        margin-bottom: 30px !important;
+        justify-content: flex-start !important;
+        margin-top: 40px !important;
+        margin-bottom: 40px !important;
+        margin-left: 57px !important;
     }
 
     .footer-contact-info-links {
         font-size: 20px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 400 !important;
+        color: #DDA15E !important;
+        margin-left: 12px !important;
+    }
+
+    .footer-contact-icons {
+        font-size: 35px !important;
+        color: #DDA15E !important;
+    }
+
+    .footer-contact-hr {
+        width: 80% !important;
+        margin-left: 40px !important;
+        border: 3px solid #DDA15E !important;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .quick-links {
+        display: flex !important;
+        flex-direction: column !important;
+        margin-top: -160px !important;
+        margin-left: 312px !important;
+    }
+
+    .quick-links-title-typo {
+        color: #DDA15E !important;
+        font-size: 25px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 400 !important;
+    }
+
+    .quick-links-text {
+        text-align: center !important;
+        font-size: 20px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 400 !important;
+        color: white !important;
+    }
+
+    .contact-us-links {
+        margin-top: -160px !important;
+    }
+
+    .footer-contact-grid {
+        display: flex !important;
+        justify-content: flex-start !important;
+        margin-top: 40px !important;
+        margin-bottom: 40px !important;
+        margin-left: 57px !important;
+    }
+
+    .footer-contact-info-links {
+        font-size: 20px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 400 !important;
+        color: #DDA15E !important;
+        margin-left: 12px !important;
+    }
+
+    .footer-contact-icons {
+        font-size: 35px !important;
+        color: #DDA15E !important;
+    }
+
+    .footer-contact-hr {
+        width: 80% !important;
+        margin-left: 40px !important;
+        border: 3px solid #DDA15E !important;
+    }
+}
+
+
+@media screen and (min-width: 1281px) and (max-width: 1366px) {
+    .quick-links {
+        display: flex !important;
+        flex-direction: column !important;
+        margin-top: -260px !important;
+        margin-left: 312px !important;
+    }
+
+    .quick-links-title-typo {
+        color: #DDA15E !important;
+        font-size: 35px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 400 !important;
+    }
+
+    .quick-links-text {
+        text-align: center !important;
+        font-size: 22px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 400 !important;
+        color: white !important;
+    }
+
+    .contact-us-links {
+        margin-top: -260px !important;
+    }
+
+    .footer-contact-grid {
+        display: flex !important;
+        justify-content: flex-start !important;
+        margin-top: 40px !important;
+        margin-bottom: 40px !important;
+        margin-left: 57px !important;
+    }
+
+    .footer-contact-info-links {
+        font-size: 28px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 400 !important;
+        color: #DDA15E !important;
+        margin-left: 12px !important;
+    }
+
+    .footer-contact-icons {
+        font-size: 35px !important;
+        color: #DDA15E !important;
+    }
+
+    .footer-contact-hr {
+        width: 80% !important;
+        margin-left: 40px !important;
+        border: 3px solid #DDA15E !important;
+    }
+}
+
+@media screen and (min-width: 1367px) and (max-width: 1440px) {
+    .quick-links {
+        display: flex !important;
+        flex-direction: column !important;
+        margin-top: -260px !important;
+        margin-left: 312px !important;
+    }
+
+    .quick-links-title-typo {
+        color: #DDA15E !important;
+        font-size: 35px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 400 !important;
+    }
+
+    .quick-links-text {
+        text-align: center !important;
+        font-size: 22px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 400 !important;
+        color: white !important;
+    }
+
+    .contact-us-links {
+        margin-top: -260px !important;
+    }
+
+    .footer-contact-grid {
+        display: flex !important;
+        justify-content: flex-start !important;
+        margin-top: 40px !important;
+        margin-bottom: 40px !important;
+        margin-left: 57px !important;
+    }
+
+    .footer-contact-info-links {
+        font-size: 28px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 400 !important;
+        color: #DDA15E !important;
+        margin-left: 12px !important;
+    }
+
+    .footer-contact-icons {
+        font-size: 35px !important;
+        color: #DDA15E !important;
+    }
+
+    .footer-contact-hr {
+        width: 80% !important;
+        margin-left: 40px !important;
+        border: 3px solid #DDA15E !important;
+    }
+}
+
+
+@media screen and (min-width: 1441px) and (max-width: 1800px) {
+    .quick-links {
+        display: flex !important;
+        flex-direction: column !important;
+        margin-top: -260px !important;
+        margin-left: 312px !important;
+    }
+
+    .quick-links-title-typo {
+        color: #DDA15E !important;
+        font-size: 35px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 400 !important;
+    }
+
+    .quick-links-text {
+        text-align: center !important;
+        font-size: 22px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 400 !important;
+        color: white !important;
+    }
+
+    .contact-us-links {
+        margin-top: -260px !important;
+    }
+
+    .footer-contact-grid {
+        display: flex !important;
+        justify-content: flex-start !important;
+        margin-top: 40px !important;
+        margin-bottom: 40px !important;
+        margin-left: 57px !important;
+    }
+
+    .footer-contact-info-links {
+        font-size: 28px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 400 !important;
+        color: #DDA15E !important;
+        margin-left: 12px !important;
+    }
+
+    .footer-contact-icons {
+        font-size: 35px !important;
+        color: #DDA15E !important;
+    }
+
+    .footer-contact-hr {
+        width: 80% !important;
+        margin-left: 40px !important;
+        border: 3px solid #DDA15E !important;
+    }
+}
+
+
+@media screen and (min-width: 1801px) and (max-width: 2560px) {
+    .quick-links {
+        display: flex !important;
+        flex-direction: column !important;
+        margin-top: -260px !important;
+        margin-left: 312px !important;
+    }
+
+    .quick-links-title-typo {
+        color: #DDA15E !important;
+        font-size: 35px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 400 !important;
+    }
+
+    .quick-links-text {
+        text-align: center !important;
+        font-size: 22px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 400 !important;
+        color: white !important;
+    }
+
+    .contact-us-links {
+        margin-top: -260px !important;
+    }
+
+    .footer-contact-grid {
+        display: flex !important;
+        justify-content: flex-start !important;
+        margin-top: 40px !important;
+        margin-bottom: 40px !important;
+        margin-left: 57px !important;
+    }
+
+    .footer-contact-info-links {
+        font-size: 28px !important;
         font-family: 'Libre Baskerville', serif !important;
         font-weight: 400 !important;
         color: #DDA15E !important;

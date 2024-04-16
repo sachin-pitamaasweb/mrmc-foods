@@ -7,8 +7,10 @@
 .values-and-philosophy-heading{
     text-align: center;
     color: #316C2F;
-    font-size: 90px;
+    font-size: 70px;
     font-weight: 400;
+    font-family: 'Libre Baskerville', serif; 
+    margin-top: 40px !important;
 }
 
 .values-and-philosophy-content{

@@ -37,7 +37,7 @@ const TestimonialCarousel = ({ images }) => {
                         infinite={true}
                         autoPlay={true}
                         autoPlaySpeed={3000}
-                        removeArrowOnDeviceType={["tablet", "mobile"]}
+                        removeArrowOnDeviceType={["tablet", "mobile", "desktop"]}
 
                     >
                         {images.map((image, index) => (

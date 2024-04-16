@@ -1,5 +1,5 @@
 .testimonials-container-grid {
-    padding-left: 100px !important;
+    padding-left: 65px !important;
     padding-right: 100px !important;
     padding-top: 50px;
     padding-bottom: 200px;
@@ -28,7 +28,7 @@
     }
 
     .testimonials-h4 {
-        font-size: 25px !important;
+        font-size: 20px !important;
         font-family: 'Libre Baskerville', serif !important;
         font-weight: 400 !important;
         color: #316C2F !important;
@@ -36,7 +36,7 @@
     }
 
     .testimonials-subtitle {
-        font-size: 34px !important;
+        font-size: 26px !important;
         font-family: 'Libre Baskerville', serif !important;
         font-weight: 400 !important;
         color: #316C2F !important;

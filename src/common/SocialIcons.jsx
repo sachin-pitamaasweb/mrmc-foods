@@ -1,22 +1,34 @@
-import React from "react";
+import React, { useState } from "react";
 import { IconButton } from "@mui/material";
-import { Facebook, Instagram } from "@mui/icons-material";
+import { Facebook, Instagram, WhatsApp, X } from "@mui/icons-material";
 
 import '../style/SocialIcons.css';
 
 const SocialIcons = () => {
+
     return (
-        <div className="social-icons-div">
-            <a href="https://www.facebook.com/mrmcfoods/photos" target="_blank" rel="noopener noreferrer" className="social-icon-link">
+        <div className="social-icons-container">
+            <h2 className="follow-title">Follow Us</h2>
+            <div className="social-icons-div">
+                <a href="https://www.facebook.com/mrmcfoods/photos" target="_blank" rel="noopener noreferrer" className="social-icon-link">
+                    <IconButton>
+                        <Facebook className="mui-social-icons"  />
+                    </IconButton>
+                </a>
+                <a href="https://www.instagram.com/mrmc_foods/" target="_blank" rel="noopener noreferrer" className="social-icon-link">
+                    <IconButton>
+                        <Instagram className="mui-social-icons" />
+                    </IconButton>
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=YOUR_PHONE_NUMBER" target="_blank" rel="noopener noreferrer" className="social-icon-link">
+                    <IconButton>
+                        <WhatsApp className="mui-social-icons"  />
+                    </IconButton>
+                </a>
                 <IconButton>
-                    <Facebook className="mui-social-icons" />
+                    <X className="mui-social-icons" />
                 </IconButton>
-            </a>
-            <a href="https://www.instagram.com/mrmc_foods/" target="_blank" rel="noopener noreferrer" className="social-icon-link">
-                <IconButton>
-                    <Instagram className="mui-social-icons" />
-                </IconButton>
-            </a>
+            </div>
         </div>
     );
 };

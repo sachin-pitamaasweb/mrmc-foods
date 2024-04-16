@@ -22,15 +22,15 @@
     }
 
     .heritage-text {
-        font-size: 20px !important;
+        font-size: 13px !important;
         font-family: 'Libre Baskerville', serif !important;
         font-weight: 600 !important;
-        letter-spacing: 8px !important;
+        letter-spacing: 1px !important;
         color: #316C2F !important;
     }
 
     .heritage-text-sub {
-        font-size: 23px !important;
+        font-size: 20px !important;
         font-family: 'Libre Baskerville', serif !important;
         color: #316C2F !important;
     }
@@ -43,10 +43,10 @@
     }
 
     .heritage-text {
-        font-size: 25px !important;
+        font-size: 18px !important;
         font-family: 'Libre Baskerville', serif !important;
         font-weight: 600 !important;
-        letter-spacing: 8px !important;
+        letter-spacing: 3px !important;
         color: #316C2F !important;
     }
 

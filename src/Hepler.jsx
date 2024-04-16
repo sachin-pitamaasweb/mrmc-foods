@@ -7,6 +7,8 @@ export const navLinks = [
     { text: 'Contacts Us', to: '/contacts' },
 ];
 
+export  const companyName = <span style={{ fontFamily: `'Libre Baskerville', serif'`, fontWeight: 'bold'}}>MRMC Foods Pvt. Ltd</span>;
+
 export const testimonialsData = [
     {
         src: 'images/test1.jpg',
