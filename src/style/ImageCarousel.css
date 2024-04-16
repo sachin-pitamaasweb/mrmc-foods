@@ -28,7 +28,7 @@
         padding-bottom: 1.25rem;
         color: #fff;
         text-align: center;
-        top: -430px !important;
+        top: -466px !important;
     }
 
 }
@@ -48,7 +48,7 @@
 
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen  and (min-width: 426px) and (max-width:480px){
     .carousel-caption {
         position: absolute;
         right: 15%;
@@ -58,7 +58,21 @@
         padding-bottom: 1.25rem;
         color: #fff;
         text-align: center;
-        top: -358px !important;
+        top: -430px !important;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .carousel-caption {
+        position: absolute;
+        right: 15%;
+        bottom: 1.25rem;
+        left: 15%;
+        padding-top: 33.25rem;
+        padding-bottom: 1.25rem;
+        color: #fff;
+        text-align: center;
+        top: -466px !important;
     }
 
 }
