@@ -39,7 +39,7 @@ const ImageCarousel = () => {
     const getCarouselItems = () => {
         if (windowWidth <= 768) {
             return (
-                <Carousel style={carouselDivStyle} className='carousel'>
+                <Carousel style={carouselDivStyle} className='carousel' >
                     {carouselItemsforMobile.map((item, index) => (
                         <Carousel.Item key={index} interval={300000}>
                             <ExampleCarouselImage src={item.src} alt={item.alt} />

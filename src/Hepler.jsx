@@ -4,6 +4,7 @@ export const navLinks = [
     { text: 'Products', to: '/products' },
     { text: 'Events', to: '/events' },
     { text: 'Infrastructure', to: '/infrastructure' },
+    { text: 'Private Labeling', to: '/private-labeling' },
     { text: 'Contacts Us', to: '/contacts' },
 ];
 
