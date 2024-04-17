@@ -1,3 +1,11 @@
+.product-card-div{
+    margin-top: 100px;
+}
+
+.product-card-heading{
+    color: #316C2F !important;
+}
+
 .custom-grid-item {
     background-color: #316C2F !important;
     border-radius: 100px !important;
@@ -153,11 +161,11 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    .custom-container {
-        padding-left: 60px !important;
-        padding-right: 36px !important;
-        margin-top: 50px !important;
-    }
+        .custom-container {
+            padding-left: 60px !important;
+            padding-right: 36px !important;
+            margin-top: 50px !important;
+        }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -197,17 +205,60 @@
 
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
     .custom-container {
-        padding-left: 60px !important;
+        padding-left: 100px !important;
         padding-right: 36px !important;
         margin-top: 50px !important;
+    }
+    .custom-grid-item {
+        background-color: #316C2F !important;
+        border-radius: 98px !important;
+        width: 272px !important;
+        height: 385px !important;
+        margin-bottom: 30px !important;
+    }
+
+    .card-image {
+        width: 244px !important;
+        height: 284px !important;
+        background-color: #fff !important;
+        display: flex !important;
+        justify-content: center !important;
+        margin-left: 14px !important;
+        margin-top: 14px !important;
+        border-top-left-radius: 88px !important;
+        border-top-right-radius: 88px !important;
+    }
+    .card-image-img {
+        margin-top: 10px !important;
+        object-fit: contain !important;
+        margin-bottom: 50px !important;
     }
 }
 
 @media screen and (min-width: 1281px) and (max-width: 1366px) {
     .custom-container {
-        padding-left: 60px !important;
+        padding-left: 85px !important;
         padding-right: 36px !important;
         margin-top: 50px !important;
+    }
+
+    .custom-grid-item {
+        background-color: #316C2F !important;
+        border-radius: 100px !important;
+        width: 326px !important;
+        height: 436px !important;
+        margin-bottom: 30px !important;
+    }
+    .card-image {
+        width: 300px !important;
+        height: 336px !important;
+        background-color: #fff !important;
+        display: flex !important;
+        justify-content: center !important;
+        margin-left: 14px !important;
+        margin-top: 12px !important;
+        border-top-left-radius: 88px !important;
+        border-top-right-radius: 88px !important; 
     }
 }
 

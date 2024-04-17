@@ -16,7 +16,7 @@ const Infrastructure = () => {
         <Grid container className="infrastructure-container" spacing={2}>
             {/* <InfrastructureImage /> */}
             <HeroSection 
-             imageSrc={require('../assets/images/Infrastructure.png')}
+             imageSrc={require('../assets/images/Frame.png')}
              text="Infrastructure"
              isStyled={true}
             />

@@ -68,62 +68,71 @@
 
 // export default Header;
 
-
-import React from 'react';
-
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-
 import MenuIcon from '@mui/icons-material/Menu';
-import { AppBar, Toolbar, IconButton, CssBaseline, Box, Typography } from '@mui/material';
-
+import { AppBar, Toolbar, IconButton, CssBaseline, Box, Typography, Drawer } from '@mui/material';
 import '../style/Header.css';
-
-
 import { navLinks } from '../Hepler.jsx';
 
-const drawerWidth = 240;
-
 function Header(props) {
-  const { window } = props;
-  const [mobileOpen, setMobileOpen] = React.useState(false);
+    const [open, setOpen] = useState(false);
 
-  const handleDrawerToggle = () => {
-    setMobileOpen((prevState) => !prevState);
-  };
+    const toggleDrawer = (isOpen) => {
+        setOpen(isOpen);
+    };
 
-  return (
-    <Box sx={{ display: 'flex' }}>
-      <CssBaseline />
-      <AppBar component="nav" className='appbar'>
-        <Toolbar>
-          <IconButton
-            color="inherit"
-            aria-label="open drawer"
-            edge="start"
-            onClick={handleDrawerToggle}
-            sx={{ mr: 2, display: { sm: 'none' } }}
-          >
-            <MenuIcon />
-          </IconButton>
+    const handleDrawerToggle = () => {
+        toggleDrawer(!open); // Fix the function name and toggle the opposite of current state
+    };
 
-          
-        <Box>
-            <div className='appbar-logo-div'>
-                <img src={require('../assets/images/Logo.png')} className="appbar-logo" alt='logo' />
-            </div>
+    const handleLinkClick = () => {
+        toggleDrawer(false);
+    };
+
+    return (
+        <Box sx={{ display: 'flex' }}>
+            <CssBaseline />
+            <AppBar component="nav" className='appbar'>
+                <Toolbar>
+                    <Box >
+                        <div className='appbar-logo-div'>
+                            <img src={require('../assets/images/Logo.png')} className="appbar-logo" alt='logo' />
+                        </div>
+                    </Box>
+                    <IconButton
+                        color="inherit"
+                        aria-label="open drawer"
+                        edge="end"
+                        onClick={handleDrawerToggle} // Corrected function name
+                        sx={{ mr: 2, display: { sm: 'none' } }}
+                    >
+                        <MenuIcon className='menu-icon' />
+                    </IconButton>
+                    <Box className='appbar-nav-div'>
+                        {navLinks.map((item) => (
+                            <Typography key={item.text} className='appbar-nav' component={Link} to={item.to}>
+                                {item.text}
+                            </Typography>
+                        ))}
+                    </Box>
+                </Toolbar>
+                <Drawer
+                    anchor="top"
+                    open={open}
+                    onClose={() => toggleDrawer(false)}
+                >
+                    <div className="drawer-content">
+                        <ul>
+                            {navLinks.map((link, index) => (
+                                <li key={index}><Link to={link.to} onClick={handleLinkClick}>{link.text}</Link></li>
+                            ))}
+                        </ul>
+                    </div>
+                </Drawer>
+            </AppBar>
         </Box>
-        <Box sx={{ display: { xs: 'none', sm: 'none' } }} className='appbar-nav-div'>
-            {navLinks.map((item) => (
-            <Typography key={item.text} className='appbar-nav' component={Link} to={item.to}>
-                {item.text}
-            </Typography>
-            ))}
-          </Box>
-        </Toolbar>
-      </AppBar>
-    </Box>
-  );
+    );
 }
-
 
 export default Header;

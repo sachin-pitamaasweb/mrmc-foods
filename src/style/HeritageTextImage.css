@@ -2,6 +2,7 @@
     padding-left: 100px;
     padding-right: 100px;
     position: relative;
+    padding-top: 50px;
 }
 
 .heritage-image-img {
@@ -12,6 +13,7 @@
 .heritage-image-p-text {
     font-size: 40px;
     margin-left: -70px;
+    font-family: 'Libre Baskerville', serif !important;
 }
 
 .heritage-background-image {
@@ -73,6 +75,7 @@
         font-size: 15px !important;
         margin-left: 0px !important;
         margin-top: -50px !important;
+        font-family: 'Libre Baskerville', serif !important;
     }
 
     .heritage-button {
@@ -126,6 +129,7 @@
         font-size: 15px !important;
         margin-left: 0px !important;
         margin-top: -50px !important;
+        font-family: 'Libre Baskerville', serif !important;
     }
 
     .heritage-button {
@@ -178,6 +182,7 @@
         font-size: 30px !important;
         margin-left: 0px !important;
         margin-top: -119px !important;
+        font-family: 'Libre Baskerville', serif !important;
     }
 
     .heritage-btn-grid {
@@ -229,6 +234,7 @@
         font-size: 30px !important;
         margin-left: 0px !important;
         margin-top: -119px !important;
+        font-family: 'Libre Baskerville', serif !important;
     }
 
     .heritage-btn-grid {
@@ -282,6 +288,7 @@
         font-size: 20px !important;
         margin-left: 0px !important;
         margin-top: -10px !important;
+        font-family: 'Libre Baskerville', serif !important;
     }
 
     .heritage-btn-grid {
@@ -333,6 +340,7 @@
         font-size: 20px !important;
         margin-left: 0px !important;
         margin-top: -10px !important;
+        font-family: 'Libre Baskerville', serif !important;
     }
 
     .heritage-btn-grid {
@@ -384,6 +392,7 @@
         font-size: 24px !important;
         margin-left: 0px !important;
         margin-top: -10px !important;
+        font-family: 'Libre Baskerville', serif !important;
     }
 
     .heritage-btn-grid {
@@ -436,6 +445,7 @@
         font-size: 25px !important;
         margin-left: 0px !important;
         margin-top: -10px !important;
+        font-family: 'Libre Baskerville', serif !important;
     }
 
     .heritage-btn-grid {
@@ -488,6 +498,7 @@
         font-size: 25px !important;
         margin-left: 0px !important;
         margin-top: -10px !important;
+        font-family: 'Libre Baskerville', serif !important;
     }
 
     .heritage-btn-grid {
@@ -524,6 +535,7 @@
     .heritage-image-p-text {
         font-size: 22px;
         margin-left: 3px;
+        font-family: 'Libre Baskerville', serif !important;
     }
 
     .heritage-background-image {
@@ -573,6 +585,7 @@
     .heritage-image-p-text {
         font-size: 27px;
         margin-left: 3px;
+        font-family: 'Libre Baskerville', serif !important;
     }
 
     .heritage-background-image {
@@ -619,6 +632,7 @@
     .heritage-image-p-text {
         font-size: 29px !important;
         margin-left: 3px !important;
+        font-family: 'Libre Baskerville', serif !important;
     }
 
     .heritage-background-image {
@@ -667,6 +681,7 @@
     .heritage-image-p-text {
         font-size: 30px !important;
         margin-left: 3px !important; 
+        font-family: 'Libre Baskerville', serif !important;
     }
 
     .heritage-background-image {
@@ -714,6 +729,7 @@
     .heritage-image-p-text {
         font-size: 34px !important;
         margin-left: 3px !important; 
+        font-family: 'Libre Baskerville', serif !important;
     }
 
     .heritage-background-image {
@@ -751,6 +767,7 @@
     .heritage-image-p-text {
         font-size: 35px !important;
         margin-left: -80px !important;
+        font-family: 'Libre Baskerville', serif !important;
     }
 
     .heritage-background-image {
@@ -792,6 +809,7 @@
     .heritage-image-p-text {
         font-size: 40px !important;
         margin-left: -22px !important;
+        font-family: 'Libre Baskerville', serif !important;
     }
 
     .heritage-background-image {
@@ -841,6 +859,7 @@
     .heritage-image-p-text {
         font-size: 43px !important;
         margin-left: -22px !important;
+        font-family: 'Libre Baskerville', serif !important;
     }
 
     .heritage-background-image {
@@ -888,6 +907,7 @@
     .heritage-image-p-text {
         font-size: 48px !important;
         margin-left: -22px !important;
+        font-family: 'Libre Baskerville', serif !important;
     }
 
     .heritage-background-image {
@@ -936,6 +956,7 @@
     .heritage-image-p-text {
         font-size: 57px !important;
         margin-left: -22px !important;
+        font-family: 'Libre Baskerville', serif !important;
     }
 
     .heritage-background-image {
@@ -985,6 +1006,7 @@
     .heritage-image-p-text {
         font-size: 71px !important;
         margin-left: -22px !important;
+        font-family: 'Libre Baskerville', serif !important;
     }
 
     .heritage-background-image {
@@ -1033,6 +1055,7 @@
     .heritage-image-p-text {
         font-size: 87px !important;
         margin-left: -22px !important;
+        font-family: 'Libre Baskerville', serif !important;
     }
 
     .heritage-background-image {

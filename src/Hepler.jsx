@@ -49,40 +49,34 @@ export const testimonialsData = [
 export const products = [
     {
         name: 'Special Basmati Rice',
+        category: 'Yashas',
         imageUrl: require('./assets/images/p1.png')
     },
     {
         name: 'Popular Basmati Rice',
+        category: 'Yashas',
         imageUrl: require('./assets/images/p2.png')
     },
     {
         name: 'Royal Basmati Rice',
+        category: 'Yashas',
         imageUrl: require('./assets/images/p3.png')
     },
     {
         name: 'Special Basmati Rice',
-        imageUrl: require('./assets/images/p1.png')
+        category: 'Hunar',
+        imageUrl: require('./assets/images/silder1.png'),
     },
     {
         name: 'Popular Basmati Rice',
-        imageUrl: require('./assets/images/p2.png')
+        category: 'Hunar',
+        imageUrl: require('./assets/images/silder2.png'),
     },
     {
         name: 'Royal Basmati Rice',
-        imageUrl: require('./assets/images/p3.png')
-    },
-    {
-        name: 'Special Basmati Rice',
-        imageUrl: require('./assets/images/p1.png')
-    },
-    {
-        name: 'Popular Basmati Rice',
-        imageUrl: require('./assets/images/p2.png')
-    },
-    {
-        name: 'Royal Basmati Rice',
-        imageUrl: require('./assets/images/p3.png')
-    },
+        category: 'Hunar',
+        imageUrl: require('./assets/images/silder3.png'),
+    }
 ];
 
 export const carouselItemsforMobile = [
@@ -149,4 +143,8 @@ export const ProductsSlider = [
         alt: "Product 5"
     }
 
+];
+
+export const WhyChooseUsPrivateLabeling = [
+    {}
 ]

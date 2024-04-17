@@ -1,0 +1,406 @@
+.established {
+    padding-top: 100px !important;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+}
+
+.established-img {
+    width: 84%;
+    object-fit: contain;
+}
+
+.established-p {
+    font-size: 40px;
+    margin-left: -110px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.cft-div {
+    margin-left: -100px;
+    margin-top: 70px;
+}
+
+.established-h3 {
+    margin-left: -100px;
+    font-size: 95px;
+    color: #316C2F;
+    font-family: 'Libre Baskerville', serif;
+}
+
+@media screen and (max-width: 325px) {
+    .established {
+        padding-top: 32px !important;
+        padding-left: 30px !important;
+        padding-right: 7px !important;
+    }
+
+    .established-img {
+        width: 100% !important;
+        object-fit: contain !important;
+    }
+
+    .established-h3 {
+        margin-left: 8px !important;
+        font-size: 33px !important;
+        color: #316C2F !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+
+    .established-p {
+        font-size: 20px !important;
+        margin-left: 4px !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+
+    .cft-div {
+        margin-left: 0px !important;
+        margin-top: 23px !important;
+        margin-right: 16px !important;
+    }
+
+    .cft {
+        width: 100%;
+        object-fit: contain !important;
+    }
+}
+
+@media screen and (min-width: 326px) and (max-width: 375px) {
+
+    .established {
+        padding-top: 28px !important;
+        padding-left: 10px !important;
+        padding-right: 7px !important;
+    }
+
+    .established-img {
+        width: 100% !important;
+        object-fit: contain !important;
+    }
+
+    .established-h3 {
+        margin-left: 8px !important;
+        font-size: 33px !important;
+        color: #316C2F !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+
+    .established-p {
+        font-size: 20px !important;
+        margin-left: 4px !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+
+    .cft-div {
+        margin-left: 0px !important;
+        margin-top: 23px !important;
+        margin-right: 16px !important;
+    }
+
+    .cft {
+        width: 100%;
+        object-fit: contain !important;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 480px) {
+    .established {
+        padding-top: 28px !important;
+        padding-left: 10px !important;
+        padding-right: 7px !important;
+    }
+
+    .established-img {
+        width: 100% !important;
+        object-fit: contain !important;
+    }
+
+    .established-h3 {
+        margin-left: 8px !important;
+        font-size: 33px !important;
+        color: #316C2F !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+
+    .established-p {
+        font-size: 20px !important;
+        margin-left: 4px !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+
+    .cft-div {
+        margin-left: 0px !important;
+        margin-top: 23px !important;
+        margin-right: 16px !important;
+    }
+
+    .cft {
+        width: 100%;
+        object-fit: contain !important;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 600px) {}
+
+@media screen and (min-width: 601px) and (max-width: 768px) {}
+
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .established {
+        padding-top: 70px !important;
+        padding-left: 54px !important;
+        padding-right: 43px !important;
+    }
+
+    .established-img {
+        width: 100% !important;
+        object-fit: contain !important;
+    }
+
+    .established-h3 {
+        margin-left: 30px !important;
+        font-size: 41px !important;
+        color: #316C2F !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+
+
+    .established-p {
+        font-size: 25px !important;
+        margin-left: 30px !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+
+    .cft {
+        width: 75% !important;
+        margin-left: 130px !important;
+    }
+}
+
+
+
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+    .established {
+        padding-top: 70px !important;
+        padding-left: 54px !important;
+        padding-right: 43px !important;
+    }
+
+    .established-img {
+        width: 100% !important;
+        object-fit: contain !important;
+    }
+
+    .established-h3 {
+        margin-left: 30px !important;
+        font-size: 41px !important;
+        color: #316C2F !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+
+
+    .established-p {
+        font-size: 25px !important;
+        margin-left: 30px !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+
+    .cft {
+        width: 75% !important;
+        margin-left: 130px !important;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1100px) {
+    .established {
+        padding-top: 70px !important;
+        padding-left: 54px !important;
+        padding-right: 43px !important;
+    }
+
+    .established-img {
+        width: 100% !important;
+        object-fit: contain !important;
+    }
+
+    .established-h3 {
+        margin-left: 30px !important;
+        font-size: 41px !important;
+        color: #316C2F !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+
+
+    .established-p {
+        font-size: 25px !important;
+        margin-left: 30px !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+
+    .cft {
+        width: 75% !important;
+        margin-left: 130px !important;
+    }
+}
+
+
+
+@media screen and (min-width: 1101px) and (max-width: 1200px) {
+    .established {
+        padding-top: 70px !important;
+        padding-left: 54px !important;
+        padding-right: 43px !important;
+    }
+
+    .established-img {
+        width: 100% !important;
+        object-fit: contain !important;
+    }
+
+    .established-h3 {
+        margin-left: 30px !important;
+        font-size: 55px !important;
+        color: #316C2F !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+
+
+    .established-p {
+        font-size: 29px !important;
+        margin-left: 30px !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+
+    .cft {
+        width: 75% !important;
+        margin-left: 130px !important;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1300px) {
+    .established {
+        padding-top: 70px !important;
+        padding-left: 54px !important;
+        padding-right: 43px !important;
+    }
+
+    .established-img {
+        width: 100% !important;
+        object-fit: contain !important;
+    }
+
+    .established-h3 {
+        margin-left: 30px !important;
+        font-size: 60px !important;
+        color: #316C2F !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+
+
+    .established-p {
+        font-size: 30px !important;
+        margin-left: 30px !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+
+    .cft {
+        width: 75% !important;
+        margin-left: 130px !important;
+    }
+}
+
+@media screen and (min-width: 1301px) and (max-width: 1400px) {
+    .established {
+        padding-top: 70px !important;
+        padding-left: 54px !important;
+        padding-right: 43px !important;
+    }
+
+    .established-img {
+        width: 100% !important;
+        object-fit: contain !important;
+    }
+
+    .established-h3 {
+        margin-left: 30px !important;
+        font-size: 65px !important;
+        color: #316C2F !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+
+
+    .established-p {
+        font-size: 32px !important;
+        margin-left: 30px !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+
+    .cft {
+        width: 75% !important;
+        margin-left: 130px !important;
+    }
+}
+
+
+
+@media screen and (min-width: 1401px) and (max-width: 1500px) {
+    .established {
+        padding-top: 70px !important;
+        padding-left: 54px !important;
+        padding-right: 43px !important;
+    }
+
+    .established-img {
+        width: 95% !important;
+        object-fit: contain !important;
+    }
+
+    .established-h3 {
+        margin-left: -10px !important;
+        font-size: 60px !important;
+        color: #316C2F !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+
+    .established-p {
+        font-size: 35px !important;
+        margin-left: -10px !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+
+    .cft {
+        width: 75% !important;
+        margin-left: 130px !important;
+    }
+}
+
+@media screen and (min-width: 1501px) and (max-width: 1800px) {
+    .established {
+        padding-top: 70px !important;
+        padding-left: 54px !important;
+        padding-right: 43px !important;
+    }
+
+    .established-img {
+        width: 95% !important;
+        object-fit: contain !important;
+    }
+
+    .established-h3 {
+        margin-left: -10px !important;
+        font-size: 60px !important;
+        color: #316C2F !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+
+    .established-p {
+        font-size: 35px !important;
+        margin-left: -10px !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+
+    .cft {
+        width: 75% !important;
+        margin-left: 130px !important;
+    }
+}
