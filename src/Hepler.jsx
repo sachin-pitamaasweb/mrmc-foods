@@ -65,17 +65,17 @@ export const products = [
     {
         name: 'Special Basmati Rice',
         category: 'Hunar',
-        imageUrl: require('./assets/images/silder1.png'),
+        imageUrl: require('./assets/images/slider1.png'),
     },
     {
         name: 'Popular Basmati Rice',
         category: 'Hunar',
-        imageUrl: require('./assets/images/silder2.png'),
+        imageUrl: require('./assets/images/slider2.png'),
     },
     {
         name: 'Royal Basmati Rice',
         category: 'Hunar',
-        imageUrl: require('./assets/images/silder3.png'),
+        imageUrl: require('./assets/images/slider3.png'),
     }
 ];
 

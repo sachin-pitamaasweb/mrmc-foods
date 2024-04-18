@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0bd53836.css",
-    "main.js": "/static/js/main.e8980f9e.js",
+    "main.css": "/static/css/main.408d9f57.css",
+    "main.js": "/static/js/main.b73c83f6.js",
     "static/js/453.ec8ed3ec.chunk.js": "/static/js/453.ec8ed3ec.chunk.js",
     "static/media/silder4.png": "/static/media/silder4.0387495a9263d9810ddd.png",
     "static/media/silder5.png": "/static/media/silder5.bd9154a1a00250c75492.png",
@@ -90,12 +90,12 @@
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
-    "main.0bd53836.css.map": "/static/css/main.0bd53836.css.map",
-    "main.e8980f9e.js.map": "/static/js/main.e8980f9e.js.map",
+    "main.408d9f57.css.map": "/static/css/main.408d9f57.css.map",
+    "main.b73c83f6.js.map": "/static/js/main.b73c83f6.js.map",
     "453.ec8ed3ec.chunk.js.map": "/static/js/453.ec8ed3ec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0bd53836.css",
-    "static/js/main.e8980f9e.js"
+    "static/css/main.408d9f57.css",
+    "static/js/main.b73c83f6.js"
   ]
 }

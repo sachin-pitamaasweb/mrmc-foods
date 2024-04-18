@@ -11,7 +11,7 @@ import Products from './pages/Products.jsx';
 import Events from './pages/Events.jsx';
 import Contacts from './pages/Contacts.jsx';
 import Infrastructure from './pages/Infrastructure.jsx';
-// import PrivateLabeling from './pages/PrivateLabeling.jsx';
+import PrivateLabeling from './pages/PrivateLabeling.jsx';
 
 const App = () => {
   return (
@@ -25,7 +25,7 @@ const App = () => {
         <Route path="/contacts" element={<Contacts />} />
         <Route path="*" element={<PageNotFound />} />
         <Route path="/infrastructure" element={<Infrastructure />} />
-        {/* <Route path ="/private-labeling" element={<PrivateLabeling />} /> */}
+        <Route path ="/private-labeling" element={<PrivateLabeling />} />
       </Routes>
       <Footer />
     </Router>
