@@ -50,32 +50,52 @@ export const products = [
     {
         name: 'Special Basmati Rice',
         category: 'Yashas',
-        imageUrl: require('./assets/images/p1.png')
+        imageUrl: require('./assets/images/products/Yashas1.png')
     },
     {
-        name: 'Popular Basmati Rice',
+        name: 'Evergreen Basmati Rice',
         category: 'Yashas',
-        imageUrl: require('./assets/images/p2.png')
+        imageUrl: require('./assets/images/products/Yashas2.png')
     },
     {
         name: 'Royal Basmati Rice',
         category: 'Yashas',
-        imageUrl: require('./assets/images/p3.png')
-    },
-    {
-        name: 'Special Basmati Rice',
-        category: 'Hunar',
-        imageUrl: require('./assets/images/slider1.png'),
+        imageUrl: require('./assets/images/products/Yashas3.png')
     },
     {
         name: 'Popular Basmati Rice',
+        category: 'Yashas',
+        imageUrl: require('./assets/images/products/Yashas4.png')
+    },
+    {
+        name: 'Harroz Basmati Rice',
+        category: 'Yashas',
+        imageUrl: require('./assets/images/products/Yashas5.png')
+    },
+    {
+        name: 'Harroz Basmati Rice',
         category: 'Hunar',
-        imageUrl: require('./assets/images/slider2.png'),
+        imageUrl: require('./assets/images/products/Hunar1.png'),
+    },
+    {
+        name: 'Harroz Basmati Rice',
+        category: 'Hunar',
+        imageUrl: require('./assets/images/products/Hunar2.png'),
     },
     {
         name: 'Royal Basmati Rice',
         category: 'Hunar',
-        imageUrl: require('./assets/images/slider3.png'),
+        imageUrl: require('./assets/images/products/Hunar3.png'),
+    },
+    {
+        name: 'Harroz Basmati Rice',
+        category: 'Hunar',
+        imageUrl: require('./assets/images/products/Hunar4.png'),
+    },
+    {
+        name: 'Harroz Basmati Rice',
+        category: 'Hunar',
+        imageUrl: require('./assets/images/products/Hunar5.png'),
     }
 ];
 

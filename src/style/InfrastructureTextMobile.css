@@ -1,0 +1,15 @@
+.infrastructure-img-mobile{
+    width: 80%;
+    margin-left: 76px;
+}
+
+.infrastructure-text-mobile{
+    margin-left: 35px;
+    font-size: 20px !important;
+    font-family: 'Libre Baskerville', serif !important;
+    font-weight: 400 !important;
+    line-height: 24px !important;
+    text-align: left !important;
+    word-spacing: 0px !important;
+    width: 87%;
+}

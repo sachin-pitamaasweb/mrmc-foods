@@ -51,7 +51,7 @@ const ProductsCards = () => {
                                 <img src={product.imageUrl} alt={product.name} className="card-image-img" style={{ marginTop: '10px', objectFit: 'contain' }} />
                             </div>
                             <div style={{ padding: '10px' }}>
-                                <Typography variant="h6" style={{ color: '#fff', textAlign: 'center', marginTop: "10px" }}>
+                                <Typography variant="h6" style={{ color: '#fff', textAlign: 'center', marginTop: "10px" }} className='card-text'>
                                     {product.name}
                                 </Typography>
                             </div>
@@ -69,7 +69,7 @@ const ProductsCards = () => {
                                 <img src={product.imageUrl} alt={product.name} className="card-image-img" style={{ marginTop: '10px', objectFit: 'contain' }} />
                             </div>
                             <div style={{ padding: '10px' }}>
-                                <Typography variant="h6" style={{ color: '#fff', textAlign: 'center', marginTop: "10px" }}>
+                                <Typography variant="h6" style={{ color: '#fff', textAlign: 'center', marginTop: "10px" }} className='card-text'>
                                     {product.name}
                                 </Typography>
                             </div>

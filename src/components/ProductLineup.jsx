@@ -17,14 +17,14 @@ const ProductLineup = () => {
         fontWeight: 400,
         color: '#316C2F',
         fontFamily: 'Libre Baskerville',
-        fontSize: isLargeDesktop ? '96px' : isDesktop ? '96px' : isTablet ? '66px' : isMobile ? '33px' : '33px',
+        fontSize: isLargeDesktop ? '50px' : isDesktop ? '50px' : isTablet ? '40px' : isMobile ? '30px' : '30px',
     
     };
 
     return (
         <Grid container spacing={2} alignItems="center" justifyContent="center" marginTop={isLargeDesktop ? '100px' : isDesktop ? '100px' : isTablet ? '50px' : isMobile ? '50px' : '50px'}>
             <Grid item xs={12} md={10} lg={8} xl={6} xxl={4}>
-                <Typography variant="h4" style={ProductLineupH4}>
+                <Typography variant="h5" style={ProductLineupH4}>
                     Discover our diverse Product lineup!
                 </Typography>
             </Grid>
