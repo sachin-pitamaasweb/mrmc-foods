@@ -1,0 +1,14 @@
+.begin-now-text{
+    color: #316C2F !important;
+    font-size: 70px !important;
+    font-family: 'Libre Baskerville', serif !important;
+    font-weight: 500 !important;
+    margin-top: 50px;
+    text-align: center !important;
+}
+
+.begin-now-form{
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+    padding-bottom: 100px !important;
+}

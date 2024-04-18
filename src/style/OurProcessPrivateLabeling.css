@@ -1,0 +1,30 @@
+.our-process-container{
+    padding-top: 50px !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
+
+.our-process-h4{
+    color: #316C2F !important;
+    font-size: 70px !important;
+    font-family: 'Libre Baskerville', serif !important;
+     font-weight: 500 !important;
+     text-align: center !important;
+}
+
+.our-process-img-grid-div{
+    display: flex !important;
+    margin-left: 10px !important;
+}
+
+.our-process-h5{
+    font-family: 'Libre Baskerville', serif !important;
+    font-weight: 600 !important;
+}
+
+.our-process-img{
+    width: 85% !important;
+}
+.our-process-icon{
+    font-size: 38px !important;
+}

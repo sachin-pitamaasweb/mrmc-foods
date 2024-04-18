@@ -1,0 +1,60 @@
+.why-choose-us-title-private {
+    color: #316C2F !important;
+    font-size: 70px !important;
+    font-family: 'Libre Baskerville', serif !important;
+    font-weight: 500 !important;
+    margin-top: 50px;
+}
+
+.why-choose-us-text-left-h5-private {
+    color: #316C2F !important;
+    font-size: 30px !important;
+    font-family: 'Libre Baskerville', serif !important;
+    font-weight: 600 !important;
+    margin-left: 315px !important;
+
+}
+
+.why-choose-us-left-div-ul {
+    display: flex !important;
+    margin-left: 326px !important;
+    color: #000000 !important;
+    font-weight: 600 !important;
+    margin-bottom: 40px !important;
+    font-family: 'Libre Baskerville', serif !important;
+
+}
+
+.why-choose-us-ul li{
+    margin-bottom: 15px !important;
+}
+
+.why-choose-us-img-private-1{
+    width: 75% !important;
+    position: relative !important;
+}
+
+.why-choose-us-img-private-2{
+    width: 75% !important;
+    position: relative !important;
+    z-index: -1 !important;
+}
+
+.why-choose-us-img-private-div3{
+    margin-top: -496px !important;
+    margin-left: 280px !important;
+}
+.why-choose-us-img-private-3{
+    width: 75% !important;
+}
+.why-choose-us-img-private-div4{
+    position: relative !important;
+    margin-top: -103px !important;
+    margin-left: 115px !important;
+    z-index: -1 !important;
+
+}
+
+.why-choose-us-img-private-4{
+    width: 75% !important;
+}

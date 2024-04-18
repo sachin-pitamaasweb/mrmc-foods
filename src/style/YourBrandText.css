@@ -1,0 +1,14 @@
+.your-brand-container{
+    background-color:#29336A !important;
+    height: 100px !important;
+    margin-bottom: 50px !important;
+}
+
+.your-brand-text{
+    color: #fff !important;
+    font-size: 40px !important;
+    font-family: 'Libre Baskerville', serif !important;
+    font-weight: 500 !important;
+    margin-top: 25px !important;
+    text-align: center !important;
+}

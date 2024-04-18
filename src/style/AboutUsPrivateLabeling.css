@@ -1,0 +1,406 @@
+.about-us-h5 {
+    color: #316C2F !important;
+    font-size: 70px !important;
+    font-family: 'Libre Baskerville', serif !important;
+    font-weight: 500 !important;
+    text-align: center !important;
+    margin-top: 50px !important;
+}
+
+.about-us-text {
+    text-align: center;
+    font-family: 'Libre Baskerville', serif !important;
+    font-size: 20px !important;
+}
+
+.about-us-img-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-left: 70px;
+    padding-right: 50px;
+}
+
+.about-us-img {
+    width: 100% !important;
+}
+
+.about-us-img-text-h5 {
+    color: #316C2F !important;
+    text-align: center !important;
+    margin-top: 10px !important;
+    font-family: 'Libre Baskerville', serif !important;
+}
+
+.about-us-img-text-h6 {
+    text-align: center !important;
+    font-size: 15px !important;
+    font-family: 'Libre Baskerville', serif !important;
+}
+
+
+
+@media screen and (max-width: 325px) {
+    .about-us-h5 {
+        color: #316C2F !important;
+        font-size: 40px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 500 !important;
+        text-align: center !important;
+        margin-top: 20px !important;
+    }
+
+    .about-us-text {
+        text-align: center;
+        font-family: 'Libre Baskerville', serif !important;
+        font-size: 15px !important;
+    }
+
+    .about-us-img-container {
+        display: flex !important;
+        flex-grow: column !important;
+        gap: 2px !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .about-us-img-div{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .about-us-img {
+        width: 75% !important;
+    }
+
+    .about-us-img-text-h5 {
+        color: #316C2F !important;
+        text-align: center !important;
+        margin-top: 10px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        margin-left: 0px !important;
+    }
+
+    .about-us-img-text-h6 {
+        text-align: center !important;
+        font-size: 15px !important;
+        margin-left: 0px !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+}
+
+@media screen and (min-width: 326px) and (max-width: 375px) {
+    .about-us-h5 {
+        color: #316C2F !important;
+        font-size: 40px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 500 !important;
+        text-align: center !important;
+        margin-top: 20px !important;
+    }
+
+    .about-us-text {
+        text-align: center;
+        font-family: 'Libre Baskerville', serif !important;
+        font-size: 15px !important;
+    }
+
+    .about-us-img-container {
+        display: block !important;
+        gap: 0px !important;
+        padding-left: 90px !important;
+        padding-top: 53px !important;
+    }
+
+    .about-us-img {
+        width: 75% !important;
+    }
+
+    .about-us-img-text-h5 {
+        color: #316C2F !important;
+        text-align: center !important;
+        margin-top: 10px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        margin-left: -64px !important;
+    }
+
+    .about-us-img-text-h6 {
+        text-align: center !important;
+        font-size: 15px !important;
+        margin-left: -62px !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+}
+
+
+@media screen and (min-width: 376px) and (max-width: 440px) {
+    .about-us-h5 {
+        color: #316C2F !important;
+        font-size: 40px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 500 !important;
+        text-align: center !important;
+        margin-top: 20px !important;
+    }
+
+    .about-us-text {
+        text-align: center;
+        font-family: 'Libre Baskerville', serif !important;
+        font-size: 15px !important;
+    }
+
+    /* .about-us-img-container {
+        display: block !important;
+        gap: 0px !important;
+        padding-left: 130px !important;
+        padding-top: 53px !important;
+    } */
+
+    .about-us-img {
+        width: 75% !important;
+    }
+
+    .about-us-img-text-h5 {
+        color: #316C2F !important;
+        text-align: center !important;
+        margin-top: 10px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        margin-left: -64px !important;
+    }
+
+    .about-us-img-text-h6 {
+        text-align: center !important;
+        font-size: 15px !important;
+        margin-left: -62px !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+}
+
+@media screen and (min-width: 441px) and (max-width: 500px) {
+    .about-us-h5 {
+        color: #316C2F !important;
+        font-size: 40px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 500 !important;
+        text-align: center !important;
+        margin-top: 20px !important;
+    }
+
+    .about-us-text {
+        text-align: center;
+        font-family: 'Libre Baskerville', serif !important;
+        font-size: 15px !important;
+    }
+
+    /* .about-us-img-container {
+        display: block !important;
+        gap: 0px !important;
+        padding-left: 150px !important;
+        padding-top: 53px !important;
+    } */
+
+    .about-us-img {
+        width: 75% !important;
+    }
+
+    .about-us-img-text-h5 {
+        color: #316C2F !important;
+        text-align: center !important;
+        margin-top: 10px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        margin-left: -64px !important;
+    }
+
+    /* .about-us-img-text-h6 {
+        text-align: center !important;
+        font-size: 15px !important;
+        margin-left: -62px !important;
+        font-family: 'Libre Baskerville', serif !important;
+    } */
+}
+
+@media screen and (min-width: 501px) and (max-width:600px) {}
+
+@media screen and (min-width: 601px) and (max-width: 768px) {}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .about-us-h5 {
+        color: #316C2F !important;
+        font-size: 57px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 500 !important;
+        text-align: center !important;
+        margin-top: 21px !important;
+    }
+
+    .about-us-text {
+        text-align: center !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-size: 18px !important;
+    }
+
+    /* .about-us-img-container {
+        display: flex !important;
+        gap: 52px !important;
+        padding-right: 45px;
+        padding-left: 77px !important;
+        padding-top: 53px !important;
+    } */
+
+    .about-us-img {
+        width: 82% !important;
+    }
+
+    .about-us-img-text-h5 {
+        color: #316C2F !important;
+        text-align: center !important;
+        margin-top: 10px !important;
+        margin-left: -25px !important;
+        font-size: 20px !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+
+    .about-us-img-text-h6 {
+        text-align: center !important;
+        font-size: 12px !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1300px) {
+    .about-us-h5 {
+        color: #316C2F !important;
+        font-size: 57px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 500 !important;
+        text-align: center !important;
+        margin-top: 21px !important;
+    }
+
+    .about-us-text {
+        text-align: center !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-size: 18px !important;
+    }
+
+    /* .about-us-img-container {
+        display: flex !important;
+        gap: 52px !important;
+        padding-right: 45px;
+        padding-left: 77px !important;
+        padding-top: 53px !important;
+    } */
+
+    .about-us-img {
+        width: 82% !important;
+    }
+
+    .about-us-img-text-h5 {
+        color: #316C2F !important;
+        text-align: center !important;
+        margin-top: 10px !important;
+        margin-left: -25px !important;
+        font-size: 20px !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+
+    .about-us-img-text-h6 {
+        text-align: center !important;
+        font-size: 12px !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+}
+
+@media screen and (min-width: 1301px) and (max-width: 1500px) {
+    .about-us-h5 {
+        color: #316C2F !important;
+        font-size: 60px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 500 !important;
+        text-align: center !important;
+        margin-top: 35px !important;
+    }
+
+    .about-us-text {
+        text-align: center;
+        font-family: 'Libre Baskerville', serif !important;
+        font-size: 30px !important;
+        padding-right: 35px !important;
+        padding-left: 50px !important;
+    }
+
+    /* 
+    .about-us-img-container {
+        display: flex !important;
+        gap: 52px !important;
+        padding-right: 45px;
+        padding-left: 77px !important;
+        padding-top: 53px !important;
+    } */
+
+    .about-us-img {
+        width: 86% !important;
+    }
+
+    .about-us-img-text-h5 {
+        color: #316C2F !important;
+        text-align: center !important;
+        margin-top: 10px !important;
+        margin-left: -25px !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+
+    .about-us-img-text-h6 {
+        margin-left: -35px !important;
+        text-align: center !important;
+        font-size: 15px !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+}
+
+@media screen and (min-width: 1501px) and (max-width: 1600px) {
+    .about-us-h5 {
+        color: #316C2F !important;
+        font-size: 60px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 500 !important;
+        text-align: center !important;
+        margin-top: 35px !important;
+    }
+
+    .about-us-text {
+        text-align: center;
+        font-family: 'Libre Baskerville', serif !important;
+        font-size: 30px !important;
+        padding-right: 35px !important;
+        padding-left: 50px !important;
+    }
+
+    /* .about-us-img-container {
+        display: flex !important;
+        gap: 52px !important;
+        padding-right: 45px;
+        padding-left: 77px !important;
+        padding-top: 53px !important;
+    } */
+
+    .about-us-img {
+        width: 86% !important;
+    }
+
+    .about-us-img-text-h5 {
+        color: #316C2F !important;
+        text-align: center !important;
+        margin-top: 10px !important;
+        margin-left: -25px !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+
+    .about-us-img-text-h6 {
+        margin-left: -35px !important;
+        text-align: center !important;
+        font-size: 15px !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+}

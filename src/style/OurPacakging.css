@@ -1,0 +1,21 @@
+.our-pacakging-container{
+    padding-top: 50px !important;
+}
+
+.our-pacakging-h4{
+    color: #316C2F !important;
+    font-size: 70px !important;
+    font-family: 'Libre Baskerville', serif !important;
+     font-weight: 500 !important;
+     text-align: center !important;
+}
+
+.our-pacakging-grid-text{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.our-pacakging-img{
+ width: 100%; 
+ object-fit: contain !important;
+}

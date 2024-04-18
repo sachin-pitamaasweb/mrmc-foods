@@ -1,0 +1,83 @@
+.basmati-h5 {
+    color: #316C2F !important;
+    font-size: 40px !important;
+    font-family: 'Libre Baskerville', serif !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+}
+
+.basmati-left-h5 {
+    color: #316C2F !important;
+    font-size: 30px !important;
+    font-family: 'Libre Baskerville', serif !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+}
+
+.Nonbasmati-left-h5{
+    color: #316C2F !important;
+    font-size: 30px !important;
+    font-family: 'Libre Baskerville', serif !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+    margin-left: 100px !important;
+}
+
+.basmati-left-div-ul {
+    display: flex !important;
+    justify-content: center !important;
+    color: #000000 !important;
+    font-weight: 600 !important;
+    font-family: 'Libre Baskerville', serif !important;
+}
+
+.basmati-img-container-top {
+    display: flex;
+    margin-left: 100px !important;
+}
+
+.basmati-img-container-bottom {
+    display: flex;
+    margin-left: 100px !important;
+}
+
+.basmati-img-1 {
+    width: 100% !important;
+}
+
+.basmati-img-2{
+    width: 100% !important;
+}
+
+.basmati-img-container-top {
+    display: flex !important;
+    margin-left: 270px !important;
+}
+
+.basmati-img-container-bottom {
+    display: flex !important;
+    margin-left: 270px !important;
+}
+
+.basmati-right-h5 {
+    color: #316C2F !important;
+    font-size: 30px !important;
+    font-family: 'Libre Baskerville', serif !important;
+    font-weight: 600 !important;
+}
+
+.basmati-grid-right{
+    padding-left: 130px !important;
+}
+
+.basmati-right-div-ul {
+    color: #000000 !important;
+    font-weight: 600 !important;
+    line-height: 40px !important;
+    font-family: 'Libre Baskerville', serif !important;
+}
+.basmati-img-div{
+    padding-left: 0px !important;
+    padding-right: 98px !important;
+    padding-top: 30px !important;
+}
