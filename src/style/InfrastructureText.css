@@ -116,11 +116,11 @@
 
     .infrastructure-span {
         color: #29336A;
-        font-size: 21px;
+        font-size: 38px;
     }
 
     .infrastructure-text-2 {
-        font-size: 12px !important;
+        font-size: 20px !important;
         font-family: 'Libre Baskerville', serif !important;
         font-weight: 400 !important;
         line-height: 24px !important;
@@ -190,11 +190,11 @@
 
     .infrastructure-span {
         color: #29336A;
-        font-size: 21px;
+        font-size: 38px !important;
     }
 
     .infrastructure-text-2 {
-        font-size: 12px !important;
+        font-size: 20px !important;
         font-family: 'Libre Baskerville', serif !important;
         font-weight: 400 !important;
         line-height: 24px !important;
@@ -250,7 +250,7 @@
         margin-left: 156px;
     }
     .infrastructure-text-1 {
-        font-size: 12px !important;
+        font-size: 20px !important;
         font-family: 'Libre Baskerville', serif !important;
         font-weight: 400 !important;
         line-height: 24px !important;
@@ -262,11 +262,11 @@
 
     .infrastructure-span {
         color: #29336A;
-        font-size: 21px;
+        font-size: 38px;
     }
 
     .infrastructure-text-2 {
-        font-size: 12px !important;
+        font-size: 20px !important;
         font-family: 'Libre Baskerville', serif !important;
         font-weight: 400 !important;
         line-height: 24px !important;
@@ -326,7 +326,7 @@
         font-size: 20px !important;
         font-family: 'Libre Baskerville', serif !important;
         font-weight: 400 !important;
-        line-height: 34px !important;
+        line-height: 24px !important;
         text-align: left !important;
         margin-left: 111px !important;
         word-spacing: 0px !important;
@@ -342,7 +342,7 @@
         font-size: 20px !important;
         font-family: 'Libre Baskerville', serif !important;
         font-weight: 400 !important;
-        line-height: 34px !important;
+        line-height: 24px !important;
         text-align: left !important;
         margin-left: 37px !important;
         word-spacing: 0px !important;
@@ -370,10 +370,10 @@
     }
 
     .infrastructure-text-1 {
-        font-size: 25px !important;
+        font-size: 20px !important;
         font-family: 'Libre Baskerville', serif !important;
         font-weight: 400 !important;
-        line-height: 63px !important;
+        line-height: 24px !important;
         text-align: left !important;
         margin-left: 40px !important;
         word-spacing: 0px !important;
@@ -381,7 +381,7 @@
 
     .infrastructure-span {
         color: #29336A;
-        font-size: 60px;
+        font-size: 38px;
     }
 
     .infrastructure-img-2 {
@@ -499,7 +499,7 @@
         width: 90% !important;
         object-fit: contain !important;
         margin-top: 21px !important;
-        margin-left: 55px !important;
+        margin-left: 50px !important;
     }
     
 }

@@ -12,3 +12,25 @@
     margin-top: 25px !important;
     text-align: center !important;
 }
+
+@media screen and (max-width: 500px) {
+    .your-brand-text{
+        font-size: 20px !important;
+    }
+    
+}
+
+
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    .your-brand-text{
+        font-size: 25px !important;
+    }
+    
+}
+
+@media screen and (min-width: 769px) and (max-width: 1280px) {
+    .your-brand-text{
+        font-size: 30px !important;
+    }
+    
+}

@@ -81,3 +81,336 @@
     padding-right: 98px !important;
     padding-top: 30px !important;
 }
+
+
+@media screen and (max-width: 325px) {
+    .basmati-img-div {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        padding-top: 30px !important;
+    }
+
+    .basmati-img-container-top {
+        display: flex !important;
+        margin-left: 29px !important;
+    }
+    .basmati-img-container-bottom {
+        display: flex !important;
+        margin-left: 29px !important;
+    }
+
+    .basmati-h5 {
+        color: #316C2F !important;
+        font-size: 30px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 600 !important;
+        text-align: center !important;
+    }
+
+    .basmati-left-h5 {
+        color: #316C2F !important;
+        font-size: 26px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 600 !important;
+        text-align: center !important;
+    }
+
+    .basmati-grid-right {
+        padding-left: 67px !important;
+    }
+    
+    .Nonbasmati-left-h5 {
+        color: #316C2F !important;
+        font-size: 22px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 600 !important;
+        text-align: center !important;
+        margin-left: 0px !important;
+    }
+}
+
+
+@media screen and (min-width: 326px) and (max-width: 500px) {
+    .basmati-img-div {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        padding-top: 30px !important;
+    }
+
+    .basmati-img-container-top {
+        display: flex !important;
+        margin-left: 29px !important;
+    }
+    .basmati-img-container-bottom {
+        display: flex !important;
+        margin-left: 29px !important;
+    }
+
+    .basmati-h5 {
+        color: #316C2F !important;
+        font-size: 30px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 600 !important;
+        text-align: center !important;
+    }
+
+    .basmati-left-h5 {
+        color: #316C2F !important;
+        font-size: 26px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 600 !important;
+        text-align: center !important;
+    }
+
+    .basmati-grid-right {
+        padding-left: 67px !important;
+    }
+    
+    .Nonbasmati-left-h5 {
+        color: #316C2F !important;
+        font-size: 22px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 600 !important;
+        text-align: center !important;
+        margin-left: 0px !important;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .basmati-h5 {
+        color: #316C2F !important;
+        font-size: 35px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 600 !important;
+        text-align: center !important;
+    }
+
+    .basmati-img-div {
+        padding-left: 0px !important;
+        padding-right: 15px !important;
+        padding-top: 30px !important;
+    }
+
+    .basmati-img-container-top {
+        display: flex !important;
+        margin-left: 150px !important;
+    }
+
+    .basmati-img-container-bottom {
+        display: flex !important;
+        margin-left: 150px !important;
+    }
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 1150px) {
+    .basmati-h5 {
+        color: #316C2F !important;
+        font-size: 35px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 600 !important;
+        text-align: center !important;
+    }
+
+    .basmati-img-div {
+        padding-left: 0px !important;
+        padding-right: 33px !important;
+        padding-top: 30px !important;
+    }
+
+    .basmati-img-container-top {
+        display: flex !important;
+        margin-left: 158px !important;
+    }
+
+    .basmati-img-container-bottom {
+        display: flex !important;
+        margin-left: 158px !important;
+    }
+}
+
+@media screen and (min-width: 1151px) and (max-width: 1300px) {
+    .basmati-h5 {
+        color: #316C2F !important;
+        font-size: 40px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 600 !important;
+        text-align: center !important;
+    }
+
+    .basmati-img-div {
+        padding-left: 0px !important;
+        padding-right: 55px !important;
+        padding-top: 30px !important;
+    }
+
+    .basmati-img-container-top {
+        display: flex !important;
+        margin-left: 191px !important;
+    }
+
+    .basmati-img-container-bottom {
+        display: flex !important;
+        margin-left: 191px !important;
+    }
+}
+
+@media screen and (min-width: 1301px) and (max-width: 1400px) {
+    .basmati-h5 {
+        color: #316C2F !important;
+        font-size: 40px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 600 !important;
+        text-align: center !important;
+    }
+
+    .basmati-img-div {
+        padding-left: 0px !important;
+        padding-right: 60px !important;
+        padding-top: 0px !important;
+    }
+
+    .basmati-img-container-top {
+        display: flex !important;
+        margin-left: 240px !important;
+    }
+
+    .basmati-img-container-bottom {
+        display: flex !important;
+        margin-left: 240px !important;
+    }
+}
+
+@media screen and (min-width: 1501px) and (max-width: 1600px) {
+    .basmati-h5 {
+        color: #316C2F !important;
+        font-size: 40px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 600 !important;
+        text-align: center !important;
+    }
+
+    .basmati-img-div {
+            padding-left: 0px !important;
+            padding-right: 98px !important;
+            padding-top: 30px !important;
+    }
+
+    .basmati-img-container-top {
+        display: flex !important;
+        margin-left: 270px !important;
+    }
+
+    .basmati-img-container-bottom {
+        display: flex !important;
+        margin-left: 270px !important;
+    }
+}
+
+
+@media screen and (min-width: 1601px) and (max-width: 1700px) {
+    .basmati-h5 {
+        color: #316C2F !important;
+        font-size: 40px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 600 !important;
+        text-align: center !important;
+    }
+
+    .basmati-img-div {
+        padding-left: 100px !important;
+        padding-right: 148px !important;
+        padding-top: 0px !important;
+    }
+
+    .basmati-img-container-top {
+        display: flex !important;
+        margin-left: 195px !important;
+    }
+
+    .basmati-img-container-bottom {
+        display: flex !important;
+        margin-left: 195px !important;
+    }
+}
+
+
+@media screen and (min-width: 1701px) and (max-width: 1800px) {
+    .basmati-h5 {
+        color: #316C2F !important;
+        font-size: 40px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 600 !important;
+        text-align: center !important;
+    }
+
+    .basmati-img-div {
+        padding-left: 180px !important;
+        padding-right: 148px !important;
+        padding-top: 0px !important;
+    }
+
+    .basmati-img-container-top {
+        display: flex !important;
+        margin-left: 195px !important;
+    }
+
+    .basmati-img-container-bottom {
+        display: flex !important;
+        margin-left: 195px !important;
+    }
+}
+
+
+@media screen and (min-width: 1801px) and (max-width: 2000px) {
+    .basmati-h5 {
+        color: #316C2F !important;
+        font-size: 40px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 600 !important;
+        text-align: center !important;
+    }
+
+    .basmati-img-div {
+        padding-left: 162px !important;
+        padding-right: 211px !important;
+        padding-top: 0px !important;
+    }
+
+    .basmati-img-container-top {
+        display: flex !important;
+        margin-left: 160px !important;
+    }
+
+    .basmati-img-container-bottom {
+        display: flex !important;
+        margin-left: 160px !important;
+    }
+}
+
+
+@media screen and (min-width: 2001px) and (max-width: 2560px) {
+    .basmati-h5 {
+        color: #316C2F !important;
+        font-size: 40px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 600 !important;
+        text-align: center !important;
+    }
+
+    .basmati-img-div {
+        padding-left: 257px !important;
+        padding-right: 253px !important;
+        padding-top: 0px !important;
+    }
+
+    .basmati-img-container-top {
+        display: flex !important;
+        margin-left: 160px !important;
+    }
+
+    .basmati-img-container-bottom {
+        display: flex !important;
+        margin-left: 160px !important;
+    }
+}

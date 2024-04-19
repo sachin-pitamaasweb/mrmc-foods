@@ -2,7 +2,9 @@
     object-fit: contain !important;
     width: 100% !important;
 }
-
+.infrastructure-div-banner{
+    margin-top: -33px;
+}
 .infrastructure-container {
     margin-bottom: 100px;
 }

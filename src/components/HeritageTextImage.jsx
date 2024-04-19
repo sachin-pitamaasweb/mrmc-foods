@@ -10,7 +10,7 @@ const HeritageTextImage = () => {
         <Grid item xs={12} md={6} lg={6}>
           <div className="heritage-image-div-text">
             <img
-              src={require("../assets/images/heritage.png")}
+              src={require("../assets/images/rice.png")}
               alt="heritage"
               className="heritage-image-img"
             />

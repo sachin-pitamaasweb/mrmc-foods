@@ -11,20 +11,24 @@ import AboutUsPrivateLabeling from "../components/AboutUsPrivateLabeling";
 import OurProcessPrivateLabeling from '../components/OurProcessPrivateLabeling';
 import WhyChooseUsPrivateLabeling from '../components/WhyChooseUsPrivateLabeling';
 
+import '../style/PrivateLabeling.css';
+
 const PrivateLabeling = () => {
-    return(
+    return (
         <>
-        <HeroSection
-         text="Private Labeling"
-         imageSrc={require('../assets/images/product-labeling-banner.png')}
-         />
-         <AboutUsPrivateLabeling />
-         {/* <OurProducts />
-         <OurProcessPrivateLabeling />
-         <OurPacakging />
-         <WhyChooseUsPrivateLabeling />
-         <YourBrandText />
-         <BeginNow /> */}
+            <div className="product">
+            <HeroSection
+                text="Private Labeling"
+                imageSrc={require('../assets/images/product-labeling-banner.png')}
+            />
+            </div>
+            <AboutUsPrivateLabeling />
+            <OurProducts />
+            <OurProcessPrivateLabeling />
+            <OurPacakging />
+            <WhyChooseUsPrivateLabeling />
+            <YourBrandText />
+            <BeginNow />
         </>
     )
 }

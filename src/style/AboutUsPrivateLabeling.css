@@ -19,6 +19,7 @@
     gap: 50px;
     padding-left: 70px;
     padding-right: 50px;
+    padding-top: 100px;
 }
 
 .about-us-img {
@@ -57,21 +58,20 @@
     }
 
     .about-us-img-container {
-        display: flex !important;
-        flex-grow: column !important;
-        gap: 2px !important;
-        align-items: center !important;
-        justify-content: center !important;
+        display: block !important;
+        gap: 0px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        padding-top: 53px !important;
     }
 
     .about-us-img-div{
         display: flex !important;
         justify-content: center !important;
-        align-items: center !important;
     }
 
     .about-us-img {
-        width: 75% !important;
+        width: 60% !important;
     }
 
     .about-us-img-text-h5 {
@@ -109,12 +109,18 @@
     .about-us-img-container {
         display: block !important;
         gap: 0px !important;
-        padding-left: 90px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
         padding-top: 53px !important;
     }
 
+    .about-us-img-div{
+        display: flex !important;
+        justify-content: center !important;
+    }
+
     .about-us-img {
-        width: 75% !important;
+        width: 60% !important;
     }
 
     .about-us-img-text-h5 {
@@ -122,13 +128,13 @@
         text-align: center !important;
         margin-top: 10px !important;
         font-family: 'Libre Baskerville', serif !important;
-        margin-left: -64px !important;
+        margin-left: 0px !important;
     }
 
     .about-us-img-text-h6 {
         text-align: center !important;
         font-size: 15px !important;
-        margin-left: -62px !important;
+        margin-left: 0px !important;
         font-family: 'Libre Baskerville', serif !important;
     }
 }
@@ -150,15 +156,21 @@
         font-size: 15px !important;
     }
 
-    /* .about-us-img-container {
+    .about-us-img-container {
         display: block !important;
         gap: 0px !important;
-        padding-left: 130px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
         padding-top: 53px !important;
-    } */
+    }
+
+    .about-us-img-div{
+        display: flex !important;
+        justify-content: center !important;
+    }
 
     .about-us-img {
-        width: 75% !important;
+        width: 60% !important;
     }
 
     .about-us-img-text-h5 {
@@ -166,13 +178,13 @@
         text-align: center !important;
         margin-top: 10px !important;
         font-family: 'Libre Baskerville', serif !important;
-        margin-left: -64px !important;
+        margin-left: 0px !important;
     }
 
     .about-us-img-text-h6 {
         text-align: center !important;
         font-size: 15px !important;
-        margin-left: -62px !important;
+        margin-left: 0px !important;
         font-family: 'Libre Baskerville', serif !important;
     }
 }
@@ -193,15 +205,21 @@
         font-size: 15px !important;
     }
 
-    /* .about-us-img-container {
+    .about-us-img-container {
         display: block !important;
         gap: 0px !important;
-        padding-left: 150px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
         padding-top: 53px !important;
-    } */
+    }
+
+    .about-us-img-div{
+        display: flex !important;
+        justify-content: center !important;
+    }
 
     .about-us-img {
-        width: 75% !important;
+        width: 60% !important;
     }
 
     .about-us-img-text-h5 {
@@ -209,18 +227,19 @@
         text-align: center !important;
         margin-top: 10px !important;
         font-family: 'Libre Baskerville', serif !important;
-        margin-left: -64px !important;
+        margin-left: 0px !important;
     }
 
-    /* .about-us-img-text-h6 {
+    .about-us-img-text-h6 {
         text-align: center !important;
         font-size: 15px !important;
-        margin-left: -62px !important;
+        margin-left: 0px !important;
         font-family: 'Libre Baskerville', serif !important;
-    } */
+    }
 }
 
-@media screen and (min-width: 501px) and (max-width:600px) {}
+@media screen and (min-width: 501px) and (max-width:600px) {
+}
 
 @media screen and (min-width: 601px) and (max-width: 768px) {}
 

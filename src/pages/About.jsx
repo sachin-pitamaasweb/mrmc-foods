@@ -13,15 +13,17 @@ const About = () => {
     return (
         <>
 
-            <HeroSection
-             imageSrc={require('../assets/images/banner-about.png')}
-             text="About Us"
-             isStyled={true}
-            />
+            <div className='about'>
+                <HeroSection
+                    imageSrc={require('../assets/images/banner-about.png')}
+                    text="About Us"
+                    isStyled={true}
+                />
+            </div>
             <FoundingStory />
             <ValuesAndPhilosophy />
             <OurMission />
-          
+
         </>
     );
 }

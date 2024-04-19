@@ -167,4 +167,12 @@ export const ProductsSlider = [
 
 export const WhyChooseUsPrivateLabeling = [
     {}
-]
+];
+
+export const processStepsData = [
+    { title: "Farming", image: require('./assets/images/OurProcess/Farming.png') },
+    { title: "Procurement", image: require('./assets/images/OurProcess/Procurement.png') },
+    { title: "Milling", image: require('./assets/images/OurProcess/Milling.png') },
+    { title: "Distribution", image: require('./assets/images/OurProcess/Distribution.png') },
+    { title: "Customer", image: require('./assets/images/OurProcess/Customer.png') }
+];

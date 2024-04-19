@@ -11,50 +11,442 @@
     font-size: 30px !important;
     font-family: 'Libre Baskerville', serif !important;
     font-weight: 600 !important;
-    margin-left: 315px !important;
+    margin-left: 139px !important;
 
 }
 
 .why-choose-us-left-div-ul {
     display: flex !important;
-    margin-left: 326px !important;
+    margin-left: 144px !important;
     color: #000000 !important;
     font-weight: 600 !important;
-    margin-bottom: 40px !important;
+    margin-bottom: 0px !important;
     font-family: 'Libre Baskerville', serif !important;
-
 }
 
-.why-choose-us-ul li{
-    margin-bottom: 15px !important;
+.why-choose-us-ul li {
+    margin-bottom: 2px !important;
 }
 
-.why-choose-us-img-private-1{
-    width: 75% !important;
+.why-choose-us-img-private-1 {
+    width: 60% !important;
     position: relative !important;
+
 }
 
-.why-choose-us-img-private-2{
-    width: 75% !important;
+.why-choose-us-img-private-2 {
+    width: 60% !important;
     position: relative !important;
-    z-index: -1 !important;
-}
-
-.why-choose-us-img-private-div3{
-    margin-top: -496px !important;
-    margin-left: 280px !important;
-}
-.why-choose-us-img-private-3{
-    width: 75% !important;
-}
-.why-choose-us-img-private-div4{
-    position: relative !important;
-    margin-top: -103px !important;
-    margin-left: 115px !important;
     z-index: -1 !important;
 
 }
 
-.why-choose-us-img-private-4{
-    width: 75% !important;
+.why-choose-us-img-private-div3 {
+    margin-top: -370px !important;
+    margin-left: 239px !important;
+}
+
+.why-choose-us-img-private-3 {
+    width: 60% !important;
+
+}
+
+.why-choose-us-img-private-div4 {
+    position: relative !important;
+    margin-top: -88px !important;
+    margin-left: 164px !important;
+    z-index: -1 !important;
+}
+
+.why-choose-us-img-private-4 {
+    width: 60% !important;
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .why-choose-us-title-private {
+        color: #316C2F !important;
+        font-size: 45px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 500 !important;
+        margin-top: 50px;
+    }
+}
+
+@media screen and(min-width:601px) and (max-width: 768px) {
+    .why-choose-us-title-private {
+        color: #316C2F !important;
+        font-size: 45px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 500 !important;
+        margin-top: 50px;
+    }
+
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .why-choose-us-title-private {
+        color: #316C2F !important;
+        font-size: 57px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 500 !important;
+        margin-top: 50px;
+    }
+
+    .why-choose-us-text-left-h5-private {
+        color: #316C2F !important;
+        font-size: 30px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 600 !important;
+        margin-left: 59px !important;
+    }
+
+    .why-choose-us-left-div-ul {
+        display: flex !important;
+        margin-left: 64px !important;
+        color: #000000 !important;
+        font-weight: 600 !important;
+        margin-bottom: -11px !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+
+    .why-choose-us-ul li {
+        margin-bottom: 10px !important;
+    }
+
+    .why-choose-us-img-private-div3 {
+        margin-top: -254px !important;
+        margin-left: 136px !important;
+    }
+
+    .why-choose-us-img-private-div4 {
+        position: relative !important;
+        margin-top: -50px !important;
+        margin-left: 60px !important;
+        z-index: -1 !important;
+    }
+
+}
+
+@media screen and (min-width: 1025px) and (max-width:1100px) {
+    .why-choose-us-title-private {
+        color: #316C2F !important;
+        font-size: 57px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 500 !important;
+        margin-top: 50px;
+    }
+
+    .why-choose-us-img-private-div4 {
+        position: relative !important;
+        margin-top: -103px !important;
+        margin-left: 46px !important;
+        z-index: -1 !important;
+    }
+
+    .why-choose-us-img-private-div3 {
+        margin-top: -274px !important;
+        margin-left: 134px !important;
+    }
+}
+
+@media screen and (min-width: 1101px) and (max-width: 1150px) {
+    .why-choose-us-title-private {
+        color: #316C2F !important;
+        font-size: 57px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 500 !important;
+        margin-top: 50px;
+    }
+
+    .why-choose-us-img-private-div4 {
+        position: relative !important;
+        margin-top: -103px !important;
+        margin-left: 46px !important;
+        z-index: -1 !important;
+    }
+
+    .why-choose-us-img-private-div3 {
+        margin-top: -274px !important;
+        margin-left: 134px !important;
+    }
+
+}
+
+@media screen and (min-width: 1151px) and (max-width: 1200px) {
+    .why-choose-us-title-private {
+        color: #316C2F !important;
+        font-size: 57px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 500 !important;
+        margin-top: 50px;
+    }
+
+    .why-choose-us-img-private-div4 {
+        position: relative !important;
+        margin-top: -84px !important;
+        margin-left: 111px !important;
+        z-index: -1 !important;
+    }
+
+    .why-choose-us-img-private-div3 {
+        margin-top: -314px !important;
+        margin-left: 188px !important;
+
+    }
+
+}
+
+
+@media screen and (min-width: 1201px) and (max-width: 1300px) {
+    .why-choose-us-title-private {
+        color: #316C2F !important;
+        font-size: 57px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 500 !important;
+        margin-top: 50px;
+    }
+
+    .why-choose-us-img-private-div4 {
+        position: relative !important;
+        margin-top: -114px !important;
+        margin-left: 127px !important;
+        z-index: -1 !important;
+    }
+
+    .why-choose-us-img-private-div3 {
+        margin-top: -330px !important;
+        margin-left: 195px !important;
+    }
+
+}
+
+@media screen and (min-width: 1301px) and (max-width: 1400px) {
+    .why-choose-us-title-private {
+        color: #316C2F !important;
+        font-size: 57px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 500 !important;
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (min-width: 1401px) and (max-width: 1500px) {
+    .why-choose-us-title-private {
+        color: #316C2F !important;
+        font-size: 57px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 500 !important;
+        margin-top: 50px;
+    }
+
+    .why-choose-us-img-private-div3 {
+        margin-top: -413px !important;
+        margin-left: 287px !important;
+    }
+
+    .why-choose-us-img-private-div4 {
+        position: relative !important;
+        margin-top: -111px !important;
+        margin-left: 191px !important;
+        z-index: -1 !important;
+    }
+}
+
+
+@media screen and (min-width: 1501px) and (max-width: 1600px) {
+    .why-choose-us-title-private {
+        color: #316C2F !important;
+        font-size: 60px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 500 !important;
+        margin-top: 50px;
+    }
+
+    .why-choose-us-img-private-div3 {
+        margin-top: -462px !important;
+        margin-left: 320px !important;
+    }
+
+    .why-choose-us-img-private-div4 {
+        position: relative !important;
+        margin-top: -168px !important;
+        margin-left: 226px !important;
+        z-index: -1 !important;
+    }
+}
+
+@media screen and (min-width: 1601px) and (max-width: 1700px) {
+    .why-choose-us-title-private {
+        color: #316C2F !important;
+        font-size: 60px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 500 !important;
+        margin-top: 50px;
+    }
+
+    .why-choose-us-img-private-div3 {
+        margin-top: -462px !important;
+        margin-left: 320px !important;
+    }
+
+    .why-choose-us-img-private-div4 {
+        position: relative !important;
+        margin-top: -168px !important;
+        margin-left: 226px !important;
+        z-index: -1 !important;
+    }
+
+    .why-choose-us-left-div-ul {
+        display: flex !important;
+        margin-left: 144px !important;
+        color: #000000 !important;
+        font-weight: 600 !important;
+        margin-bottom: 24px !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+}
+
+@media screen and (min-width: 1701px) and (max-width: 1800px) {
+    .why-choose-us-title-private {
+        color: #316C2F !important;
+        font-size: 60px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 500 !important;
+        margin-top: 50px;
+    }
+
+    .why-choose-us-img-private-div3 {
+        margin-top: -462px !important;
+        margin-left: 320px !important;
+    }
+
+    .why-choose-us-img-private-div4 {
+        position: relative !important;
+        margin-top: -168px !important;
+        margin-left: 226px !important;
+        z-index: -1 !important;
+    }
+
+    .why-choose-us-left-div-ul {
+        display: flex !important;
+        margin-left: 144px !important;
+        color: #000000 !important;
+        font-weight: 600 !important;
+        margin-bottom: 34px !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+
+    .why-choose-us-ul li {
+        margin-bottom: 7px !important;
+    }
+}
+
+@media screen and (min-width: 1801px) and (max-width: 1900px) {
+    .why-choose-us-title-private {
+        color: #316C2F !important;
+        font-size: 60px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 500 !important;
+        margin-top: 50px;
+    }
+
+    .why-choose-us-img-private-div3 {
+        margin-top: -462px !important;
+        margin-left: 320px !important;
+    }
+
+    .why-choose-us-img-private-div4 {
+        position: relative !important;
+        margin-top: -168px !important;
+        margin-left: 226px !important;
+        z-index: -1 !important;
+    }
+
+    .why-choose-us-left-div-ul {
+        display: flex !important;
+        margin-left: 144px !important;
+        color: #000000 !important;
+        font-weight: 600 !important;
+        margin-bottom: 44px !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+
+    .why-choose-us-ul li {
+        margin-bottom: 12px !important;
+    }
+}
+
+
+@media screen and (min-width: 1901px) and (max-width: 2000px) {
+    .why-choose-us-title-private {
+        color: #316C2F !important;
+        font-size: 60px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 500 !important;
+        margin-top: 50px;
+    }
+
+    .why-choose-us-img-private-div3 {
+        margin-top: -462px !important;
+        margin-left: 320px !important;
+    }
+
+    .why-choose-us-img-private-div4 {
+        position: relative !important;
+        margin-top: -168px !important;
+        margin-left: 226px !important;
+        z-index: -1 !important;
+    }
+
+    .why-choose-us-left-div-ul {
+        display: flex !important;
+        margin-left: 144px !important;
+        color: #000000 !important;
+        font-weight: 600 !important;
+        margin-bottom: 54px !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+
+    .why-choose-us-ul li {
+        margin-bottom: 17px !important;
+    }
+}
+
+@media screen and (min-width: 2001px) and (max-width: 2560px) {
+    .why-choose-us-title-private {
+        color: #316C2F !important;
+        font-size: 60px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 500 !important;
+        margin-top: 50px;
+    }
+
+    .why-choose-us-img-private-div3 {
+        margin-top: -462px !important;
+        margin-left: 320px !important;
+    }
+
+    .why-choose-us-img-private-div4 {
+        position: relative !important;
+        margin-top: -168px !important;
+        margin-left: 226px !important;
+        z-index: -1 !important;
+    }
+
+    .why-choose-us-left-div-ul {
+        display: flex !important;
+        margin-left: 144px !important;
+        color: #000000 !important;
+        font-weight: 600 !important;
+        margin-bottom: 64px !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+
+    .why-choose-us-ul li {
+        margin-bottom: 17px !important;
+    }
 }

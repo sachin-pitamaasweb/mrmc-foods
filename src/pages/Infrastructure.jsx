@@ -14,12 +14,13 @@ const Infrastructure = () => {
     return(
         <>
         <Grid container className="infrastructure-container" spacing={2}>
-            {/* <InfrastructureImage /> */}
-            <HeroSection 
+           <div className="infrastructure-div-banner">
+           <HeroSection 
              imageSrc={require('../assets/images/Frame.png')}
              text="Infrastructure"
              isStyled={true}
             />
+           </div>
             <InfrastructureText />
             <InfrastructureProcessImages />
             <OurProcess />

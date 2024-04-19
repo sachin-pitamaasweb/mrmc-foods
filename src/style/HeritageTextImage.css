@@ -53,6 +53,10 @@
         position: relative !important;
     }
 
+    .heritage-image-div-text {
+        margin-bottom: 41px !important;
+    }
+
     .heritage-image-img {
         width: 100% !important;
         object-fit: contain !important;
@@ -112,6 +116,10 @@
         object-fit: contain !important;
     }
 
+    .heritage-image-div-text {
+        margin-bottom: 41px !important;
+    }
+
     .heritage-background-image {
         position: absolute !important;
         top: 0 !important;
@@ -163,6 +171,10 @@
     .heritage-image-img {
         width: 100% !important;
         object-fit: contain !important;
+    }
+
+    .heritage-image-div-text {
+        margin-bottom: 41px !important;
     }
 
     .heritage-background-image {
@@ -297,6 +309,7 @@
         margin-left: 296px !important;
         margin-top: -99px !important;
     }
+
     .heritage-button {
         width: 142px !important;
         background: #316C2F !important;
@@ -349,6 +362,7 @@
         margin-left: 296px !important;
         margin-top: -99px !important;
     }
+
     .heritage-button {
         width: 142px !important;
         background: #316C2F !important;
@@ -606,6 +620,7 @@
         margin-left: 365px !important;
         margin-top: -106px !important;
     }
+
     .heritage-button {
         width: 147px !important;
         background: #316C2F !important;
@@ -680,7 +695,7 @@
 
     .heritage-image-p-text {
         font-size: 30px !important;
-        margin-left: 3px !important; 
+        margin-left: 3px !important;
         font-family: 'Libre Baskerville', serif !important;
     }
 
@@ -728,7 +743,7 @@
 
     .heritage-image-p-text {
         font-size: 34px !important;
-        margin-left: 3px !important; 
+        margin-left: 3px !important;
         font-family: 'Libre Baskerville', serif !important;
     }
 
@@ -970,6 +985,7 @@
         background-position: center !important;
         z-index: -1 !important;
     }
+
     .heritage-btn-grid {
         display: flex !important;
         justify-content: center !important;
@@ -1020,6 +1036,7 @@
         background-position: center;
         z-index: -1;
     }
+
     .heritage-button {
         width: 650px !important;
         background: #316C2F !important;

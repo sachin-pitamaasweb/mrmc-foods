@@ -4,16 +4,18 @@ import ProductsCards from "../components/ProductsCards";
 import ProductLineup from "../components/ProductLineup";
 import HeroSection from "../common/HeroSection";
 
+import '../style/Products.css';
+
 const Products = () => {
     return (
         <>
 
-            <HeroSection
+           <div className="product">
+           <HeroSection
                 imageSrc={require('../assets/images/product-banner.png')}
-                // text="Products"
                 isStyled={false}
-
             />
+           </div>
             <ProductLineup />
             <ProductsCards />
         </>

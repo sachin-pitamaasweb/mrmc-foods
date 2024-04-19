@@ -5,6 +5,8 @@ import TrendingFlatIcon from '@mui/icons-material/TrendingFlat';
 
 import '../style/OurProcessPrivateLabeling.css';
 
+import { processStepsData } from '../Hepler';
+
 const OurProcessPrivateLabeling = () => {
     return (
         <>
@@ -14,40 +16,21 @@ const OurProcessPrivateLabeling = () => {
                         Our Process
                     </Typography>
                     <div className="our-process-img-grid-div">
-                        <Grid item xs={12} className="our-process-grid">
-                            <img src={require('../assets/images/OurProcess/Farming.png')} alt="Our Process" className="our-process-img" />
-                            <TrendingFlatIcon className="our-process-icon" />
-                            <Typography variant="h5" gutterBottom align="center" className="our-process-h5">
-                                Farming
-                            </Typography>
-                        </Grid>
-                        <Grid item xs={12} className="our-process-grid">
-                            <img src={require('../assets/images/OurProcess/Procurement.png')} alt="Our Process" className="our-process-img" />
-                            <TrendingFlatIcon className="our-process-icon" />
-                            <Typography variant="h5" gutterBottom align="center" className="our-process-h5">
-                                Procurement
-                            </Typography>
-                        </Grid>
-                        <Grid item xs={12} className="our-process-grid">
-                            <img src={require('../assets/images/OurProcess/Milling.png')} alt="Our Process" className="our-process-img" />
-                            <TrendingFlatIcon className="our-process-icon" />
-                            <Typography variant="h5" gutterBottom align="center" className="our-process-h5">
-                                Milling
-                            </Typography>
-                        </Grid>
-                        <Grid item xs={12} className="our-process-grid">
-                            <img src={require('../assets/images/OurProcess/Distribution.png')} alt="Our Process" className="our-process-img" />
-                            <TrendingFlatIcon className="our-process-icon" />
-                            <Typography variant="h5" gutterBottom align="center" className="our-process-h5">
-                                Distribution
-                            </Typography>
-                        </Grid>
-                        <Grid item xs={12} className="our-process-grid">
-                            <img src={require('../assets/images/OurProcess/Customer.png')} alt="Our Process" className="our-process-img" />
-                            <Typography variant="h5" gutterBottom align="center" className="our-process-h5">
-                                Customer
-                            </Typography>
-                        </Grid>
+                        {processStepsData.map((step, index) => (
+                            <Grid item xs={12} key={index} className="our-process-grid">
+                                <img src={step.image} alt={step.title} className="our-process-img" />
+                                {(window.innerWidth >= 320 && window.innerWidth < 500 && (index !== processStepsData.length - 1)) && (
+                                    <div className="our-process-icon-div">
+                                        <TrendingFlatIcon className="our-process-icon" />
+                                    </div>
+                                )}
+
+                                {(index !== processStepsData.length - 1 && window.innerWidth > 500) && <TrendingFlatIcon className="our-process-icon" />}
+                                <Typography variant="h5" gutterBottom align="center" className="our-process-h5">
+                                    {step.title}
+                                </Typography>
+                            </Grid>
+                        ))}
                     </div>
                 </Grid>
             </Grid>

@@ -1,19 +1,21 @@
 import React from 'react';
-// import ImageCarousel from '../common/ImageCarousel';
+
+import HeroSection from '../common/HeroSection';
 
 import EventsCards from '../components/EventsCards';
 
-import HeroSection from '../common/HeroSection';
+import '../style/Events.css';
 
 const Events = () => {
     return (
         <>
-            {/* <ImageCarousel /> */}
-            <HeroSection 
+         <div className='event'>
+         <HeroSection 
             imageSrc={require('../assets/images/event-banner.png')}
             text="Events"
             isStyled={true}
             />
+         </div>
             <EventsCards />
         </>
     )

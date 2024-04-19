@@ -10,3 +10,89 @@
      text-align: center !important;
 
 }
+
+ @media screen and (max-width:325px) {
+    .our-products-h4{
+    color: #316C2F !important;
+    font-size: 40px !important;
+    font-family: 'Libre Baskerville', serif !important;
+     font-weight: 500 !important;
+     text-align: center !important;
+}
+ }
+
+
+ @media screen and (min-width:326px) and (max-width: 500px) {
+    .our-products-h4{
+    color: #316C2F !important;
+    font-size: 40px !important;
+    font-family: 'Libre Baskerville', serif !important;
+     font-weight: 500 !important;
+     text-align: center !important;
+}
+ }
+
+
+ 
+ @media screen and (min-width:500px) and (max-width: 768px) {
+    .our-products-h4{
+    color: #316C2F !important;
+    font-size: 45px !important;
+    font-family: 'Libre Baskerville', serif !important;
+     font-weight: 500 !important;
+     text-align: center !important;
+}
+ }
+
+
+ @media screen and (min-width:789px) and (max-width: 1024px) {
+    .our-products-h4{
+    color: #316C2F !important;
+    font-size: 57px !important;
+    font-family: 'Libre Baskerville', serif !important;
+     font-weight: 500 !important;
+     text-align: center !important;
+}
+ }
+
+ 
+ @media screen and (min-width:1025px) and (max-width: 1150px) {
+    .our-products-h4{
+    color: #316C2F !important;
+    font-size: 57px !important;
+    font-family: 'Libre Baskerville', serif !important;
+     font-weight: 500 !important;
+     text-align: center !important;
+}
+ }
+
+ @media screen and (min-width:1151px) and (max-width: 1300px) {
+    .our-products-h4{
+    color: #316C2F !important;
+    font-size: 57px !important;
+    font-family: 'Libre Baskerville', serif !important;
+     font-weight: 500 !important;
+     text-align: center !important;
+}
+ }
+
+ @media screen and (min-width:1301px) and (max-width: 1600px) {
+    .our-products-h4{
+    color: #316C2F !important;
+    font-size: 60px !important;
+    font-family: 'Libre Baskerville', serif !important;
+     font-weight: 500 !important;
+     text-align: center !important;
+}
+ }
+
+
+ @media screen and (min-width:1601px) and (max-width: 2000px) {
+    .our-products-h4{
+    color: #316C2F !important;
+    font-size: 70px !important;
+    font-family: 'Libre Baskerville', serif !important;
+     font-weight: 500 !important;
+     text-align: center !important;
+}
+ }
