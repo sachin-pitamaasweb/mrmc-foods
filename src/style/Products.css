@@ -1,3 +1,10 @@
 .product{
     margin-top: -33px;
 }
+
+@media screen and (max-width: 500px) {
+    .product {
+        margin-top: 0px !important;
+    }
+    
+}

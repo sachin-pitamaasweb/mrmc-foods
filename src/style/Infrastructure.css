@@ -105,6 +105,10 @@
         transition: visibility 0s, opacity 0.5s linear
     }
 
+    .infrastructure-div-banner{
+        margin-top: 0px !important;
+    }
+
     .infrastructure-process-img-1-process {
         width: 73% !important;
         height: auto !important;
@@ -146,6 +150,11 @@
         visibility: hidden;
         opacity: 0;
         transition: visibility 0s, opacity 0.5s linear
+    }
+
+    
+    .infrastructure-div-banner{
+        margin-top: 0px !important;
     }
 
     .infrastructure-grids.visited .infrastructure-text {
@@ -215,6 +224,12 @@
         margin-top: 22px !important;
     }
 
+
+    
+    .infrastructure-div-banner{
+        margin-top: 0px !important;
+    }
+
     .infrastructure-grid {
         position: relative !important;
         z-index: -1 !important;
@@ -256,6 +271,11 @@
         object-fit: contain !important;
         margin-left: 22px !important;
         margin-top: 22px !important;
+    }
+
+    
+    .infrastructure-div-banner{
+        margin-top: 0px !important;
     }
 
     .infrastructure-grid {

@@ -2,3 +2,10 @@
 .about{
 margin-top: -33px;
 }
+
+
+@media screen and (max-width: 500px) {
+    .about {
+        margin-top: 0px !important;
+    }
+}
