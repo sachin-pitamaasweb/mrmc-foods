@@ -41,7 +41,7 @@ const ImageCarousel = () => {
             return (
                 <Carousel style={carouselDivStyle} className='carousel' >
                     {carouselItemsforMobile.map((item, index) => (
-                        <Carousel.Item key={index} interval={300000}>
+                        <Carousel.Item key={index} interval={3000}>
                             <ExampleCarouselImage src={item.src} alt={item.alt} />
                             {index === 0 && (
                                 <Carousel.Caption className='carousel-caption'>
@@ -56,7 +56,7 @@ const ImageCarousel = () => {
             return (
                 <Carousel style={carouselDivStyle} className='carousel'>
                     {carouselItemsforDesktop.map((item, index) => (
-                        <Carousel.Item key={index} interval={3000000}>
+                        <Carousel.Item key={index} interval={3000}>
                             <ExampleCarouselImage src={item.src} alt={item.alt} />
                            {index === 0 && (
                                 <Carousel.Caption className='carousel-caption'>

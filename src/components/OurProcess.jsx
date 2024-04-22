@@ -32,11 +32,6 @@ const OurProcess = () => {
                         <h2 className="our-process-heading">Our Process</h2>
                     </div>
                 </Grid>
-                {/* <Grid item xs={12} sm={6} md={12}>
-                    <div className="process-item">
-                        <img src={require('../assets/images/process.png')} alt="Process 1" className="process-img" />
-                    </div>
-                </Grid> */}
                 {renderItems()}
 
             </Grid>

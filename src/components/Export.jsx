@@ -9,11 +9,14 @@ const Export = () => {
             <Grid container spacing={2} className="export-grid-container">
                 <Grid container spacing={2} className="export-grid-text">
                     <Grid item xs={12}>
-                    <img src={require('../assets/images/flag.png')} alt="flag" className="flag" />
-                        <h3 className="export-h3">MRMS Foods Pvt.Ltd: Government Approved Stars Export.</h3>
-                       <div className="verified-div">
-                       <img src={require('../assets/images/verified.png')} alt="verified" className="verified" />
-                       </div>
+                        <img src={require('../assets/images/flag.png')} alt="flag" className="flag" />
+                        <div className="export-div">
+                            <h3 className="export-h3">MRMS Foods Pvt. Ltd.:</h3>
+                            <h3 className="export-h3">Government Approved 2 Stars Export House.</h3>
+                        </div>
+                        <div className="verified-div">
+                            <img src={require('../assets/images/verified.png')} alt="verified" className="verified" />
+                        </div>
                     </Grid>
                 </Grid>
             </Grid>

@@ -10,8 +10,9 @@
 .our-process-heading{
     text-align: center !important;
     letter-spacing: 7px !important;
-    font-size: 96px !important;
+    font-size: 70px !important;
     font-weight: 400 !important;
+    font-family: 'Libre Baskerville', serif !important;
     color: #316C2F !important;
 }
 
@@ -22,6 +23,7 @@
         font-size: 39px !important;
         font-weight: 400 !important;
         color: #316C2F !important;
+        font-family: 'Libre Baskerville', serif !important;
     }
 
     .process-img {
@@ -41,6 +43,7 @@
         font-size: 30px !important;
         font-weight: 400 !important;
         color: #316C2F !important;
+        font-family: 'Libre Baskerville', serif !important;
     }
 }
 
@@ -51,6 +54,7 @@
         font-size: 39px !important;
         font-weight: 400 !important;
         color: #316C2F !important;
+        font-family: 'Libre Baskerville', serif !important;
     }
 
     .product-process-container{
@@ -66,6 +70,7 @@
         font-size: 39px !important;
         font-weight: 400 !important;
         color: #316C2F !important;
+        font-family: 'Libre Baskerville', serif !important;
     }
 
     .product-process-container{
@@ -83,6 +88,7 @@
         font-size: 47px !important;
         font-weight: 400 !important;
         color: #316C2F !important;
+        font-family: 'Libre Baskerville', serif !important;
     }
 
     .process-img {
@@ -103,6 +109,7 @@
         font-size: 47px !important;
         font-weight: 400 !important;
         color: #316C2F !important;
+        font-family: 'Libre Baskerville', serif !important;
     }
     
     .process-img {
@@ -126,9 +133,10 @@
     .our-process-heading{
         text-align: center !important;
         letter-spacing: 7px !important;
-        font-size: 96px !important;
+        font-size: 70px !important;
         font-weight: 400 !important;
         color: #316C2F !important;
+        font-family: 'Libre Baskerville', serif !important;
     }
     
 }
@@ -149,6 +157,7 @@
         font-size: 122px !important;
         font-weight: 400 !important;
         color: #316C2F !important;
+        font-family: 'Libre Baskerville', serif !important;
     }
     
 }
@@ -169,6 +178,7 @@
         font-size: 315px !important;
         font-weight: 400 !important;
         color: #316C2F !important;
+        font-family: 'Libre Baskerville', serif !important;
     }
     
  }

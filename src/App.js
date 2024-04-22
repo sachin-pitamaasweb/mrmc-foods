@@ -13,6 +13,8 @@ import Contacts from './pages/Contacts.jsx';
 import Infrastructure from './pages/Infrastructure.jsx';
 import PrivateLabeling from './pages/PrivateLabeling.jsx';
 
+import StickySocialMedia  from '../src/common/StickySocialMedia.jsx';
+
 const App = () => {
   return (
     <Router>
@@ -28,6 +30,7 @@ const App = () => {
         <Route path ="/private-labeling" element={<PrivateLabeling />} />
       </Routes>
       <Footer />
+      <StickySocialMedia  />
     </Router>
   );
 }

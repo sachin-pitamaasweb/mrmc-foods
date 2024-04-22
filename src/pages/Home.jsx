@@ -16,12 +16,12 @@ const Home = () => {
         <>
             <ImageCarousel />
             <Heritage />
+            <Export />
             <WhyChooseUs />
             <Quality
              applyAnimation={true}
             />
             <Established />
-            <Export />
             <ExploreOur />
             <Testimonial /> 
            

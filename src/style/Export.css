@@ -1,30 +1,39 @@
+.export-grid-container {
+    padding-top: 147px !important;
+    padding-bottom: 142px !important;
+}
 
-.export-grid-container{
-    padding-top: 250px !important;
-    padding-bottom: 70px !important;
+.export-grid-text {
+    background-color: #29336A !important;
+    height: 140px;
 }
-.export-grid-text{
-    background-color:#29336A !important;
-    height: 200px;
-}
-.flag{
-    margin-top: -215px !important;
+
+.flag {
+    margin-top: -164px !important;
     margin-left: 60px !important;
+    width: 15% !important;
+    object-fit: contain !important;
 }
 
-.export-h3{
+.export-h3 {
     font-family: 'Libre Baskerville', serif !important;
     font-weight: 400 !important;
     color: #fff !important;
     font-size: 59px !important;
     text-align: center !important;
     margin-top: -41px !important;
-} 
-.verified-div{
+}
+
+.verified {
+    width: 15% !important;
+    object-fit: contain;
+}
+
+.verified-div {
     display: flex !important;
-    margin-top: -25px !important;
+    margin-top: -55px !important;
     justify-content: flex-end !important;
-    padding-right: 48px !important; 
+    padding-right: 48px !important;
 }
 
 
@@ -33,27 +42,27 @@
         font-family: 'Libre Baskerville', serif !important;
         font-weight: 400 !important;
         color: #fff !important;
-        font-size: 20px !important;
+        font-size: 15px !important;
         text-align: center !important;
         margin-top: 0px !important;
     }
 
-    .flag{
-        width: 50% !important;
-        margin-top: -109px !important;
-        margin-left: 88px !important;
+    .flag {
+        width: 30% !important;
+        margin-top: -110px !important;
+        margin-left: 30px !important;
     }
 
     .verified-div {
         display: flex !important;
-        margin-top: 29px !important;
+        margin-top: -4px !important;
         justify-content: flex-end !important;
-        padding-right: 112px !important;
+        padding-right: 21px !important;
     }
 
 
-    .verified{
-        width: 50% !important;
+    .verified {
+        width: 30% !important;
     }
 }
 
@@ -63,32 +72,34 @@
         font-family: 'Libre Baskerville', serif !important;
         font-weight: 400 !important;
         color: #fff !important;
-        font-size: 20px !important;
+        font-size: 15px !important;
         text-align: center !important;
         margin-top: 0px !important;
         margin-left: 20px !important;
     }
-    .export-grid-container{
+
+    .export-grid-container {
         padding-top: 250px !important;
         padding-bottom: 108px !important;
     }
 
-    .flag{
-        width: 50% !important;
-        margin-top: -145px !important;
-        margin-left: 88px !important;
+  
+    .flag {
+        width: 30% !important;
+        margin-top: -110px !important;
+        margin-left: 30px !important;
     }
 
     .verified-div {
         display: flex !important;
-        margin-top: 29px !important;
+        margin-top: -4px !important;
         justify-content: flex-end !important;
-        padding-right: 112px !important;
+        padding-right: 21px !important;
     }
 
 
-    .verified{
-        width: 50% !important;
+    .verified {
+        width: 30% !important;
     }
 }
 
@@ -97,34 +108,35 @@
         font-family: 'Libre Baskerville', serif !important;
         font-weight: 400 !important;
         color: #fff !important;
-        font-size: 20px !important;
+        font-size: 15px !important;
         text-align: center !important;
         margin-top: 0px !important;
         margin-left: 20px !important;
     }
 
-    .export-grid-container{
+    .export-grid-container {
         padding-top: 250px !important;
         padding-bottom: 108px !important;
     }
 
 
-    .flag{
-        width: 50% !important;
-        margin-top: -165px !important;
-        margin-left: 88px !important;
+   
+    .flag {
+        width: 30% !important;
+        margin-top: -110px !important;
+        margin-left: 30px !important;
     }
 
     .verified-div {
         display: flex !important;
-        margin-top: 25px !important;
+        margin-top: -4px !important;
         justify-content: flex-end !important;
-        padding-right: 112px !important;
+        padding-right: 21px !important;
     }
 
 
-    .verified{
-        width: 50% !important;
+    .verified {
+        width: 30% !important;
     }
 }
 
@@ -134,65 +146,72 @@
         font-family: 'Libre Baskerville', serif !important;
         font-weight: 400 !important;
         color: #fff !important;
-        font-size: 20px !important;
+        font-size: 15px !important;
         text-align: center !important;
         margin-top: 0px !important;
         margin-left: 20px !important;
     }
 
 
-    .export-grid-container{
+    .export-grid-container {
         padding-top: 250px !important;
         padding-bottom: 108px !important;
     }
 
-    .flag{
-        width: 50% !important;
-        margin-top: -165px !important;
-        margin-left: 88px !important;
+   
+    .flag {
+        width: 30% !important;
+        margin-top: -110px !important;
+        margin-left: 30px !important;
     }
 
     .verified-div {
         display: flex !important;
-        margin-top: 25px !important;
+        margin-top: -4px !important;
         justify-content: flex-end !important;
-        padding-right: 112px !important;
+        padding-right: 21px !important;
     }
 
 
-    .verified{
-        width: 50% !important;
+    .verified {
+        width: 30% !important;
     }
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
-    
-}
+@media screen and (min-width: 481px) and (max-width: 768px) {}
 
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .verified-div {
         display: flex !important;
-        margin-top: -7px !important;
         justify-content: flex-end !important;
         padding-right: 48px !important;
+        margin-top: -42px !important;
     }
 
     .export-h3 {
         font-family: 'Libre Baskerville', serif !important;
         font-weight: 400 !important;
         color: #fff !important;
-        font-size: 37px !important;
+        font-size: 30px !important;
         text-align: center !important;
         margin-top: -17px !important;
     }
+
+    .flag {
+        margin-top: -130px !important;
+        margin-left: 60px !important;
+        width: 15% !important;
+        object-fit: contain !important;
+    }
+
 }
 
 
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
     .verified-div {
         display: flex !important;
-        margin-top: -7px !important;
+        margin-top: -52px !important;
         justify-content: flex-end !important;
         padding-right: 48px !important;
     }
@@ -211,7 +230,7 @@
 @media screen and (min-width: 1281px) and (max-width: 1366px) {
     .verified-div {
         display: flex !important;
-        margin-top: -20px !important;
+        margin-top: -50px !important;
         justify-content: flex-end !important;
         padding-right: 48px !important;
     }
@@ -220,7 +239,7 @@
         font-family: 'Libre Baskerville', serif !important;
         font-weight: 400 !important;
         color: #fff !important;
-        font-size: 45px !important;
+        font-size: 35px !important;
         text-align: center !important;
         margin-top: -17px !important;
     }
@@ -230,7 +249,7 @@
 @media screen and (min-width: 1367px) and (max-width: 1500px) {
     .verified-div {
         display: flex !important;
-        margin-top: -14px !important;
+        margin-top: -75px !important;
         justify-content: flex-end !important;
         padding-right: 48px !important;
     }
@@ -239,12 +258,189 @@
         font-family: 'Libre Baskerville', serif !important;
         font-weight: 400 !important;
         color: #fff !important;
-        font-size: 50px !important;
+        font-size: 35px !important;
         text-align: center !important;
         margin-top: -17px !important;
     }
 }
 
 
+@media screen and (min-width: 1501px) and (max-width: 1600px) {
+    .verified-div {
+        display: flex !important;
+        margin-top: -90px !important;
+        justify-content: flex-end !important;
+        padding-right: 48px !important;
+    }
+
+    .export-h3 {
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 400 !important;
+        color: #fff !important;
+        font-size: 38px !important;
+        text-align: center !important;
+        margin-top: -17px !important;
+    }
+
+    .export-div{
+        margin-top: -55px !important;
+    }
+}
 
 
+@media screen and (min-width: 1601px) and (max-width: 1700px) {
+    .verified-div {
+        display: flex !important;
+        margin-top: -108px !important;
+        justify-content: flex-end !important;
+        padding-right: 48px !important;
+    }
+
+    .export-h3 {
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 400 !important;
+        color: #fff !important;
+        font-size: 40px !important;
+        text-align: center !important;
+        margin-top: 0px !important;
+    }
+
+    .export-div{
+        margin-top: -80px !important;
+    }
+}
+
+@media screen and (min-width: 1701px) and (max-width: 1800px) {
+    .verified-div {
+        display: flex !important;
+        margin-top: -108px !important;
+        justify-content: flex-end !important;
+        padding-right: 48px !important;
+    }
+
+    .export-h3 {
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 400 !important;
+        color: #fff !important;
+        font-size: 40px !important;
+        text-align: center !important;
+        margin-top: 0px !important;
+    }
+
+    .export-div{
+        margin-top: -95px !important;
+    }
+}
+
+@media screen and (min-width: 1801px) and (max-width: 1920px) {
+    .verified-div {
+        display: flex !important;
+        margin-top: -108px !important;
+        justify-content: flex-end !important;
+        padding-right: 48px !important;
+    }
+
+    .export-h3 {
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 400 !important;
+        color: #fff !important;
+        font-size: 40px !important;
+        text-align: center !important;
+        margin-top: 0px !important;
+    }
+
+    .export-div{
+        margin-top: -120px !important;
+    }
+}
+
+
+@media screen and (min-width: 1921px) and (max-width: 2048px) {
+    .verified-div {
+        display: flex !important;
+        margin-top: -108px !important;
+        justify-content: flex-end !important;
+        padding-right: 48px !important;
+    }
+
+    .export-h3 {
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 400 !important;
+        color: #fff !important;
+        font-size: 40px !important;
+        text-align: center !important;
+        margin-top: 0px !important;
+    }
+
+    .export-div{
+        margin-top: -130px !important;
+    }
+}
+
+@media screen and (min-width: 2049px) and (max-width: 2150px) {
+    .verified-div {
+        display: flex !important;
+        margin-top: -108px !important;
+        justify-content: flex-end !important;
+        padding-right: 48px !important;
+    }
+
+    .export-h3 {
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 400 !important;
+        color: #fff !important;
+        font-size: 40px !important;
+        text-align: center !important;
+        margin-top: 0px !important;
+    }
+
+    .export-div{
+        margin-top: -150px !important;
+    }
+}
+
+
+@media screen and (min-width: 2151px) and (max-width: 2360px) {
+    .verified-div {
+        display: flex !important;
+        margin-top: -108px !important;
+        justify-content: flex-end !important;
+        padding-right: 48px !important;
+    }
+
+    .export-h3 {
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 400 !important;
+        color: #fff !important;
+        font-size: 40px !important;
+        text-align: center !important;
+        margin-top: 0px !important;
+    }
+
+    .export-div{
+        margin-top: -170px !important;
+    }
+}
+
+
+@media screen and (min-width: 2361px) and (max-width: 2560px) {
+    .verified-div {
+        display: flex !important;
+        margin-top: -108px !important;
+        justify-content: flex-end !important;
+        padding-right: 48px !important;
+    }
+
+    .export-h3 {
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 400 !important;
+        color: #fff !important;
+        font-size: 40px !important;
+        text-align: center !important;
+        margin-top: 0px !important;
+    }
+
+    .export-div{
+        margin-top: -170px !important;
+    }
+}

@@ -11,31 +11,31 @@ import '../style/Infrastructure.css';
 import OurProcess from "../components/OurProcess.jsx";
 
 const Infrastructure = () => {
-    return(
+    return (
         <>
-        <Grid container className="infrastructure-container" spacing={2}>
-           <div className="infrastructure-div-banner">
-           <HeroSection 
-             imageSrc={require('../assets/images/Frame.png')}
-             text="Infrastructure"
-             isStyled={true}
-            />
-           </div>
-            <InfrastructureText />
-            <InfrastructureProcessImages />
-            <OurProcess />
+            <Grid container className="infrastructure-container" spacing={2}>
+                <div className="infrastructure-div-banner">
+                    <HeroSection
+                        imageSrc={require('../assets/images/Frame.png')}
+                        text="Infrastructure"
+                        isStyled={true}
+                    />
+                </div>
+                <InfrastructureText />
+                <InfrastructureProcessImages />
+                <OurProcess />
 
-            <Grid item xs={12}>
-                <div className="infrastructure-image-process">
-                    <img src={require('../assets/images/pro.png')} alt="Infrastructure" className="infrastructure-process-img-1-process" />
-                </div>
+                <Grid item xs={12}>
+                    <div className="infrastructure-image-process">
+                        <img src={require('../assets/images/pro.png')} alt="Infrastructure" className="infrastructure-process-img-1-process" />
+                    </div>
+                </Grid>
+                <Grid item xs={12}>
+                    <div className="infrastructure-image-process">
+                        <img src={require('../assets/images/pro1.png')} alt="Infrastructure" className="infrastructure-process-img-1-process" />
+                    </div>
+                </Grid>
             </Grid>
-            <Grid item xs={12}>
-                <div className="infrastructure-image-process">
-                    <img src={require('../assets/images/pro1.png')} alt="Infrastructure" className="infrastructure-process-img-1-process" />
-                </div>
-            </Grid>
-        </Grid>
         </>
     )
 }

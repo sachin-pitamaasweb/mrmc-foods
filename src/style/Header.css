@@ -1,10 +1,12 @@
 .appbar {
     background-color: #29336A !important;
+    height: 65px !important;
 }
 
 .appbar-logo-div {
     background-color: #fff;
-    width: 320px;
+    width: 152px;
+    height: 65px !important;
     margin-left: -24px;
     border-top-right-radius: 170px;
     border-bottom-right-radius: 170px;
@@ -12,7 +14,7 @@
 
 .appbar-logo {
     width: 100%;
-    height: 15vh;
+    height: 10vh;
     object-fit: contain;
     margin-left: -17px;
     margin-top: 5px;
@@ -49,18 +51,20 @@
     font-size: 24px;
     letter-spacing: 2px;
     color: #DDA15E !important;
-    text-decoration: none; 
+    text-decoration: none;
     cursor: pointer;
     line-height: 65px;
+    font-family: 'Libre Baskerville', serif !important;
 }
 
 .drawer-content ul li a:hover {
     color: #DDA15E !important;
-    text-decoration: none; 
+    text-decoration: none;
+    font-family: 'Libre Baskerville', serif !important;
 }
 
 
-@media screen and (max-width: 325px)  {
+@media screen and (max-width: 325px) {
     .appbar-logo-div {
         background-color: #fff !important;
         width: 165px !important;
@@ -71,19 +75,20 @@
 
     .appbar-logo {
         width: 99% !important;
-        height: 10vh !important;
+        height: 6vh !important;
         object-fit: contain !important;
         margin-left: 0px !important;
         margin-top: 5px !important;
         margin-bottom: 17px !important;
     }
 
-    .menu-icon{
+    .menu-icon {
         margin-left: 80px !important;
         font-size: 40px !important;
     }
 }
 
+/* 
 @media screen and (min-width: 326px) and (max-width:375px) {
     .appbar-logo-div {
         background-color: #fff !important;
@@ -106,7 +111,7 @@
         margin-left: 100px !important;
         font-size: 40px !important;
     }
-}
+} */
 
 @media screen and (min-width: 326px) and (max-width:375px) {
     .appbar-logo-div {
@@ -119,15 +124,15 @@
 
     .appbar-logo {
         width: 99% !important;
-        height: 10vh !important;
+        height: 7vh !important;
         object-fit: contain !important;
         margin-left: 0px !important;
-        margin-top: 5px !important;
+        margin-top: 0px !important;
         margin-bottom: 17px !important;
     }
 
-    .menu-icon{
-        margin-left: 120px !important;
+    .menu-icon {
+        margin-left: 112px !important;
         font-size: 40px !important;
     }
 }
@@ -143,16 +148,16 @@
 
     .appbar-logo {
         width: 99% !important;
-        height: 10vh !important;
+        height: 7vh !important;
         object-fit: contain !important;
         margin-left: 0px !important;
-        margin-top: 5px !important;
+        margin-top: 0px !important;
         margin-bottom: 17px !important;
     }
 
-    .menu-icon{
-        margin-left: 120px !important;
-        font-size: 40px !important;
+    .menu-icon {
+        margin-left: 152px !important;
+        font-size: 40px !important
     }
 }
 
@@ -167,14 +172,14 @@
 
     .appbar-logo {
         width: 99% !important;
-        height: 10vh !important;
+        height: 7vh !important;
         object-fit: contain !important;
         margin-left: 0px !important;
-        margin-top: 5px !important;
+        margin-top: 0px !important;
         margin-bottom: 17px !important;
     }
 
-    .menu-icon{
+    .menu-icon {
         margin-left: 175px !important;
         font-size: 40px !important;
     }
@@ -192,61 +197,53 @@
 
     .appbar-logo {
         width: 99% !important;
-        height: 10vh !important;
+        height: 7vh !important;
         object-fit: contain !important;
         margin-left: 0px !important;
-        margin-top: 5px !important;
+        margin-top: 0px !important;
         margin-bottom: 17px !important;
     }
 
-    .menu-icon{
+    .menu-icon {
         margin-left: 210px !important;
         font-size: 40px !important;
     }
 }
 
-
-@media screen and (min-width: 501px) and (max-width: 1025px) {
-    .appbar-logo-div {
-        background-color: #fff;
-        width: 149px !important;
-        margin-left: -24px !important;
-        border-top-right-radius: 170px !important;
-        border-bottom-right-radius: 170px !important;
+@media screen and (min-width: 501px) and (max-width: 600px) {
+    .menu-icon {
+        margin-left: 210px !important;
+        font-size: 40px !important;
     }
 
-    .appbar-logo {
-        width: 100% !important;
-        height: 8vh !important;
-        object-fit: contain !important;
-        margin-left: -17px !important;
-        margin-top: 5px !important;
-        margin-bottom: 17px !important;
-    }
-
-    .appbar-nav-div {
-        margin-left: 100px !important;
-        display: flex !important;
-        gap: 24px !important;
-    }
-
-    .appbar-nav {
-        color: #DDA15E !important;
-        font-size: 17px !important;
-        font-family: 'Libre Baskerville', serif !important;
-        word-spacing: 3px !important;
-        cursor: pointer !important;
-        text-decoration: none !important;
-    }
 }
 
-@media screen and (min-width: 1026px) and (max-width: 1100px) {
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    .menu-icon {
+        margin-left: 210px !important;
+        font-size: 40px !important;
+    }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 970px) {
+    .menu-icon {
+        margin-left: 210px !important;
+        font-size: 40px !important;
+    }
+
+}
+
+
+@media screen and (min-width: 971px) and (max-width: 1025px) {
+
     .appbar-logo-div {
-        background-color: #fff !important;
-        width: 180px !important;
+        background-color: #fff;
+        width: 215px !important;
         margin-left: -24px !important;
         border-top-right-radius: 170px !important;
         border-bottom-right-radius: 170px !important;
+        height: 90px !important;
     }
 
     .appbar-logo {
@@ -254,23 +251,69 @@
         height: 10vh !important;
         object-fit: contain !important;
         margin-left: -17px !important;
-        margin-top: 5px !important;
-        margin-bottom: 17px !important;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
     }
 
     .appbar-nav-div {
-        margin-left: 125px;
+        margin-left: 107px !important;
         display: flex !important;
-        gap: 19px !important;
+        gap: 30px !important;
     }
 
     .appbar-nav {
         color: #DDA15E !important;
-        font-size: 19px !important;
+        font-size: 15px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        word-spacing: 3px !important;
+        cursor: pointer !important;
+        text-decoration: none !important;
+    }
+
+    .appbar {
+        background-color: #29336A !important;
+        height: 88px !important;
+    }
+
+}
+
+@media screen and (min-width: 1026px) and (max-width: 1100px) {
+    .appbar-logo-div {
+        background-color: #fff !important;
+        width: 200px !important;
+        margin-left: -24px !important;
+        border-top-right-radius: 170px !important;
+        border-bottom-right-radius: 170px !important;
+        height: 85px !important;
+    }
+
+    .appbar-logo {
+        width: 100% !important;
+        height: 10vh !important;
+        object-fit: contain !important;
+        margin-left: -17px !important;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .appbar-nav-div {
+        margin-left: 60px !important;
+        display: flex !important;
+        gap: 45px !important;
+    }
+
+    .appbar-nav {
+        color: #DDA15E !important;
+        font-size: 15px !important;
         font-family: 'Libre Baskerville', serif !important;
         word-spacing: 3px !important;
         cursor: pointer;
         text-decoration: none;
+    }
+
+    .appbar {
+        background-color: #29336A !important;
+        height: 85px !important;
     }
 }
 
@@ -278,25 +321,275 @@
 @media screen and (min-width: 1101px) and (max-width: 1200px) {
     .appbar-logo-div {
         background-color: #fff !important;
-        width: 205px !important;
+        width: 200px !important;
         margin-left: -24px !important;
         border-top-right-radius: 170px !important;
         border-bottom-right-radius: 170px !important;
+        height: 85px !important;
     }
 
     .appbar-logo {
         width: 100% !important;
-        height: 12vh !important;
+        height: 10vh !important;
         object-fit: contain !important;
         margin-left: -17px !important;
-        margin-top: 5px !important;
-        margin-bottom: 17px !important;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
     }
 
     .appbar-nav-div {
-        margin-left: 120px;
+        margin-left: 60px !important;
         display: flex !important;
-        gap: 20px !important;
+        gap: 57px !important;
+    }
+
+    .appbar-nav {
+        color: #DDA15E !important;
+        font-size: 15px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        word-spacing: 3px !important;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .appbar {
+        background-color: #29336A !important;
+        height: 85px !important;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1300px) {
+    .appbar-logo-div {
+        background-color: #fff !important;
+        width: 230px !important;
+        margin-left: -24px !important;
+        border-top-right-radius: 170px !important;
+        border-bottom-right-radius: 170px !important;
+        height: 85px !important;
+    }
+
+    .appbar-logo {
+        width: 100% !important;
+        height: 10vh !important;
+        object-fit: contain !important;
+        margin-left: -17px !important;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .appbar-nav-div {
+        margin-left: 90px !important;
+        display: flex !important;
+        gap: 65px !important
+    }
+
+    .appbar-nav {
+        color: #DDA15E !important;
+        font-size: 15px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        word-spacing: 3px !important;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .appbar {
+        background-color: #29336A !important;
+        height: 85px !important;
+    }
+
+}
+
+
+@media screen and (min-width: 1301px) and (max-width: 1440px) {
+    .appbar-logo-div {
+        background-color: #fff !important;
+        width: 230px !important;
+        margin-left: -24px !important;
+        border-top-right-radius: 170px !important;
+        border-bottom-right-radius: 170px !important;
+        height: 85px !important;
+    }
+
+    .appbar-logo {
+        width: 100% !important;
+        height: 10vh !important;
+        object-fit: contain !important;
+        margin-left: -17px !important;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .appbar-nav-div {
+        margin-left: 90px !important;
+        display: flex !important;
+        gap: 65px !important
+    }
+
+    .appbar-nav {
+        color: #DDA15E !important;
+        font-size: 15px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        word-spacing: 3px !important;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .appbar {
+        background-color: #29336A !important;
+        height: 85px !important;
+    }
+
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1500px) {
+    .appbar-logo-div {
+        background-color: #fff !important;
+        width: 230px !important;
+        margin-left: -24px !important;
+        border-top-right-radius: 170px !important;
+        border-bottom-right-radius: 170px !important;
+        height: 85px !important;
+    }
+
+    .appbar-logo {
+        width: 100% !important;
+        height: 10vh !important;
+        object-fit: contain !important;
+        margin-left: -17px !important;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .appbar-nav-div {
+        margin-left: 130px !important;
+        display: flex !important;
+        gap: 92px !important;
+    }
+
+    .appbar-nav {
+        color: #DDA15E !important;
+        font-size: 15px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        word-spacing: 3px !important;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .appbar {
+        background-color: #29336A !important;
+        height: 85px !important;
+    }
+}
+
+
+@media screen and (min-width: 1501px) and (max-width: 1600px) {
+    .appbar-logo-div {
+        background-color: #fff !important;
+        width: 230px !important;
+        margin-left: -24px !important;
+        border-top-right-radius: 170px !important;
+        border-bottom-right-radius: 170px !important;
+        height: 85px !important;
+    }
+
+    .appbar-logo {
+        width: 100% !important;
+        height: 10vh !important;
+        object-fit: contain !important;
+        margin-left: -17px !important;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .appbar-nav-div {
+        margin-left: 190px !important;
+        display: flex !important;
+        gap: 92px !important;
+    }
+
+    .appbar-nav {
+        color: #DDA15E !important;
+        font-size: 15px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        word-spacing: 3px !important;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .appbar {
+        background-color: #29336A !important;
+        height: 85px !important;
+    }
+
+}
+
+@media screen and (min-width: 1601px) and (max-width: 1700px) {
+
+    .appbar-logo-div {
+        background-color: #fff !important;
+        width: 230px !important;
+        margin-left: -24px !important;
+        border-top-right-radius: 170px !important;
+        border-bottom-right-radius: 170px !important;
+        height: 85px !important;
+    }
+
+    .appbar-logo {
+        width: 100% !important;
+        height: 10vh !important;
+        object-fit: contain !important;
+        margin-left: -17px !important;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .appbar-nav-div {
+        margin-left: 190px !important;
+        display: flex !important;
+        gap: 92px !important;
+    }
+
+    .appbar-nav {
+        color: #DDA15E !important;
+        font-size: 15px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        word-spacing: 3px !important;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .appbar {
+        background-color: #29336A !important;
+        height: 85px !important;
+    }
+
+}
+
+
+@media screen and (min-width: 1701px) and (max-width: 1800px) {
+
+    .appbar-logo-div {
+        background-color: #fff !important;
+        width: 250px !important;
+        margin-left: -24px !important;
+        border-top-right-radius: 170px !important;
+        border-bottom-right-radius: 170px !important;
+        height: 90px !important;
+    }
+
+    .appbar-logo {
+        width: 100% !important;
+        height: 10vh !important;
+        object-fit: contain !important;
+        margin-left: -17px !important;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .appbar-nav-div {
+        margin-left: 245px !important;
+        display: flex !important;
+        gap: 76px !important;
     }
 
     .appbar-nav {
@@ -307,228 +600,23 @@
         cursor: pointer;
         text-decoration: none;
     }
-}
 
-@media screen and (min-width: 1201px) and (max-width: 1300px) {
-    .appbar-logo-div {
-        background-color: #fff;
-        width: 204px;
-        margin-left: -25px;
-        border-top-right-radius: 170px;
-        border-bottom-right-radius: 170px;
+    .appbar {
+        background-color: #29336A !important;
+        height: 85px !important;
     }
-
-    .appbar-logo {
-        width: 100% !important;
-        height: 12vh !important;
-        object-fit: contain !important;
-        margin-left: -17px !important;
-        margin-top: 5px !important;
-        margin-bottom: 17px !important;
-    }
-
-    .appbar-nav-div {
-        margin-left: 127px !important;
-        display: flex !important;
-        gap: 24px !important;
-    }
-
-    .appbar-nav {
-        color: #DDA15E !important;
-        font-size: 23px !important;
-        font-family: 'Libre Baskerville', serif !important;
-        word-spacing: 3px !important;
-        cursor: pointer;
-        text-decoration: none;
-    }
-}
-
-
-@media screen and (min-width: 1301px) and (max-width: 1440px) {
-    .appbar-logo-div {
-        background-color: #fff !important;
-        width: 210px !important;
-        margin-left: -24px !important;
-        border-top-right-radius: 170px !important;
-        border-bottom-right-radius: 170px !important;
-    }
-
-    .appbar-logo {
-        width: 100% !important;
-        height: 10vh !important;
-        object-fit: contain !important;
-        margin-left: -17px !important;
-        margin-top: 5px !important;
-        margin-bottom: 17px !important;
-    }
-
-    .appbar-nav-div {
-        margin-left: 120px !important;
-        display: flex !important;
-        gap: 34px !important;
-    }
-
-    .appbar-nav {
-        color: #DDA15E !important;
-        font-size: 24px !important;
-        font-family: 'Libre Baskerville', serif !important;
-        word-spacing: 3px !important;
-        cursor: pointer;
-        text-decoration: none;
-    }
-
-}
-
-@media screen and (min-width: 1441px) and (max-width: 1500px) {
-    .appbar-logo-div {
-        background-color: #fff !important;
-        width: 210px !important;
-        margin-left: -24px !important;
-        border-top-right-radius: 170px !important;
-        border-bottom-right-radius: 170px !important;
-    }
-
-    .appbar-logo {
-        width: 100% !important;
-        height: 10vh !important;
-        object-fit: contain !important;
-        margin-left: -17px !important;
-        margin-top: 5px !important;
-        margin-bottom: 17px !important;
-    }
-
-    .appbar-nav-div {
-        margin-left: 140px !important;
-        display: flex !important;
-        gap: 40px !important;
-    }
-
-    .appbar-nav {
-        color: #DDA15E !important;
-        font-size: 27px !important;
-        font-family: 'Libre Baskerville', serif !important;
-        word-spacing: 3px !important;
-        cursor: pointer;
-        text-decoration: none;
-    }
-
-}
-
-
-@media screen and (min-width: 1501px) and (max-width: 1600px) {
-    .appbar-logo-div {
-        background-color: #fff !important;
-        width: 210px !important;
-        margin-left: -24px !important;
-        border-top-right-radius: 170px !important;
-        border-bottom-right-radius: 170px !important;
-    }
-
-    .appbar-logo {
-        width: 100% !important;
-        height: 10vh !important;
-        object-fit: contain !important;
-        margin-left: -17px !important;
-        margin-top: 5px !important;
-        margin-bottom: 17px !important;
-    }
-
-    .appbar-nav-div {
-        margin-left: 178px !important;
-        display: flex !important;
-        gap: 40px !important;
-    }
-
-    .appbar-nav {
-        color: #DDA15E !important;
-        font-size: 27px !important;
-        font-family: 'Libre Baskerville', serif !important;
-        word-spacing: 3px !important;
-        cursor: pointer;
-        text-decoration: none;
-    }
-
-}
-
-@media screen and (min-width: 1601px) and (max-width: 1700px) {
-    .appbar-logo-div {
-        background-color: #fff !important;
-        width: 210px !important;
-        margin-left: -24px !important;
-        border-top-right-radius: 170px !important;
-        border-bottom-right-radius: 170px !important;
-    }
-
-    .appbar-logo {
-        width: 100% !important;
-        height: 10vh !important;
-        object-fit: contain !important;
-        margin-left: -17px !important;
-        margin-top: 5px !important;
-        margin-bottom: 17px !important;
-    }
-
-    .appbar-nav-div {
-        margin-left: 245px !important;
-        display: flex !important;
-        gap: 40px !important;
-    }
-
-    .appbar-nav {
-        color: #DDA15E !important;
-        font-size: 27px !important;
-        font-family: 'Libre Baskerville', serif !important;
-        word-spacing: 3px !important;
-        cursor: pointer;
-        text-decoration: none;
-    }
-
-}
-
-
-@media screen and (min-width: 1701px) and (max-width: 1800px) {
-    .appbar-logo-div {
-        background-color: #fff !important;
-        width: 210px !important;
-        margin-left: -24px !important;
-        border-top-right-radius: 170px !important;
-        border-bottom-right-radius: 170px !important;
-    }
-
-    .appbar-logo {
-        width: 100% !important;
-        height: 10vh !important;
-        object-fit: contain !important;
-        margin-left: -17px !important;
-        margin-top: 5px !important;
-        margin-bottom: 17px !important;
-    }
-
-    .appbar-nav-div {
-        margin-left: 340px !important;
-        display: flex !important;
-        gap: 65px !important;
-    }
-
-    .appbar-nav {
-        color: #DDA15E !important;
-        font-size: 22px !important;
-        font-family: 'Libre Baskerville', serif !important;
-        word-spacing: 3px !important;
-        cursor: pointer;
-        text-decoration: none;
-    }
-
 }
 
 
 @media screen and (min-width: 1801px) and (max-width: 2000px) {
+  
     .appbar-logo-div {
         background-color: #fff !important;
-        width: 210px !important;
+        width: 250px !important;
         margin-left: -24px !important;
         border-top-right-radius: 170px !important;
         border-bottom-right-radius: 170px !important;
+        height: 90px !important;
     }
 
     .appbar-logo {
@@ -536,14 +624,54 @@
         height: 10vh !important;
         object-fit: contain !important;
         margin-left: -17px !important;
-        margin-top: 5px !important;
-        margin-bottom: 17px !important;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
     }
 
     .appbar-nav-div {
-        margin-left: 372px !important;
+        margin-left: 260px !important;
         display: flex !important;
-        gap: 55px !important;
+        gap: 102px !important;
+    }
+
+    .appbar-nav {
+        color: #DDA15E !important;
+        font-size: 20px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        word-spacing: 3px !important;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .appbar {
+        background-color: #29336A !important;
+        height: 85px !important;
+    }
+}
+
+@media screen and (min-width: 2001px) and (max-width: 2100px) {
+    .appbar-logo-div {
+        background-color: #fff !important;
+        width: 250px !important;
+        margin-left: -24px !important;
+        border-top-right-radius: 170px !important;
+        border-bottom-right-radius: 170px !important;
+        height: 105px !important;
+    }
+
+    .appbar-logo {
+        width: 100% !important;
+        height: 10vh !important;
+        object-fit: contain !important;
+        margin-left: -17px !important;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .appbar-nav-div {
+        margin-left: 260px !important;
+        display: flex !important;
+        gap: 102px !important;
     }
 
     .appbar-nav {
@@ -555,43 +683,9 @@
         text-decoration: none;
     }
 
-}
-
-
-
-
-
-@media screen and (min-width: 2001px) and (max-width: 2100px) {
-    .appbar-logo-div {
-        background-color: #fff !important;
-        width: 260px !important;
-        margin-left: -24px !important;
-        border-top-right-radius: 170px !important;
-        border-bottom-right-radius: 170px !important;
-    }
-
-    .appbar-logo {
-        width: 100% !important;
-        height: 10vh !important;
-        object-fit: contain !important;
-        margin-left: -17px !important;
-        margin-top: 5px !important;
-        margin-bottom: 17px !important;
-    }
-
-    .appbar-nav-div {
-        margin-left: 430px !important;
-        display: flex !important;
-        gap: 44px !important;
-    }
-    
-    .appbar-nav {
-        color: #DDA15E !important;
-        font-size: 30px !important;
-        font-family: 'Libre Baskerville', serif !important;
-        word-spacing: 3px !important;
-        cursor: pointer;
-        text-decoration: none;
+    .appbar {
+        background-color: #29336A !important;
+        height: 103px !important;
     }
 
 }
@@ -632,6 +726,3 @@
     }
 
 }
-
-
-

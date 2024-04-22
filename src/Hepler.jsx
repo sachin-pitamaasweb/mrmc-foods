@@ -124,7 +124,7 @@ export const carouselItemsforDesktop = [
         alt: "Carousel-Image"
     },
     {
-        src: require('./assets/images/Carousel-Image.png'),
+        src: require('./assets/images/mrmc-banner2.jpg'),
         alt: "Carousel-Image"
     },
     {

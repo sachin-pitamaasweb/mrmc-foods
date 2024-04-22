@@ -14,12 +14,12 @@ const InfrastructureProcessImages = () => {
                 </Grid>
                 <Grid item xs={12} md={4} sm={4} lg={4}> 
                     <div className="infrastructure-process-image">
-                        <img src={require('../assets/images/InfrastructureProcess2.png')} alt="Infrastructure" className="infrastructure-process-img-1" /> {/* Changed image source */}
+                        <img src={require('../assets/images/InfrastructureProcess2.png')} alt="Infrastructure" className="infrastructure-process-img-1" /> 
                     </div>
                 </Grid>
                 <Grid item xs={12} md={4} sm={4} lg={4}> 
                     <div className="infrastructure-process-image">
-                        <img src={require('../assets/images/InfrastructureProcess3.png')} alt="Infrastructure" className="infrastructure-process-img-1" /> {/* Changed image source */}
+                        <img src={require('../assets/images/InfrastructureProcess3.png')} alt="Infrastructure" className="infrastructure-process-img-1" /> 
                     </div>
                 </Grid>
             </Grid>
