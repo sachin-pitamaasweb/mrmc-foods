@@ -13,7 +13,7 @@ const Established = () => {
                 </Grid>
                 <Grid item xs={12} lg={6} md={6}>
                     <h3 className="established-h3">
-                        Established in 1991
+                        Established in 2000
                     </h3>
                     <p className="established-p">
                         MRMC supplies rice to over 75 countries, including the USA, UAE, UK, Australia, Mauritius, Russia, Israel, Kuwait,

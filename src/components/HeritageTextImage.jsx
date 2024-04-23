@@ -21,7 +21,7 @@ const HeritageTextImage = () => {
         <Grid item xs={12} md={6} lg={6}>
           <div className="heritage-image-div-text-1">
             <p className="heritage-image-p-text">
-              Established in 2013, MRMC FOODS PRIVATE LIMITED is situated in the
+              Established in 2000, MRMC FOODS PRIVATE LIMITED is situated in the
               village Haan, ferozpur, Punjab. We are an ISO 22000: 2005, ISO
               9001: 2008, HACCP FSSAI, and GOVT. RECOGNIZED STAR EXPORT HOUSE
               (RICE MILLERS & EXPORTERS) certified company. Our office and
