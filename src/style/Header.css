@@ -616,12 +616,12 @@
         margin-left: -24px !important;
         border-top-right-radius: 170px !important;
         border-bottom-right-radius: 170px !important;
-        height: 90px !important;
+        height: 85px !important;
     }
 
     .appbar-logo {
         width: 100% !important;
-        height: 10vh !important;
+        height: 9vh !important;
         object-fit: contain !important;
         margin-left: -17px !important;
         margin-top: 0px !important;
