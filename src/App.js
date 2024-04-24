@@ -14,6 +14,7 @@ import Infrastructure from './pages/Infrastructure.jsx';
 import PrivateLabeling from './pages/PrivateLabeling.jsx';
 
 import StickySocialMedia  from '../src/common/StickySocialMedia.jsx';
+import FooterBottom from './common/FooterBottom.jsx';
 
 const App = () => {
   return (
@@ -30,6 +31,7 @@ const App = () => {
         <Route path ="/private-labeling" element={<PrivateLabeling />} />
       </Routes>
       <Footer />
+      <FooterBottom />
       <StickySocialMedia  />
     </Router>
   );
