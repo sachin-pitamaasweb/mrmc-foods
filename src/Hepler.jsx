@@ -104,18 +104,6 @@ export const carouselItemsforMobile = [
         src: require('./assets/images/banner-for-mobile.jpg'),
         alt: "banner-for-mobile"
     },
-    {
-        src: require('./assets/images/banner-for-mobile.jpg'),
-        alt: "banner-for-mobile"
-    },
-    {
-        src: require('./assets/images/banner-for-mobile.jpg'),
-        alt: "banner-for-mobile"
-    },
-    {
-        src: require('./assets/images/banner-for-mobile.jpg'),
-        alt: "banner-for-mobile"
-    },
 ]
 
 export const carouselItemsforDesktop = [
@@ -125,14 +113,6 @@ export const carouselItemsforDesktop = [
     },
     {
         src: require('./assets/images/mrmc-banner2.jpg'),
-        alt: "Carousel-Image"
-    },
-    {
-        src: require('./assets/images/Carousel-Image.png'),
-        alt: "Carousel-Image"
-    },
-    {
-        src: require('./assets/images/Carousel-Image.png'),
         alt: "Carousel-Image"
     },
 ]

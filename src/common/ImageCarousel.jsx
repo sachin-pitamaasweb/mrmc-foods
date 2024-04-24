@@ -28,7 +28,7 @@ const ImageCarousel = () => {
         return () => window.removeEventListener('resize', handleResize);
     }, []);
 
-;
+    ;
 
     const carouselDivStyle = {
         position: 'relative',
@@ -39,9 +39,14 @@ const ImageCarousel = () => {
     const getCarouselItems = () => {
         if (windowWidth <= 768) {
             return (
-                <Carousel style={carouselDivStyle} className='carousel' >
+                <Carousel style={carouselDivStyle} className='carousel-mobile'
+                    controls={true} indicators={true}
+                >
+
                     {carouselItemsforMobile.map((item, index) => (
-                        <Carousel.Item key={index} interval={3000}>
+                        <Carousel.Item key={index} interval={3000}
+                            className='carousel-item'
+                        >
                             <ExampleCarouselImage src={item.src} alt={item.alt} />
                             {index === 0 && (
                                 <Carousel.Caption className='carousel-caption'>
@@ -54,15 +59,20 @@ const ImageCarousel = () => {
             );
         } else {
             return (
-                <Carousel style={carouselDivStyle} className='carousel'>
+                <Carousel style={carouselDivStyle} className='carousel'
+                    controls={true} indicators={true}
+                >
                     {carouselItemsforDesktop.map((item, index) => (
-                        <Carousel.Item key={index} interval={3000}>
+                        <Carousel.Item key={index} interval={3000}
+                            className='carousel-item'
+
+                        >
                             <ExampleCarouselImage src={item.src} alt={item.alt} />
-                           {index === 0 && (
+                            {index === 0 && (
                                 <Carousel.Caption className='carousel-caption'>
-                                <img src={require('../assets/images/bg-text.png')} alt="bg-text"  className='bg-text-image-web' />
-                            </Carousel.Caption>
-                           )}
+                                    <img src={require('../assets/images/bg-text.png')} alt="bg-text" className='bg-text-image-web' />
+                                </Carousel.Caption>
+                            )}
                         </Carousel.Item>
                     ))}
                 </Carousel>
@@ -74,3 +84,6 @@ const ImageCarousel = () => {
 };
 
 export default ImageCarousel;
+
+
+
