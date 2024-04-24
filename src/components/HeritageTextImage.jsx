@@ -1,8 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import { Grid } from "@mui/material";
 import "../style/HeritageTextImage.css";
 
 const HeritageTextImage = () => {
+  const navigate = useNavigate();
+
+  const handleNavigate = () => {
+    navigate("/about");
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
+
   return (
     <>
       <Grid container className="heritage-text-image-container" spacing={2}>
@@ -36,7 +45,7 @@ const HeritageTextImage = () => {
         {/* Know More Button */}
         <Grid item xs={12}>
           <div className="heritage-btn-grid">
-            <button className="heritage-button">Know More</button>
+            <button className="heritage-button" onClick={handleNavigate}>Know More</button>
           </div>
         </Grid>
       </Grid>

@@ -40,11 +40,11 @@ const ImageCarousel = () => {
         if (windowWidth <= 768) {
             return (
                 <Carousel style={carouselDivStyle} className='carousel-mobile'
-                    controls={true} indicators={true}
+                    controls={false} indicators={true}
                 >
 
                     {carouselItemsforMobile.map((item, index) => (
-                        <Carousel.Item key={index} interval={3000}
+                        <Carousel.Item key={index} interval={2000}
                             className='carousel-item'
                         >
                             <ExampleCarouselImage src={item.src} alt={item.alt} />
@@ -60,10 +60,10 @@ const ImageCarousel = () => {
         } else {
             return (
                 <Carousel style={carouselDivStyle} className='carousel'
-                    controls={true} indicators={true}
+                    controls={false} indicators={true}
                 >
                     {carouselItemsforDesktop.map((item, index) => (
-                        <Carousel.Item key={index} interval={3000}
+                        <Carousel.Item key={index} interval={2000}
                             className='carousel-item'
 
                         >

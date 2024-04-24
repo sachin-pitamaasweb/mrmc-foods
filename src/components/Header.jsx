@@ -22,6 +22,10 @@ function Header(props) {
         toggleDrawer(false);
     };
 
+    const handleNavLinkClick = () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
     return (
         <Box sx={{ display: 'flex' }}>
             <CssBaseline />
@@ -43,7 +47,7 @@ function Header(props) {
                     </IconButton>
                     <Box className='appbar-nav-div'>
                         {navLinks.map((item) => (
-                            <Typography key={item.text} className='appbar-nav' component={Link} to={item.to}>
+                            <Typography key={item.text} className='appbar-nav' component={Link} to={item.to} onClick={handleNavLinkClick}>
                                 {item.text}
                             </Typography>
                         ))}
