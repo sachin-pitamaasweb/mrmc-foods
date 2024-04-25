@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.49854b4f.css",
-    "main.js": "/static/js/main.14d6cfeb.js",
+    "main.js": "/static/js/main.d9496acc.js",
     "static/js/453.ec8ed3ec.chunk.js": "/static/js/453.ec8ed3ec.chunk.js",
     "static/media/silder4.png": "/static/media/silder4.0387495a9263d9810ddd.png",
     "static/media/silder5.png": "/static/media/silder5.bd9154a1a00250c75492.png",
@@ -141,11 +141,11 @@
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
     "main.49854b4f.css.map": "/static/css/main.49854b4f.css.map",
-    "main.14d6cfeb.js.map": "/static/js/main.14d6cfeb.js.map",
+    "main.d9496acc.js.map": "/static/js/main.d9496acc.js.map",
     "453.ec8ed3ec.chunk.js.map": "/static/js/453.ec8ed3ec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.49854b4f.css",
-    "static/js/main.14d6cfeb.js"
+    "static/js/main.d9496acc.js"
   ]
 }

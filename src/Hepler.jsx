@@ -48,6 +48,11 @@ export const testimonialsData = [
 
 export const products = [
     {
+        name: 'Royal Basmati Rice',
+        category: 'Yashas',
+        imageUrl: require('./assets/images/products/Yashas6.png')
+    },
+    {
         name: 'Special Basmati Rice',
         category: 'Yashas',
         imageUrl: require('./assets/images/products/Yashas1.png')
@@ -81,11 +86,6 @@ export const products = [
         name: 'Harroz Basmati Rice',
         category: 'Hunar',
         imageUrl: require('./assets/images/products/Hunar1.png'),
-    },
-    {
-        name: 'Harroz Basmati Rice',
-        category: 'Hunar',
-        imageUrl: require('./assets/images/products/Hunar2.png'),
     },
     {
         name: 'Royal Basmati Rice',
