@@ -73,6 +73,11 @@ export const products = [
         imageUrl: require('./assets/images/products/Yashas5.png')
     },
     {
+        name: 'Royal Basmati Rice',
+        category: 'Yashas',
+        imageUrl: require('./assets/images/products/Yashas6.png')
+    },
+    {
         name: 'Harroz Basmati Rice',
         category: 'Hunar',
         imageUrl: require('./assets/images/products/Hunar1.png'),
@@ -141,7 +146,7 @@ export const ProductsSlider = [
     {
         src: require('./assets/images/slider5.png'),
         alt: "Product 5"
-    }
+    },
 
 ];
 
