@@ -64,13 +64,19 @@
 @media screen and (max-width: 325px) {
     .infrastructure-img-text {
         margin-top: 35px !important;
-        margin-left: 50px !important;
+        margin-left: 15px !important;
     }
 
     .infrastructure-text-container-1 {
         margin-top: 31px;
         margin-left: -64px;
     }
+
+    .infrastructure-img-1 {
+        width: 100% !important;
+        object-fit: contain !important;
+    }
+    
 
     .infrastructure-img-2 {
         width: 79%;
@@ -109,14 +115,14 @@
         font-weight: 400 !important;
         line-height: 24px !important;
         text-align: left !important;
-        margin-left: 106px !important;
+        margin-left: 22px !important;
         word-spacing: 0px !important;
         width: 87%;
     }
 
     .infrastructure-span {
         color: #29336A;
-        font-size: 38px;
+        font-size: 30px;
     }
 
     .infrastructure-text-2 {
@@ -136,15 +142,22 @@
 
 
 @media screen and (min-width: 326px) and (max-width: 375px) {
+  
     .infrastructure-img-text {
         margin-top: 35px !important;
-        margin-left: 50px !important;
+        margin-left: 15px !important;
     }
 
     .infrastructure-text-container-1 {
         margin-top: 31px;
         margin-left: -64px;
     }
+
+    .infrastructure-img-1 {
+        width: 100% !important;
+        object-fit: contain !important;
+    }
+    
 
     .infrastructure-img-2 {
         width: 79%;
@@ -156,7 +169,7 @@
         width: 79% !important;
         object-fit: contain !important;
         margin-left: 50px !important;
-        margin-top: 240px !important;
+        margin-top: 215px !important;
     }
 
     .infrastructure-text-container-2 {
@@ -173,8 +186,8 @@
     .infrastructure-img-4 {
         width: 79% !important;
         object-fit: contain;
-        margin-top: -572px;
-        margin-left: 143px;
+        margin-top: -665px;
+        margin-left: 137px;
     }
 
     .infrastructure-text-1 {
@@ -183,14 +196,14 @@
         font-weight: 400 !important;
         line-height: 24px !important;
         text-align: left !important;
-        margin-left: 106px !important;
+        margin-left: 22px !important;
         word-spacing: 0px !important;
         width: 87%;
     }
 
     .infrastructure-span {
         color: #29336A;
-        font-size: 38px !important;
+        font-size: 30px;
     }
 
     .infrastructure-text-2 {
@@ -209,9 +222,10 @@
 
 
 @media screen and (min-width: 376px) and (max-width: 425px) {
+   
     .infrastructure-img-text {
         margin-top: 35px !important;
-        margin-left: 60px !important;
+        margin-left: 15px !important;
     }
 
     .infrastructure-text-container-1 {
@@ -219,17 +233,23 @@
         margin-left: -64px;
     }
 
+    .infrastructure-img-1 {
+        width: 100% !important;
+        object-fit: contain !important;
+    }
+    
+
     .infrastructure-img-2 {
         width: 79%;
         object-fit: contain;
-        margin-left: 120px !important;
+        margin-left: 112px !important;
     }
 
     .infrastructure-img-3 {
         width: 79% !important;
         object-fit: contain !important;
-        margin-left: 60px !important;
-        margin-top: 300px !important;
+        margin-left: 50px !important;
+        margin-top: 215px !important;
     }
 
     .infrastructure-text-container-2 {
@@ -246,23 +266,24 @@
     .infrastructure-img-4 {
         width: 79% !important;
         object-fit: contain;
-        margin-top: -525px;
-        margin-left: 156px;
+        margin-top: -665px;
+        margin-left: 137px;
     }
+
     .infrastructure-text-1 {
         font-size: 20px !important;
         font-family: 'Libre Baskerville', serif !important;
         font-weight: 400 !important;
         line-height: 24px !important;
         text-align: left !important;
-        margin-left: 106px !important;
+        margin-left: 22px !important;
         word-spacing: 0px !important;
         width: 87%;
     }
 
     .infrastructure-span {
         color: #29336A;
-        font-size: 38px;
+        font-size: 30px;
     }
 
     .infrastructure-text-2 {
@@ -274,16 +295,18 @@
         margin-left: 31px !important;
         word-spacing: 0px !important;
         width: 87%;
-        margin-top: 260px !important;
+        margin-top: 200px !important;
     }
+
 
 }
 
 
 @media screen and (min-width: 426px) and (max-width: 480px) {
+   
     .infrastructure-img-text {
         margin-top: 35px !important;
-        margin-left: 60px !important;
+        margin-left: 15px !important;
     }
 
     .infrastructure-text-container-1 {
@@ -291,17 +314,23 @@
         margin-left: -64px;
     }
 
+    .infrastructure-img-1 {
+        width: 100% !important;
+        object-fit: contain !important;
+    }
+    
+
     .infrastructure-img-2 {
         width: 79%;
         object-fit: contain;
-        margin-left: 125px !important;
+        margin-left: 112px !important;
     }
 
     .infrastructure-img-3 {
         width: 79% !important;
         object-fit: contain !important;
-        margin-left: 56px !important;
-        margin-top: 330px !important;
+        margin-left: 50px !important;
+        margin-top: 215px !important;
     }
 
     .infrastructure-text-container-2 {
@@ -318,8 +347,8 @@
     .infrastructure-img-4 {
         width: 79% !important;
         object-fit: contain;
-        margin-top: -1150px;
-        margin-left: 156px;
+        margin-top: -665px;
+        margin-left: 137px;
     }
 
     .infrastructure-text-1 {
@@ -328,27 +357,28 @@
         font-weight: 400 !important;
         line-height: 24px !important;
         text-align: left !important;
-        margin-left: 111px !important;
+        margin-left: 22px !important;
         word-spacing: 0px !important;
-        width: 85%;
+        width: 87%;
     }
 
     .infrastructure-span {
         color: #29336A;
-        font-size: 40px;
+        font-size: 30px;
     }
 
-    .infrastructure-text-2{
+    .infrastructure-text-2 {
         font-size: 20px !important;
         font-family: 'Libre Baskerville', serif !important;
         font-weight: 400 !important;
         line-height: 24px !important;
         text-align: left !important;
-        margin-left: 37px !important;
+        margin-left: 31px !important;
         word-spacing: 0px !important;
-        width: 85%; 
-        margin-top: 244px !important;
+        width: 87%;
+        margin-top: 200px !important;
     }
+
 
 }
 
@@ -423,21 +453,22 @@
     }
 
     .infrastructure-text-container-1 {
-        margin-top: 75px !important;
+        margin-top: 55px !important;
+        margin-left: -70px !important;
     }
 
     .infrastructure-img-3 {
         width: 90% !important;
         object-fit: contain;
-        margin-left: 63px;
-        margin-top: 44px;
+        margin-left: 63px !important;
+        margin-top: 44px !important;
     }
 
     .infrastructure-img-4 {
         width: 90% !important;
         object-fit: contain;
-        margin-top: -50px;
-        margin-left: 46px;
+        margin-top: -90px !important;
+        margin-left: 115px !important;
     }
 
     .infrastructure-text-1 {
@@ -451,8 +482,8 @@
     }
 
     .infrastructure-span {
-        color: #29336A;
-        font-size: 40px;
+        color: #29336A !important;
+        font-size: 40px !important;
     }
 
     .infrastructure-text-2 {
@@ -463,58 +494,94 @@
         text-align: left !important;
         margin-left: 60px !important;
         word-spacing: 0px !important;
-        margin-top: 20px;
+        margin-top: -10px !important;
     } 
 
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .infrastructure-img-text {
+        margin-top: 60px;
+        margin-left: 60px;
+    }
+
+    .infrastructure-img-1 {
+        width: 90%;
+        object-fit: contain ;
+    }
+
+    .infrastructure-img-2 {
+        width: 90%;
+        object-fit: contain;
+        margin-left: 67px !important;
+    }
+
+    .infrastructure-text-container-1 {
+        margin-top: 55px !important;
+        margin-left: -70px !important;
+    }
+
+    .infrastructure-img-3 {
+        width: 90% !important;
+        object-fit: contain;
+        margin-left: 63px !important;
+        margin-top: 44px !important;
+    }
+
+    .infrastructure-img-4 {
+        width: 90% !important;
+        object-fit: contain;
+        margin-top: -90px !important;
+        margin-left: 115px !important;
+    }
+
     .infrastructure-text-1 {
-        font-size: 17px !important;
+        font-size: 16px !important;
         font-family: 'Libre Baskerville', serif !important;
         font-weight: 400 !important;
-        line-height: 30px !important;
+        line-height: 24px !important;
         text-align: left !important;
         margin-left: 40px !important;
         word-spacing: 0px !important;
     }
 
     .infrastructure-span {
-        color: #29336A;
-        font-size: 40px;
+        color: #29336A !important;
+        font-size: 40px !important;
     }
 
     .infrastructure-text-2 {
-        font-size: 20px !important;
+        font-size: 16px !important;
         font-family: 'Libre Baskerville', serif !important;
         font-weight: 400 !important;
-        line-height: 30px !important;
+        line-height: 24px !important;
         text-align: left !important;
-        margin-left: 105px !important;
+        margin-left: 60px !important;
         word-spacing: 0px !important;
-        margin-top: 20px;
+        margin-top: -10px !important;
     } 
-
-    .infrastructure-img-4 {
-        width: 90% !important;
-        object-fit: contain !important;
-        margin-top: 21px !important;
-        margin-left: 50px !important;
-    }
-    
 }
 
 
 
 @media screen and (min-width: 1281px) and (max-width: 1366px) {
     .infrastructure-text-1 {
-        font-size: 17px !important;
+        font-size: 20px !important;
         font-family: 'Libre Baskerville', serif !important;
         font-weight: 400 !important;
         line-height: 37px !important;
         text-align: left !important;
-        margin-left: 40px !important;
+        margin-left: 0px !important;
         word-spacing: 0px !important;
+        margin-top: 100px !important;
+    }
+    .infrastructure-img-1 {
+        width: 100% !important;
+        object-fit: contain !important;
+    }
+    .infrastructure-img-text {
+        margin-top: 100px !important; 
+        margin-left: 45px !important;
     }
 
     .infrastructure-span {
@@ -528,16 +595,16 @@
         font-weight: 400 !important;
         line-height: 37px !important;
         text-align: left !important;
-        margin-left: 105px !important;
+        margin-left: 59px !important;
         word-spacing: 0px !important;
         margin-top: 20px;
     } 
 
     .infrastructure-img-4 {
-        width: 90% !important;
+        width: 100% !important;
         object-fit: contain !important;
         margin-top: 21px !important;
-        margin-left: 55px !important;
+        margin-left: 0px !important;
     }
     
 }
@@ -549,8 +616,17 @@
         font-weight: 400 !important;
         line-height: 37px !important;
         text-align: left !important;
-        margin-left: 40px !important;
+        margin-left: 0px !important;
         word-spacing: 0px !important;
+        margin-top: 100px !important;
+    }
+    .infrastructure-img-1 {
+        width: 100% !important;
+        object-fit: contain !important;
+    }
+    .infrastructure-img-text {
+        margin-top: 100px !important; 
+        margin-left: 50px !important;
     }
 
     .infrastructure-span {
@@ -564,91 +640,176 @@
         font-weight: 400 !important;
         line-height: 37px !important;
         text-align: left !important;
-        margin-left: 105px !important;
+        margin-left: 60px !important;
         word-spacing: 0px !important;
         margin-top: 20px;
     } 
-    .infrastructure-img-4 {
-        width: 90% !important;
-        object-fit: contain;
-        margin-top: -80px;
-        margin-left: 140px;
-    }
 
     .infrastructure-img-4 {
-        width: 90% !important;
+        width: 100% !important;
         object-fit: contain !important;
-        margin-top: 0px !important;
-        margin-left: 67px !important;
+        margin-top: -47px !important;
+        margin-left: 0px !important;
     }
     
 }
 
 
 @media screen and (min-width: 1441px) and (max-width: 1600px) {
-    
     .infrastructure-text-1 {
-        font-size: 20px !important;
+        font-size: 22px !important;
         font-family: 'Libre Baskerville', serif !important;
         font-weight: 400 !important;
-        line-height: 37px !important;
+        line-height: 40px !important;
         text-align: left !important;
-        margin-left: 40px !important;
+        margin-left: 0px !important;
         word-spacing: 0px !important;
+        margin-top: 100px !important;
+    }
+    .infrastructure-img-1 {
+        width: 100% !important;
+        object-fit: contain !important;
+    }
+    .infrastructure-img-text {
+        margin-top: 100px !important; 
+        margin-left: 50px !important;
     }
 
     .infrastructure-span {
         color: #29336A;
-        font-size: 40px;
+        font-size: 45px !important;
     }
 
     .infrastructure-text-2 {
-        font-size: 20px !important;
+        font-size: 22px !important;
         font-family: 'Libre Baskerville', serif !important;
         font-weight: 400 !important;
-        line-height: 37px !important;
+        line-height: 40px !important;
         text-align: left !important;
-        margin-left: 105px !important;
+        margin-left: 60px !important;
         word-spacing: 0px !important;
-        margin-top: 20px;
+        margin-top: -10px !important;
     } 
-    .infrastructure-img-4 {
-        width: 90% !important;
-        object-fit: contain;
-        margin-top: -80px;
-        margin-left: 140px;
-    }
 
     .infrastructure-img-4 {
-        width: 90% !important;
+        width: 100% !important;
         object-fit: contain !important;
-        margin-top: 0px !important;
-        margin-left: 67px !important;
+        margin-top: -47px !important;
+        margin-left: 0px !important;
     }
 }
 
-@media screen and (min-width: 1601px) and (max-width: 1920px) {
-    
+@media screen and (min-width: 1601px) and (max-width: 1700px) {
     .infrastructure-text-1 {
-        font-size: 20px !important;
+        font-size: 25px !important;
         font-family: 'Libre Baskerville', serif !important;
         font-weight: 400 !important;
-        line-height: 37px !important;
+        line-height: 43px !important;
         text-align: left !important;
-        margin-left: 40px !important;
+        margin-left: 0px !important;
         word-spacing: 0px !important;
+        margin-top: 100px !important;
+    }
+    .infrastructure-img-1 {
+        width: 100% !important;
+        object-fit: contain !important;
+    }
+    .infrastructure-img-text {
+        margin-top: 100px !important; 
+        margin-left: 50px !important;
     }
 
     .infrastructure-span {
         color: #29336A;
-        font-size: 40px;
+        font-size: 50px;
     }
 
     .infrastructure-text-2 {
-        font-size: 20px !important;
+        font-size: 25px !important;
         font-family: 'Libre Baskerville', serif !important;
         font-weight: 400 !important;
-        line-height: 37px !important;
+        line-height: 43px !important;
+        text-align: left !important;
+        margin-left: 60px !important;
+        word-spacing: 0px !important;
+        margin-top: -10px !important;
+    } 
+
+    .infrastructure-img-4 {
+        width: 100% !important;
+        object-fit: contain !important;
+        margin-top: -47px !important;
+        margin-left: 0px !important;
+    } 
+}
+
+@media screen and (min-width: 1701px) and (max-width: 1800px) {
+    .infrastructure-text-1 {
+        font-size: 25px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 400 !important;
+        line-height: 45px !important;
+        text-align: left !important;
+        margin-left: 0px !important;
+        word-spacing: 0px !important;
+        margin-top: 100px !important;
+    }
+    .infrastructure-img-1 {
+        width: 100% !important;
+        object-fit: contain !important;
+    }
+    .infrastructure-img-text {
+        margin-top: 100px !important; 
+        margin-left: 50px !important;
+    }
+
+    .infrastructure-span {
+        color: #29336A;
+        font-size: 55px !important;
+    }
+
+    .infrastructure-text-2 {
+        font-size: 25px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 400 !important;
+        line-height: 45px !important;
+        text-align: left !important;
+        margin-left: 60px !important;
+        word-spacing: 0px !important;
+        margin-top: -10px !important;
+    } 
+
+    .infrastructure-img-4 {
+        width: 100% !important;
+        object-fit: contain !important;
+        margin-top: -47px !important;
+        margin-left: 0px !important;
+    } 
+}
+
+@media screen and (min-width: 1801px) and (max-width: 1920px) {
+    
+    .infrastructure-text-1 {
+        font-size: 25px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 400 !important;
+        line-height: 50px !important;
+        text-align: left !important;
+        margin-left: -47px !important;
+        word-spacing: 0px !important;
+        margin-top: 100px !important;
+    }
+
+    .infrastructure-span {
+        color: #29336A !important;
+        font-size: 60px !important;
+    }
+
+    .infrastructure-text-2 {
+        font-size: 25px !important;
+        font-family: 'Libre Baskerville', serif !important;
+        font-weight: 400 !important;
+        line-height: 50px !important;
         text-align: left !important;
         margin-left: 105px !important;
         word-spacing: 0px !important;
@@ -671,25 +832,26 @@
 
 @media screen and (min-width: 1921px) and (max-width: 2560px) {
     .infrastructure-text-1 {
-        font-size: 27px !important;
+        font-size: 25px !important;
         font-family: 'Libre Baskerville', serif !important;
         font-weight: 400 !important;
-        line-height: 47px !important;
+        line-height: 50px !important;
         text-align: left !important;
-        margin-left: 40px !important;
+        margin-left: -47px !important;
         word-spacing: 0px !important;
+        margin-top: 100px !important;
     }
 
     .infrastructure-span {
-        color: #29336A;
-        font-size: 40px;
+        color: #29336A !important;
+        font-size: 60px !important;
     }
 
     .infrastructure-text-2 {
-        font-size: 27px !important;
+        font-size: 25px !important;
         font-family: 'Libre Baskerville', serif !important;
         font-weight: 400 !important;
-        line-height: 47px !important;
+        line-height: 50px !important;
         text-align: left !important;
         margin-left: 105px !important;
         word-spacing: 0px !important;
@@ -706,7 +868,7 @@
         width: 90% !important;
         object-fit: contain !important;
         margin-top: -95px !important;
-        margin-left: 95px !important;
+        margin-left: 67px !important;
     }
 }
 

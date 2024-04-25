@@ -20,6 +20,7 @@ function Header(props) {
 
     const handleLinkClick = () => {
         toggleDrawer(false);
+        window.scrollTo({ top: 0, behavior: "smooth" });
     };
 
     const handleNavLinkClick = () => {
