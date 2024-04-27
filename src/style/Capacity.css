@@ -1,0 +1,26 @@
+.capacity-div-grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px !important;
+    gap: 200px !important;
+}
+
+@media screen and (max-width: 500px) {
+    .capacity{
+        width: 50% !important;
+    }
+    
+    .capacity-div-grid{
+        display: block !important;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px !important;
+        gap: 200px !important;
+    }
+    .capacity-div-mobile{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px !important;
+    }
+}

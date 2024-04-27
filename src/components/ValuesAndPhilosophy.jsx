@@ -11,7 +11,7 @@ const ValuesAndPhilosophy = () => {
     return (
         <Grid container spacing={2} className='values-and-philosophy'>
             <Grid item xs={12}>
-                <div className='values-and-philosophy-title'>
+                <div className='values-and-philosophy-title' data-aos="zoom-in-up">
                     <h2 className='values-and-philosophy-heading'>Values and Philosophy</h2>
                 </div>
             </Grid>

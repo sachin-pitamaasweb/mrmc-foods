@@ -17,10 +17,10 @@ const PrivateLabeling = () => {
     return (
         <>
             <div className="product">
-            <HeroSection
-                text="Private Labeling"
-                imageSrc={require('../assets/images/product-labeling-banner.png')}
-            />
+                <HeroSection
+                    text="Private Labeling"
+                    imageSrc={require('../assets/images/product-labeling-banner.png')}
+                />
             </div>
             <AboutUsPrivateLabeling />
             <OurProducts />

@@ -77,7 +77,7 @@ const DropUsALine = () => {
                     <img src={require('../assets/images/DropUsALine.png')} alt="drop-us-a-line" className='drop-us-a-line-img' />
                 </div>
                 <div className="drop-us-a-line">
-                    <h2 className='drop-us-a-line-heading'>Drop us a line</h2>
+                    <h2 className='drop-us-a-line-heading' data-aos="fade-up">Drop us a line</h2>
                     <form onSubmit={handleSubmit}>
                         <Grid container spacing={2}>
                             <Grid item xs={12} md={6} sm={6} lg={6}>
@@ -90,6 +90,7 @@ const DropUsALine = () => {
                                     value={formData.firstName}
                                     onChange={handleChange}
                                     required
+                                    data-aos="fade-up"
                                 />
                             </Grid>
                             <Grid item xs={12} md={6} sm={6} lg={6}>
@@ -102,6 +103,7 @@ const DropUsALine = () => {
                                     value={formData.lastName}
                                     onChange={handleChange}
                                     required
+                                    data-aos="fade-up"
                                 />
                             </Grid>
                             <Grid item xs={12}  md={6} sm={6} lg={6}>
@@ -115,6 +117,7 @@ const DropUsALine = () => {
                                     value={formData.email}
                                     onChange={handleChange}
                                     required
+                                    data-aos="fade-up"
                                     
                                 />
                             </Grid>
@@ -129,6 +132,7 @@ const DropUsALine = () => {
                                     value={formData.phone}
                                     onChange={handleChange}
                                     required
+                                    data-aos="fade-up"
                                 />
                             </Grid>
 
@@ -143,6 +147,7 @@ const DropUsALine = () => {
                                     value={formData.address}
                                     onChange={handleChange}
                                     required
+                                    data-aos="fade-up"
                                 />
                             </Grid>
                             <Grid item xs={12} md={12} sm={12} lg={12}>
@@ -157,6 +162,7 @@ const DropUsALine = () => {
                                     value={formData.message}
                                     onChange={handleChange}
                                     required
+                                    data-aos="fade-up"
                                 />
                             </Grid>
                             <Grid item xs={12} className='drop-us-a-line-button-container'>
@@ -165,7 +171,7 @@ const DropUsALine = () => {
                         </Grid>
                     </form>
                 </div>
-                <div className='drop-us-a-line-bottom-bg-image'>
+                <div className='drop-us-a-line-bottom-bg-image' data-aos="flip-up">
                     <img src={require('../assets/images/DropUsALineBottom.png')} alt="drop-us-a-line-bottom" className='drop-us-a-line-bottom-img' />
                 </div>
             </div>

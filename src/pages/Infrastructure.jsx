@@ -9,6 +9,7 @@ import HeroSection from "../common/HeroSection.jsx";
 
 import '../style/Infrastructure.css';
 import OurProcess from "../components/OurProcess.jsx";
+import Capacity from "../components/Capacity.jsx";
 
 const Infrastructure = () => {
     return (
@@ -24,7 +25,7 @@ const Infrastructure = () => {
                 <InfrastructureText />
                 <InfrastructureProcessImages />
                 <OurProcess />
-
+                <Capacity />
                 <Grid item xs={12}>
                     <div className="infrastructure-image-process">
                         <img src={require('../assets/images/pro.png')} alt="Infrastructure" className="infrastructure-process-img-1-process" />

@@ -33,32 +33,32 @@ const BasmatiRice = () => {
         <>
             <Grid container className="basmati-container" spacing={2}>
                 <Grid item xs={12} className="basmati-grid-text">
-                    <Typography variant="h5" className="basmati-h5" gutterBottom>
+                    <Typography variant="h5" className="basmati-h5" gutterBottom data-aos="fade-left">
                         Basmati Rice
                     </Typography>
                 </Grid>
                 {/* left Grid */}
                 <Grid item xs={12} sm={12} md={6} lg={6} className="basmati-grid-left">
-                    <Typography variant="h5" className="basmati-left-h5">
+                    <Typography variant="h5" className="basmati-left-h5" data-aos="fade-up">
                         Long Grain
                     </Typography>
                     <div className="basmati-left-div-ul">
-                        <ul className="basmati-ul">
+                        <ul className="basmati-ul" data-aos="fade-up">
                             <li>
                                 Light Fluffy & Separated
                             </li>
                         </ul>
                     </div>
                   <div className="basmati-img-div">
-                  <div className="basmati-img-container-top">
+                  <div className="basmati-img-container-top" data-aos="fade-up-zoom">
                         {imagePathsLeft.map((imagePath, index) => (
-                            <Grid key={index} item xs={6} lg={6} md={6} sm={6}>
+                            <Grid key={index} item xs={6} lg={6} md={6} sm={6} >
                                 <img src={imagePath} alt={`basmati-rice-${index}`} className="basmati-img-1" />
                             </Grid>
                         ))}
                     </div>
 
-                    <div className="basmati-img-container-bottom">
+                    <div className="basmati-img-container-bottom" data-aos="fade-down-zoom">
                         {imagePathsRight.map((imagePath, index) => (
                             <Grid key={index} item xs={6} lg={6} md={6} sm={6}>
                                 <img src={imagePath} alt={`basmati-rice-${index}`} className="basmati-img-2" />
@@ -69,13 +69,13 @@ const BasmatiRice = () => {
                 </Grid>
                 {/* right Grid */}
                 <Grid item xs={12} sm={12} md={6} lg={6} className="basmati-grid-right">
-                    <Typography variant="h5" className="basmati-right-h5">
+                    <Typography variant="h5" className="basmati-right-h5" data-aos="fade-up">
                         Varieties
                     </Typography>
                     <div className="basmati-right-div-ul">
                         <ul className="basmati-ul-right">
                             {basmatiRiceTypes.map((riceType, index) => (
-                                <li key={index}>{riceType}</li>
+                                <li key={index} data-aos="fade-up">{riceType}</li>
                             ))}
                         </ul>
                     </div>

@@ -11,10 +11,10 @@ const OurMission = () => {
     return (
             <Grid container spacing={2} className="mission-container">
                 <Grid item xs={12}>
-                    <h2 className="mission-title">Our Mission</h2>
+                    <h2 className="mission-title" data-aos="flip-up">Our Mission</h2>
                 </Grid>
                 <Grid item xs={12}>
-                    <div className="mission-description">
+                    <div className="mission-description" data-aos="zoom-in-up">
                         <p className="mission-description-p">
                             At {companyName}, our mission is simple: to deliver premium rice products that exceed expectations.
                             We're committed to quality, sustainability, and creating memorable dining experiences for our customers worldwide.

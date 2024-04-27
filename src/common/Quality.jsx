@@ -95,11 +95,11 @@ const Quality = ({ applyAnimation }) => {
         <>
             <div className="quality">
                 <div className="quality-image-container">
-                    <div className="quality-image-text" style={QualityImageStyle}>
+                    <div className="quality-image-text" style={QualityImageStyle} data-aos="zoom-in-up">
                         <Grid container spacing={isMobile ? 2 : 0}>
                             {qualities.map((quality, index) => (
                                 <Grid key={index} item xs={6} sm={6} md={6} lg={3}>
-                                    <div>
+                                    <div key={index} >
                                         <img src={quality.imagePath} alt="quality" className={applyAnimation ? 'quality-image' : 'quality-image-1'} />
                                       <div className="quality-h4-div">  <h4 className="quality-h4">{quality.text}</h4></div>
                                     </div>

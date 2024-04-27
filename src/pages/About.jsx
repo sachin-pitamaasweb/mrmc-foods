@@ -1,12 +1,15 @@
 import React from 'react';
 
-
 import HeroSection from '../common/HeroSection';
+
+
+import Vision from '../components/Vision';
 import OurMission from '../components/OurMission ';
 import FoundingStory from '../components/FoundingStory';
 import ValuesAndPhilosophy from '../components/ValuesAndPhilosophy';
 
 import '../style/About.css';
+
 
 
 const About = () => {
@@ -23,7 +26,7 @@ const About = () => {
             <FoundingStory />
             <ValuesAndPhilosophy />
             <OurMission />
-
+            <Vision />
         </>
     );
 }

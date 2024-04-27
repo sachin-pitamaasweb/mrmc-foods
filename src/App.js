@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 import Header from './components/Header.jsx';
 import Footer from './components/Footer.jsx';
@@ -17,6 +19,12 @@ import StickySocialMedia  from '../src/common/StickySocialMedia.jsx';
 import FooterBottom from './common/FooterBottom.jsx';
 
 const App = () => {
+
+  useEffect(() => {
+    AOS.init({});
+  });
+
+
   return (
     <Router>
       <Header />

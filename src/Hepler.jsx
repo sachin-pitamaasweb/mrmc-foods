@@ -78,11 +78,6 @@ export const products = [
         imageUrl: require('./assets/images/products/Yashas5.png')
     },
     {
-        name: 'Royal Basmati Rice',
-        category: 'Yashas',
-        imageUrl: require('./assets/images/products/Yashas6.png')
-    },
-    {
         name: 'Harroz Basmati Rice',
         category: 'Hunar',
         imageUrl: require('./assets/images/products/Hunar1.png'),
@@ -109,6 +104,14 @@ export const carouselItemsforMobile = [
         src: require('./assets/images/banner-for-mobile.jpg'),
         alt: "banner-for-mobile"
     },
+    {
+        src: require('./assets/images/banner-for-mobile1.jpg'),
+        alt: "Carousel-Image"
+    },
+    {
+        src: require('./assets/images/banner-for-mobile2.jpg'),
+        alt: "Carousel-Image"
+    },
 ]
 
 export const carouselItemsforDesktop = [
@@ -117,7 +120,11 @@ export const carouselItemsforDesktop = [
         alt: "Carousel-Image"
     },
     {
-        src: require('./assets/images/mrmc-banner2.jpg'),
+        src: require('./assets/images/Carousel-Image1.jpg'),
+        alt: "Carousel-Image"
+    },
+    {
+        src: require('./assets/images/Carousel-Image2.jpg'),
         alt: "Carousel-Image"
     },
 ]
