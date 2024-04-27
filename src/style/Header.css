@@ -83,37 +83,26 @@
     }
 
     .menu-icon {
-        margin-left: 80px !important;
+        margin-left: 34px !important;
         font-size: 40px !important;
+    }
+
+    .appbar-nav-Box{
+        margin-left: 17px !important;
     }
 }
 
-/* 
-@media screen and (min-width: 326px) and (max-width:375px) {
-    .appbar-logo-div {
-        background-color: #fff !important;
-        width: 165px !important;
-        margin-left: -20px !important;
-        border-top-right-radius: 170px !important;
-        border-bottom-right-radius: 170px !important;
-    }
-
-    .appbar-logo {
-        width: 99% !important;
-        height: 10vh !important;
-        object-fit: contain !important;
-        margin-left: 0px !important;
-        margin-top: 5px !important;
-        margin-bottom: 17px !important;
-    }
-
-    .menu-icon{
-        margin-left: 100px !important;
+@media screen and (min-width: 326px) and (max-width: 350px) {
+    .menu-icon {
+        margin-left: 37px !important;
         font-size: 40px !important;
     }
-} */
+    .appbar-nav-Box{
+        margin-left: 50px !important;
+    }
+}
 
-@media screen and (min-width: 326px) and (max-width:375px) {
+@media screen and (min-width: 351px) and (max-width:375px) {
     .appbar-logo-div {
         background-color: #fff !important;
         width: 165px !important;
@@ -132,8 +121,12 @@
     }
 
     .menu-icon {
-        margin-left: 112px !important;
+        margin-left: 34px !important;
         font-size: 40px !important;
+    }
+
+    .appbar-nav-Box{
+        margin-left: 34px !important;
     }
 }
 
@@ -156,12 +149,16 @@
     }
 
     .menu-icon {
-        margin-left: 152px !important;
-        font-size: 40px !important
+        margin-left: 55px !important;
+        font-size: 40px !important;
+    }
+
+    .appbar-nav-Box{
+        margin-left: 57px !important;
     }
 }
 
-@media screen and (min-width: 401px) and (max-width: 425px) {
+@media screen and (min-width: 401px) and (max-width: 430px) {
     .appbar-logo-div {
         background-color: #fff !important;
         width: 165px !important;
@@ -180,13 +177,17 @@
     }
 
     .menu-icon {
-        margin-left: 175px !important;
+        margin-left: 67px !important;
         font-size: 40px !important;
+    }
+
+    .appbar-nav-Box{
+        margin-left: 64px !important;
     }
 }
 
 
-@media screen and (min-width: 426px) and (max-width: 500px) {
+@media screen and (min-width: 431px) and (max-width: 500px) {
     .appbar-logo-div {
         background-color: #fff !important;
         width: 165px !important;
@@ -205,8 +206,12 @@
     }
 
     .menu-icon {
-        margin-left: 210px !important;
+        margin-left: 73px !important;
         font-size: 40px !important;
+    }
+
+    .appbar-nav-Box{
+        margin-left: 92px !important;
     }
 }
 

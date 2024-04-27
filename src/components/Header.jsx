@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import MenuIcon from '@mui/icons-material/Menu';
+import StarIcon from '@mui/icons-material/Star';
 import { AppBar, Toolbar, IconButton, CssBaseline, Box, Typography, Drawer } from '@mui/material';
 
 import '../style/Header.css';
@@ -11,6 +12,7 @@ function Header() {
 
     const navigate = useNavigate();
     const [open, setOpen] = useState(false);
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth); 
 
     const toggleDrawer = (isOpen) => {
         setOpen(isOpen);
@@ -34,6 +36,14 @@ function Header() {
         window.scrollTo({ top: 0, behavior: "smooth" });
     }
 
+    const handleResize = () => {
+        setWindowWidth(window.innerWidth);
+    };
+
+    // Listen for window resize event
+    window.addEventListener('resize', handleResize);
+
+
     return (
         <Box sx={{ display: 'flex' }}>
             <CssBaseline />
@@ -44,6 +54,12 @@ function Header() {
                             <img src={require('../assets/images/Logo.png')} className="appbar-logo" alt='logo' onClick={handleLogoClick} style={{ cursor: 'pointer' }} />
                         </div>
                     </Box>
+                    {windowWidth <= 600 && (
+                        <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', }} className='appbar-nav-Box'>
+                            <StarIcon style={{ marginRight: '10px', color: '#FDDB3D' }} />
+                            <StarIcon  style={{ color: '#FDDB3D' }} />
+                        </Box>
+                    )}
                     <IconButton
                         color="inherit"
                         aria-label="open drawer"
@@ -91,3 +107,6 @@ function Header() {
 }
 
 export default Header;
+
+
+
