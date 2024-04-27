@@ -24,7 +24,7 @@ const ProductLineup = () => {
     return (
         <Grid container spacing={2} alignItems="center" justifyContent="center" marginTop={isLargeDesktop ? '100px' : isDesktop ? '100px' : isTablet ? '50px' : isMobile ? '50px' : '50px'}>
             <Grid item xs={12} md={10} lg={8} xl={6} xxl={4}>
-                <Typography variant="h5" style={ProductLineupH4}>
+                <Typography variant="h5" style={ProductLineupH4} data-aos="fade-down" data-aos-duration="3000">
                     Discover our diverse Product lineup!
                 </Typography>
             </Grid>

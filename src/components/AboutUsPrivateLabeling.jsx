@@ -9,10 +9,10 @@ const AboutUsPrivateLabeling = () => {
         <>
             <div className="about-us-container">
                 <Grid item xs={12} className="about-us-grid-text">
-                    <Typography variant="h5" className="about-us-h5" gutterBottom data-aos="fade-up-right">
+                    <Typography variant="h5" className="about-us-h5" gutterBottom data-aos="fade-up-right" data-aos-duration="3000">
                         About Us
                     </Typography>
-                    <Typography variant="subtitle1" className="about-us-text" data-aos="fade-up-left">
+                    <Typography variant="subtitle1" className="about-us-text" data-aos="fade-up-left"  data-aos-duration="3000">
                         MRMC is a rice manufacturing and export oriented company situated in Ferozepur, Punjab, India. We have more than 25 years of experience in the rice industry.
                     </Typography>
                 </Grid>
@@ -21,7 +21,7 @@ const AboutUsPrivateLabeling = () => {
                         item xs={12}
                         data-aos="flip-left"
                         data-aos-easing="ease-out-cubic"
-                        data-aos-duration="2000"
+                        data-aos-duration="3000"
                     >
                         <div className="about-us-img-div">
                             <img src={require('../assets/images/about1.png')} alt="about-us" className="about-us-img" />
@@ -37,7 +37,7 @@ const AboutUsPrivateLabeling = () => {
                         item xs={12}
                         data-aos="flip-left"
                         data-aos-easing="ease-out-cubic"
-                        data-aos-duration="2000"
+                        data-aos-duration="3000"
                     >
                         <div className="about-us-img-div">
                             <img src={require('../assets/images/about2.png')} alt="about-us" className="about-us-img" />
@@ -53,7 +53,7 @@ const AboutUsPrivateLabeling = () => {
                         item xs={12}
                         data-aos="flip-left"
                         data-aos-easing="ease-out-cubic"
-                        data-aos-duration="2000"
+                        data-aos-duration="3000"
                     >
                         <div className="about-us-img-div">
                             <img src={require('../assets/images/about3.png')} alt="about-us" className="about-us-img" />
@@ -69,7 +69,7 @@ const AboutUsPrivateLabeling = () => {
                         item xs={12}
                         data-aos="flip-left"
                         data-aos-easing="ease-out-cubic"
-                        data-aos-duration="2000"
+                        data-aos-duration="3000"
                     >
                         <div className="about-us-img-div">
                             <img src={require('../assets/images/about4.png')} alt="about-us" className="about-us-img" />

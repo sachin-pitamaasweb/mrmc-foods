@@ -176,3 +176,107 @@ export const processStepsData = [
     { title: "Distribution", image: require('./assets/images/OurProcess/Distribution.png') },
     { title: "Customer", image: require('./assets/images/OurProcess/Customer.png') }
 ];
+
+
+export const eventGroups = [
+    {
+      title: 'agro pack iraq ',
+      events: [
+        {
+          image: require('./assets/images/events/event-1.png'),
+          alt: 'Event 1',
+          sm: 12,
+          md: 12,
+          lg: 12,
+        },
+        {
+          image: require('./assets/images/events/event-2.png'),
+          alt: 'Event 2',
+          sm: 12,
+          md: 12,
+          lg: 12,
+        },
+        {
+          image: require('./assets/images/events/event-3.png'),
+          alt: 'Event 3',
+          sm: 8,
+          md: 8,
+          lg: 8,
+        },
+        {
+          image: require('./assets/images/events/event-4.png'),
+          alt: 'Event 4',
+          sm: 4,
+          md: 4,
+          lg: 4,
+        },
+      ],
+    },
+    {
+      title: 'Delhi Stall',
+      subTitle: 'World Food India 2023',
+      events: [
+        {
+          image: require('./assets/images/events/event-5.png'),
+          alt: 'Event 5',
+          sm: 4,
+          md: 4,
+          lg: 4,
+        },
+        {
+          image: require('./assets/images/events/event-6.png'),
+          alt: 'Event 6',
+          sm: 4,
+          md: 4,
+          lg: 4,
+        },
+        {
+          image: require('./assets/images/events/event-7.png'),
+          alt: 'Event 7',
+          sm: 4,
+          md: 4,
+          lg: 4,
+        },
+        {
+          image: require('./assets/images/events/event-8.png'),
+          alt: 'Event 8',
+          sm: 12,
+          md: 12,
+          lg: 12,
+        },
+      ],
+    },
+    {
+      title: 'independence day',
+      events: [
+        {
+          image: require('./assets/images/events/event-9.png'),
+          alt: 'Event 9',
+          sm: 12,
+          md: 4,
+          lg: 4,
+        },
+        {
+          image: require('./assets/images/events/event-10.png'),
+          alt: 'Event 10',
+          sm: 12,
+          md: 8,
+          lg: 8,
+        },
+        {
+          image: require('./assets/images/events/event-11.png'),
+          alt: 'Event 11',
+          sm: 12,
+          md: 8,
+          lg: 8,
+        },
+        {
+            image: require('./assets/images/events/event-12.png'),
+            alt: 'Event 12',
+            sm: 12,
+            md: 4,
+            lg: 4,
+          }
+      ],
+    },
+  ];

@@ -12,32 +12,32 @@ const QuickLinks = () => {
         <><Grid item xs={12} lg={6}>
             <div className="quick-links">
                 <List>
-                    <Typography variant="h6" gutterBottom className="quick-links-title-typo" textAlign={"center"}>
+                    <Typography variant="h6" gutterBottom className="quick-links-title-typo" textAlign={"center"} data-aos="fade-down" data-aos-duration="3000">
                         Quick Links
                     </Typography>
                     <ListItem button component={Link} to="/" className="quick-links-items">
-                        <Typography className="quick-links-text">Home</Typography>
+                        <Typography className="quick-links-text" data-aos="fade-down" data-aos-duration="3000">Home</Typography>
                     </ListItem>
                     <ListItem button component={Link} to="/about" className="quick-links-items">
-                        <Typography className="quick-links-text">About</Typography>
+                        <Typography className="quick-links-text" data-aos="fade-down" data-aos-duration="3000">About</Typography>
                     </ListItem>
                     <ListItem button component={Link} to="/products" className="quick-links-items">
-                        <Typography className="quick-links-text">Products</Typography>
+                        <Typography className="quick-links-text" data-aos="fade-down" data-aos-duration="3000">Products</Typography>
                     </ListItem>
                     <ListItem button component={Link} to="/events" className="quick-links-items">
-                        <Typography className="quick-links-text">Events</Typography>
+                        <Typography className="quick-links-text" data-aos="fade-down" data-aos-duration="3000">Events</Typography>
                     </ListItem>
                     <ListItem button component={Link} to="/infrastructure" className="quick-links-items">
-                        <Typography className="quick-links-text">infrastructure</Typography>
+                        <Typography className="quick-links-text" data-aos="fade-down" data-aos-duration="3000">infrastructure</Typography>
                     </ListItem>
                     <ListItem button component={Link} to="/contacts" className="quick-links-items">
-                        <Typography className="quick-links-text">Contact Us</Typography>
+                        <Typography className="quick-links-text" data-aos="fade-down" data-aos-duration="3000">Contact Us</Typography>
                     </ListItem>
                 </List>
             </div>
         </Grid>
             <Grid item xs={12} lg={6}>
-                <div className="contact-us-links">
+                <div className="contact-us-links" data-aos="fade-down" data-aos-duration="3000">
                     <Grid item xs={12} className='footer-contact-grid'>
                         <PhoneIcon className="footer-contact-icons" />
                         <Typography

@@ -41,7 +41,7 @@ function Header() {
                 <Toolbar>
                     <Box >
                         <div className='appbar-logo-div' data-aos="fade-right" >
-                            <img src={require('../assets/images/Logo.png')} className="appbar-logo" alt='logo' onClick={handleLogoClick} style={{ cursor: 'pointer' }}  />
+                            <img src={require('../assets/images/Logo.png')} className="appbar-logo" alt='logo' onClick={handleLogoClick} style={{ cursor: 'pointer' }} />
                         </div>
                     </Box>
                     <IconButton
@@ -55,7 +55,7 @@ function Header() {
                     </IconButton>
                     <Box className='appbar-nav-div'>
                         {navLinks.map((item) => (
-                            <Typography key={item.text} className='appbar-nav' component={Link} to={item.to} onClick={handleNavLinkClick}>
+                            <Typography key={item.text} className='appbar-nav' component={Link} to={item.to} onClick={handleNavLinkClick} data-aos="zoom-in">
                                 {item.text}
                             </Typography>
                         ))}
@@ -69,7 +69,18 @@ function Header() {
                     <div className="drawer-content">
                         <ul>
                             {navLinks.map((link, index) => (
-                                <li key={index}><Link to={link.to} onClick={handleLinkClick}>{link.text}</Link></li>
+                                <li
+                                    key={index}>
+                                    <Link
+                                        to={link.to}
+                                        onClick={handleLinkClick}
+                                        data-aos="fade-down"
+                                        data-aos-easing="linear"
+                                        data-aos-duration="1500"
+                                    >
+                                        {link.text}
+                                    </Link>
+                                </li>
                             ))}
                         </ul>
                     </div>

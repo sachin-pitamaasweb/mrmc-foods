@@ -40,20 +40,20 @@ const WhyChooseUsPrivateLabeling = () => {
             return (
                 <>
                     <Grid item xs={12} className="why-choose-us-text-private">
-                        <Typography variant="h4" gutterBottom align="center" className="why-choose-us-title-private">
+                        <Typography variant="h4" gutterBottom align="center" className="why-choose-us-title-private" data-aos="fade-down" data-aos-duration="3000">
                             Why Choose US?
                         </Typography>
                     </Grid>
                     <Grid item xs={12} sm={12} md={6} lg={6} className="why-choose-us-text-left-private">
                         {sectionInfo.map((section, index) => (
                             <div key={index}>
-                                <Typography variant="h5" className="why-choose-us-text-left-h5-private">
+                                <Typography variant="h5" className="why-choose-us-text-left-h5-private" data-aos="fade-right" data-aos-duration="3000">
                                     {section.title}
                                 </Typography>
                                 <div className="why-choose-us-left-div-ul">
-                                    <ul className="why-choose-us-ul">
-                                        {section.items.map((item, idx) => (
-                                            <li key={idx}>{item}</li>
+                                    <ul className="why-choose-us-ul" >
+                                        {section.items.map((item, index) => (
+                                            <li key={index} data-aos="fade-down" data-aos-duration="3000">{item}</li>
                                         ))}
                                     </ul>
                                 </div>
@@ -62,16 +62,16 @@ const WhyChooseUsPrivateLabeling = () => {
                     </Grid>
                     <Grid item xs={12} sm={12} md={6} lg={6}>
                         <div>
-                            <div className="why-choose-us-img-private-div1">
+                            <div className="why-choose-us-img-private-div1" data-aos="fade-left" data-aos-duration="3000">
                                 <img src={require('../assets/images/why1.png')} alt="why-choose-us-img" className="why-choose-us-img-private-1" />
                             </div>
-                            <div className="why-choose-us-img-private-div2">
+                            <div className="why-choose-us-img-private-div2" data-aos="fade-right" data-aos-duration="3000">
                                 <img src={require('../assets/images/why3.png')} alt="why-choose-us-img" className="why-choose-us-img-private-2" />
                             </div>
-                            <div className="why-choose-us-img-private-div3">
+                            <div className="why-choose-us-img-private-div3" data-aos="fade-left" data-aos-duration="3000">
                                 <img src={require('../assets/images/why2.png')} alt="why-choose-us-img" className="why-choose-us-img-private-3" />
                             </div>
-                            <div className="why-choose-us-img-private-div4">
+                            <div className="why-choose-us-img-private-div4" data-aos="fade-right" data-aos-duration="3000">
                                 <img src={require('../assets/images/why4.png')} alt="why-choose-us-img" className="why-choose-us-img-private-4" />
                             </div>
                         </div>
@@ -84,12 +84,6 @@ const WhyChooseUsPrivateLabeling = () => {
 
     return (
         <Grid container className="why-choose-us-container-private" spacing={2}>
-            {/* <Grid item xs={12} className="why-choose-us-text-private">
-                <Typography variant="h4" gutterBottom align="center" className="why-choose-us-title-private">
-                    Why Choose US?
-                </Typography>
-            </Grid> */}
-            {/* left Grid */}
             {MobileViewRender()}
         </Grid>
     );

@@ -32,10 +32,10 @@ const ProductCarousel = ({ images }) => {
                     autoPlay={true}
                     autoPlaySpeed={3000}
                     removeArrowOnDeviceType={["tablet", "mobile"]}
-                    
+
                 >
                     {images.map((image, index) => (
-                        <div key={index} className="product-carousel">
+                        <div key={index} className="product-carousel" data-aos="zoom-in-down" data-aos-duration="3000">
                             <img src={image.src} alt={image.alt} className="product-img" />
                         </div>
                     ))}

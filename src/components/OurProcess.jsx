@@ -16,7 +16,7 @@ const OurProcess = () => {
             return (
                 <>  
                     <Grid item xs={12} sm={12} md={12}>
-                        <div className="process-item">
+                        <div className="process-item"  data-aos="zoom-in-down" data-aos-duration="3000">
                             <img src={require('../assets/images/process.png')} alt="Process 1" className="process-img" />
                         </div>
                     </Grid>
@@ -28,7 +28,7 @@ const OurProcess = () => {
         <div className="product-process">
             <Grid container spacing={5} className="product-process-container">
                 <Grid item xs={12} sm={12} md={12}>
-                    <div className="our-process-text">
+                    <div className="our-process-text"data-aos="flip-up" data-aos-duration="3000">
                         <h2 className="our-process-heading">Our Process</h2>
                     </div>
                 </Grid>

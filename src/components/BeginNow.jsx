@@ -27,7 +27,7 @@ const BeginNow = () => {
         <>
             <Grid container className="begin-now-container" spacing={2}>
                 <Grid item xs={12}>
-                    <Typography variant="h5" className="begin-now-text">
+                    <Typography variant="h5" className="begin-now-text" gutterBottom data-aos="fade-right" data-aos-duration="3000">
                         Begin Now
                     </Typography>
                 </Grid>
@@ -44,6 +44,8 @@ const BeginNow = () => {
                                     value={formData.firstName}
                                     onChange={handleChange}
                                     required
+                                    data-aos="fade-up"
+                                    data-aos-duration="3000"
                                 />
                             </Grid>
                             <Grid item xs={12} md={6} sm={6} lg={6}>
@@ -56,6 +58,8 @@ const BeginNow = () => {
                                     value={formData.lastName}
                                     onChange={handleChange}
                                     required
+                                    data-aos="fade-up"
+                                    data-aos-duration="3000"
                                 />
                             </Grid>
                             <Grid item xs={12} md={12} sm={12} lg={12}>
@@ -69,6 +73,8 @@ const BeginNow = () => {
                                     value={formData.companyName}
                                     onChange={handleChange}
                                     required
+                                    data-aos="fade-up"
+                                    data-aos-duration="3000"
                                 />
                             </Grid>
                             <Grid item xs={12} md={12} sm={12} lg={12}>
@@ -82,6 +88,8 @@ const BeginNow = () => {
                                     value={formData.email}
                                     onChange={handleChange}
                                     required
+                                    data-aos="fade-up"
+                                    data-aos-duration="3000"
                                 />
                             </Grid>
                             <Grid item xs={12} md={12} sm={12} lg={12}>
@@ -95,9 +103,11 @@ const BeginNow = () => {
                                     value={formData.phone}
                                     onChange={handleChange}
                                     required
+                                    data-aos="fade-up"
+                                    data-aos-duration="3000"
                                 />
                             </Grid>
-                            <Grid item xs={12} className='drop-us-a-line-button-container'>
+                            <Grid item xs={12} className='drop-us-a-line-button-container' data-aos="flip-up" data-aos-duration="3000">
                                 <button type="submit" className='drop-us-a-line-button'>Send</button>
                             </Grid>
                         </Grid>

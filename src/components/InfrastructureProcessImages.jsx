@@ -8,17 +8,17 @@ const InfrastructureProcessImages = () => {
         <div className="infrastructure-process-images">
             <Grid container spacing={2} className="infrastructure-process-images-container"> 
                 <Grid item xs={12} md={4} sm={4} lg={4}> 
-                    <div className="infrastructure-process-image">
+                    <div className="infrastructure-process-image" data-aos="zoom-in-down" data-aos-duration="3000">
                         <img src={require('../assets/images/InfrastructureProcess1.png')} alt="Infrastructure" className="infrastructure-process-img-1" />
                     </div>
                 </Grid>
                 <Grid item xs={12} md={4} sm={4} lg={4}> 
-                    <div className="infrastructure-process-image">
+                    <div className="infrastructure-process-image" data-aos="zoom-in-down" data-aos-duration="3000">
                         <img src={require('../assets/images/InfrastructureProcess2.png')} alt="Infrastructure" className="infrastructure-process-img-1" /> 
                     </div>
                 </Grid>
                 <Grid item xs={12} md={4} sm={4} lg={4}> 
-                    <div className="infrastructure-process-image">
+                    <div className="infrastructure-process-image" data-aos="zoom-in-down" data-aos-duration="3000">
                         <img src={require('../assets/images/InfrastructureProcess3.png')} alt="Infrastructure" className="infrastructure-process-img-1" /> 
                     </div>
                 </Grid>

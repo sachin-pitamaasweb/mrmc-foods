@@ -28,7 +28,6 @@ const TestimonialCarousel = ({ images }) => {
         }
     };
 
-    console.log(images[0].description.length);
     return (
         <>
             <Grid container className="testimonials-carousel-container" spacing={2}>
@@ -41,7 +40,7 @@ const TestimonialCarousel = ({ images }) => {
 
                     >
                         {images.map((image, index) => (
-                            <div className="testimonials-carousel" key={index}>
+                            <div className="testimonials-carousel" key={index} data-aos="zoom-in-down" data-aos-duration="3000">
 
                                 <div className="testimonials-img-div">
                                     <img src={image.src} alt={image.name} className="testimonials-img" />

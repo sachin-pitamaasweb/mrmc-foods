@@ -26,13 +26,13 @@ const Infrastructure = () => {
                 <InfrastructureProcessImages />
                 <OurProcess />
                 <Capacity />
-                <Grid item xs={12}>
-                    <div className="infrastructure-image-process">
+                <Grid item xs={12} >
+                    <div className="infrastructure-image-process" data-aos="zoom-in-down" data-aos-duration="3000">
                         <img src={require('../assets/images/pro.png')} alt="Infrastructure" className="infrastructure-process-img-1-process" />
                     </div>
                 </Grid>
-                <Grid item xs={12}>
-                    <div className="infrastructure-image-process">
+                <Grid item xs={12} >
+                    <div className="infrastructure-image-process" data-aos="zoom-in-down" data-aos-duration="3000">
                         <img src={require('../assets/images/pro1.png')} alt="Infrastructure" className="infrastructure-process-img-1-process" />
                     </div>
                 </Grid>

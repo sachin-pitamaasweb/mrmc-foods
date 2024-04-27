@@ -19,12 +19,12 @@ const Vision = () => {
                 </Grid>
                 <Box sx={{ flexGrow: 1 }} className='vision-box'>
                     <Grid item xs={12} sm={3} md={3} lg={3} data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-                        <Typography variant="body1" component="p" gutterBottom align="center" className='vision-p-typo'>
+                        <Typography variant="body1" component="p" gutterBottom align="center" className='vision-p-typo' >
                             Managing Director
                         </Typography>
                         <Card className="vision-card">
                             <CardContent className='vision-card-content'>
-                                <Typography variant="body1" component="p" gutterBottom align="center" className='vision-p-card'>
+                                <Typography variant="body1" component="p" gutterBottom align="center" className='vision-p-card' sx={{ fontWeight: 'bold' }}>
                                     Mr. Rajiv Mangal
                                 </Typography>
                             </CardContent>
@@ -36,7 +36,7 @@ const Vision = () => {
                         </Typography>
                         <Card className="vision-card">
                             <CardContent className='vision-card-content'>
-                                <Typography variant="body1" component="p" gutterBottom align="center" className='vision-p-card'>
+                                <Typography variant="body1" component="p" gutterBottom align="center" className='vision-p-card' sx={{ fontWeight: 'bold' }}>
                                     Late Sh.Krishan Avtar Mangal (Dabbu Seth)
                                 </Typography>
                             </CardContent>
@@ -48,7 +48,7 @@ const Vision = () => {
                         </Typography>
                         <Card className="vision-card">
                             <CardContent className='vision-card-content'>
-                                <Typography variant="body1" component="p" gutterBottom align="center" className='vision-p-card'>
+                                <Typography variant="body1" component="p" gutterBottom align="center" className='vision-p-card' sx={{ fontWeight: 'bold', }}>
                                     Mr. Parveen Mangal
                                 </Typography>
                             </CardContent>

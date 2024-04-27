@@ -91,6 +91,7 @@ const DropUsALine = () => {
                                     onChange={handleChange}
                                     required
                                     data-aos="fade-up"
+                                    data-aos-duration="3000"
                                 />
                             </Grid>
                             <Grid item xs={12} md={6} sm={6} lg={6}>
@@ -104,9 +105,10 @@ const DropUsALine = () => {
                                     onChange={handleChange}
                                     required
                                     data-aos="fade-up"
+                                    data-aos-duration="3000"
                                 />
                             </Grid>
-                            <Grid item xs={12}  md={6} sm={6} lg={6}>
+                            <Grid item xs={12} md={6} sm={6} lg={6}>
                                 <TextField
                                     label="Email"
                                     variant="outlined"
@@ -118,7 +120,7 @@ const DropUsALine = () => {
                                     onChange={handleChange}
                                     required
                                     data-aos="fade-up"
-                                    
+                                    data-aos-duration="3000"
                                 />
                             </Grid>
                             <Grid item xs={12} md={6} sm={6} lg={6}>
@@ -133,6 +135,7 @@ const DropUsALine = () => {
                                     onChange={handleChange}
                                     required
                                     data-aos="fade-up"
+                                    data-aos-duration="3000"
                                 />
                             </Grid>
 
@@ -148,6 +151,7 @@ const DropUsALine = () => {
                                     onChange={handleChange}
                                     required
                                     data-aos="fade-up"
+                                    data-aos-duration="3000"
                                 />
                             </Grid>
                             <Grid item xs={12} md={12} sm={12} lg={12}>
@@ -163,15 +167,16 @@ const DropUsALine = () => {
                                     onChange={handleChange}
                                     required
                                     data-aos="fade-up"
+                                    data-aos-duration="3000"
                                 />
                             </Grid>
-                            <Grid item xs={12} className='drop-us-a-line-button-container'>
-                                <button className='drop-us-a-line-button'>Send</button>
+                            <Grid item xs={12} className='drop-us-a-line-button-container' data-aos="flip-up" data-aos-duration="3000">
+                                <button className='drop-us-a-line-button'> Send</button>
                             </Grid>
                         </Grid>
                     </form>
                 </div>
-                <div className='drop-us-a-line-bottom-bg-image' data-aos="flip-up">
+                <div className='drop-us-a-line-bottom-bg-image'   >
                     <img src={require('../assets/images/DropUsALineBottom.png')} alt="drop-us-a-line-bottom" className='drop-us-a-line-bottom-img' />
                 </div>
             </div>

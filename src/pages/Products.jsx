@@ -12,7 +12,7 @@ const Products = () => {
 
            <div className="product">
            <HeroSection
-                imageSrc={require('../assets/images/product-banner.png')}
+                imageSrc={require('../assets/images/product-banner.jpg')}
                 isStyled={false}
             />
            </div>

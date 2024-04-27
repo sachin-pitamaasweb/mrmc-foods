@@ -5,7 +5,7 @@ import '../style/Infrastructure.css';
 const HeroSection = ({ imageSrc, text, isStyled }) => {
     const [visited, setVisited] = useState(false);
 
-console.log("isStyled", isStyled);
+    console.log("isStyled", isStyled);
 
     useEffect(() => {
         const isVisited = localStorage.getItem('visited');
@@ -16,10 +16,10 @@ console.log("isStyled", isStyled);
         }
     }, []);
 
-    return(
+    return (
         <>
             <Grid item xs={12} className={`infrastructure-grids ${visited ? 'visited' : ''}`}>
-                <div className="infrastructure-grid">
+                <div className="infrastructure-grid" data-aos="fade-down" data-aos-duration="3000">
                     <div className="infrastructure-overlay">
                         <div className={isStyled ? 'infrastructure-img' : 'infrastructure-img-styled'}>
                             <img

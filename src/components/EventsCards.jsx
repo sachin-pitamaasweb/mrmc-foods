@@ -1,97 +1,103 @@
 import React from 'react';
-import { Grid } from '@mui/material';
-import '../style/EventsCards.css'; 
+import { Grid, Typography } from '@mui/material';
+import PropTypes from 'prop-types';
+import '../style/EventsCards.css';
 
+import { eventGroups } from '../Hepler';
+
+// Reusable EventCard Component
+const EventCard = ({ image, alt }) => (
+  <img
+    src={image}
+    alt={alt}
+    data-aos="zoom-out-right"
+    style={{
+      width: '100%',
+      height: '100%',
+    }}
+  />
+);
+
+EventCard.propTypes = {
+  image: PropTypes.string.isRequired,
+  alt: PropTypes.string.isRequired,
+};
+
+// Main EventsCards Component
 const EventsCards = () => {
-  const eventList = [
-    {
-      image: require('../assets/images/event-1.png'),
-      alt: 'Event 1',
-      sm: 12,
-      md: 12,
-      lg: 12,
-    },
-    {
-      image: require('../assets/images/event-2.png'),
-      alt: 'Event 2',
-      sm: 12,
-      md: 12,
-      lg: 12,
-    },
-    {
-      image: require('../assets/images/event-3.png'),
-      alt: 'Event 3',
-      sm: 8,
-      md: 8,
-      lg: 8,
-
-    },
-    {
-      image: require('../assets/images/event-4.png'),
-      alt: 'Event 4',
-      sm: 4,
-      md: 4,
-      lg: 4,
-      marginLeft: '50px',
-    },
-    {
-      image: require('../assets/images/event-5.png'),
-      alt: 'Event 5',
-      sm: 4,
-      md: 4,
-      lg: 4,
-    },
-    {
-      image: require('../assets/images/event-6.png'),
-      alt: 'Event 6',
-      sm: 4,
-      md: 4,
-      lg: 4,
-    },
-    {
-      image: require('../assets/images/event-7.png'),
-      alt: 'Event 7',
-      sm: 4,
-      md: 4,
-      lg: 4,
-    },
-    {
-      image: require('../assets/images/event-8.png'),
-      alt: 'Event 8',
-      sm: 8,
-      md: 8,
-      lg: 8,
-    },
-    {
-      image: require('../assets/images/event-9.png'),
-      alt: 'Event 9',
-      sm: 4,
-      md: 4,
-      lg: 4,
-    },
-  ];
-
   return (
     <Grid container spacing={2} className="custom-container-events">
-      {eventList.map((event, index) => (
-        <Grid
-          item
-          key={index}
-          xs={12}
-          sm={event.sm}
-          md={event.md}
-          lg={event.lg}
-        >
-          <img
-            src={event.image}
-            alt={event.alt}
-            style={{
-              width: '100%',
-              height: '100%',
-              // marginLeft: event.marginLeft || 0,
-            }}
-          />
-        </Grid>
+      {eventGroups.map((group, groupIndex) => (
+        <React.Fragment key={groupIndex}>
+          <Grid item xs={12}>
+            <Typography
+              className="event-heading"
+              textAlign="center"
+              variant="h3"
+              gutterBottom
+              component="div"
+              sx={{
+                textTransform: "uppercase",
+                marginTop: '20px',
+                fontFamily: 'Libre Baskerville',
+                fontSize: {
+                  xs: '25px', // Extra small devices
+                  sm: '35px', // Small devices
+                  md: '40px', // Medium devices
+                  lg: '60px', // Large devices
+                  xl: '70px', // Extra-large devices
+                },
+              }}
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+            >
+              {group.title}
+            </Typography>
+            <Typography
+              className="event-heading"
+              textAlign="center"
+              variant="h3"
+              gutterBottom
+              component="div"
+              sx={{
+                textTransform: "uppercase",
+                // marginTop: '20px',
+                fontFamily: 'Libre Baskerville',
+                fontSize: {
+                  xs: '20px', // Extra small devices
+                  sm: '20px', // Small devices
+                  md: '30px', // Medium devices
+                  lg: '40px', // Large devices
+                  xl: '50px', // Extra-large devices
+                },
+                marginTop:" !important"
+              }}
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+            >
+              {group.subTitle}
+            </Typography>
+          </Grid>
+
+          {group.events.map((event, eventIndex) => (
+            <Grid
+              item
+              key={eventIndex}
+              xs={12}
+              sm={event.sm}
+              md={event.md}
+              lg={event.lg}
+
+            >
+              <EventCard
+                image={event.image}
+                alt={event.alt}
+              />
+            </Grid>
+          ))}
+        </React.Fragment>
       ))}
     </Grid>
   );
