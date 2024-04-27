@@ -22,7 +22,7 @@ const StickySocialMedia = () => {
       >
         <img  src={require('../assets/images/social/s2.png')} alt="Instagram" style={{ width: '30px', height: '30px', objectFit: 'contain' }} />
       </a>
-      <a
+      {/* <a
         href="https://twitter.com"
         className="twitter"
         target="_blank"
@@ -30,9 +30,9 @@ const StickySocialMedia = () => {
         data-aos="flip-left"
       >
         <img  src={require('../assets/images/social/s3.png')} alt="X" style={{ width: '30px', height: '30px', objectFit: 'contain' }} />
-      </a>
+      </a> */}
       <a
-        href="https://api.whatsapp.com/send?phone= +91 9876543210"
+        href="https://wa.me/9878400186"
         className="whatsapp"
         target="_blank"
         rel="noopener noreferrer"

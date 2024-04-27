@@ -10,8 +10,7 @@ const SocialIcons = () => {
         <div
             className="social-icons-container"
             data-aos="fade-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
+            data-aos-duration="3000"
         >
             <h2 className="follow-title">Follow Us</h2>
             <div className="social-icons-div">
