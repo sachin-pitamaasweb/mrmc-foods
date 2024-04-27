@@ -14,17 +14,19 @@ import Export from '../components/Export.jsx';
 const Home = () => {
     return (
         <>
-            <ImageCarousel />
-            <Heritage />
-            <Export />
-            <WhyChooseUs />
-            <Quality
-             applyAnimation={true}
-            />
-            <Established />
-            <ExploreOur />
-            <Testimonial /> 
-           
+            <div style={{ overflow: 'hidden' }}>
+                <ImageCarousel />
+                <Heritage />
+                <Export />
+                <WhyChooseUs />
+                <Quality
+                    applyAnimation={true}
+                />
+                <Established />
+                <ExploreOur />
+                <Testimonial />
+
+            </div>
         </>
     )
 }

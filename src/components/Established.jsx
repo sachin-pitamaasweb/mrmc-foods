@@ -8,7 +8,7 @@ const Established = () => {
         <>
             <Grid container className="established" spacing={2}>
 
-                <Grid item xs={12} lg={6} md={6} data-aos="fade-up-right">
+                <Grid item xs={12} lg={6} md={6} data-aos="zoom-in-down" data-aos-duration="3000">
                     <img src={require('../assets/images/Established.png')} alt="Established" className="established-img" />
                 </Grid>
                 <Grid item xs={12} lg={6} md={6}>
@@ -20,7 +20,7 @@ const Established = () => {
                         Qatar & Turkey. With 30+ years of experience, we offer top-quality rice at competitive prices, ensuring timely delivery worldwide.
                     </p>
                     <div className="cft-div">
-                        <img src={require('../assets/images/cft.png')} alt="cft" className="cft" data-aos="fade-right" />
+                        <img src={require('../assets/images/cft.png')} alt="cft" className="cft" data-aos="zoom-in-down" data-aos-duration="3000" />
                     </div>
                 </Grid>
             </Grid>
