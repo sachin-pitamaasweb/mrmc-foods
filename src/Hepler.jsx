@@ -112,6 +112,10 @@ export const carouselItemsforMobile = [
         src: require('./assets/images/banner-for-mobile2.jpg'),
         alt: "Carousel-Image"
     },
+    {
+        src: require('./assets/images/banner-for-mobile3.jpg'),
+        alt: "Carousel-Image"
+    },
 ]
 
 export const carouselItemsforDesktop = [
@@ -125,6 +129,10 @@ export const carouselItemsforDesktop = [
     },
     {
         src: require('./assets/images/Carousel-Image2.jpg'),
+        alt: "Carousel-Image"
+    },
+    {
+        src: require('./assets/images/Carousel-Image3.jpg'),
         alt: "Carousel-Image"
     },
 ]

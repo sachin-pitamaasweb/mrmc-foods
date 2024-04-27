@@ -40,8 +40,8 @@ function Header() {
             <AppBar component="nav" className='appbar'>
                 <Toolbar>
                     <Box >
-                        <div className='appbar-logo-div' >
-                            <img src={require('../assets/images/Logo.png')} className="appbar-logo" alt='logo' onClick={handleLogoClick} style={{ cursor: 'pointer' }} />
+                        <div className='appbar-logo-div' data-aos="fade-right" >
+                            <img src={require('../assets/images/Logo.png')} className="appbar-logo" alt='logo' onClick={handleLogoClick} style={{ cursor: 'pointer' }}  />
                         </div>
                     </Box>
                     <IconButton
