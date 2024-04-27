@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import MenuIcon from '@mui/icons-material/Menu';
 import { AppBar, Toolbar, IconButton, CssBaseline, Box, Typography, Drawer } from '@mui/material';
 
@@ -7,7 +7,9 @@ import '../style/Header.css';
 
 import { navLinks } from '../Hepler.jsx';
 
-function Header(props) {
+function Header() {
+
+    const navigate = useNavigate();
     const [open, setOpen] = useState(false);
 
     const toggleDrawer = (isOpen) => {
@@ -15,7 +17,7 @@ function Header(props) {
     };
 
     const handleDrawerToggle = () => {
-        toggleDrawer(!open); 
+        toggleDrawer(!open);
     };
 
     const handleLinkClick = () => {
@@ -27,14 +29,19 @@ function Header(props) {
         window.scrollTo({ top: 0, behavior: "smooth" });
     }
 
+    const handleLogoClick = () => {
+        navigate('/');
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
     return (
         <Box sx={{ display: 'flex' }}>
             <CssBaseline />
             <AppBar component="nav" className='appbar'>
                 <Toolbar>
                     <Box >
-                        <div className='appbar-logo-div'>
-                            <img src={require('../assets/images/Logo.png')} className="appbar-logo" alt='logo' />
+                        <div className='appbar-logo-div' >
+                            <img src={require('../assets/images/Logo.png')} className="appbar-logo" alt='logo' onClick={handleLogoClick} style={{ cursor: 'pointer' }} />
                         </div>
                     </Box>
                     <IconButton
