@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.abc1cea4.css",
-    "main.js": "/static/js/main.25f3c6a4.js",
+    "main.js": "/static/js/main.30be29f6.js",
     "static/js/453.ec8ed3ec.chunk.js": "/static/js/453.ec8ed3ec.chunk.js",
     "static/media/silder4.png": "/static/media/silder4.0387495a9263d9810ddd.png",
     "static/media/silder5.png": "/static/media/silder5.bd9154a1a00250c75492.png",
@@ -17,6 +17,7 @@
     "static/media/test2.jpg": "/static/media/test2.9e2d37b0e2c7bc1481f7.jpg",
     "static/media/test1.jpg": "/static/media/test1.49daf81fc0a646b998f1.jpg",
     "static/media/banner-about.png": "/static/media/banner-about.ccd4e8f9e2c46298e828.png",
+    "static/media/banner-for-mobile3.png": "/static/media/banner-for-mobile3.e9467ea6acf526d7d888.png",
     "static/media/contact-banner.png": "/static/media/contact-banner.d28f51aaa563155d889c.png",
     "static/media/event-8.png": "/static/media/event-8.95b45d58b792832e1f0e.png",
     "static/media/Carousel-Image.png": "/static/media/Carousel-Image.aec0425d33f4ce639817.png",
@@ -153,11 +154,11 @@
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
     "main.abc1cea4.css.map": "/static/css/main.abc1cea4.css.map",
-    "main.25f3c6a4.js.map": "/static/js/main.25f3c6a4.js.map",
+    "main.30be29f6.js.map": "/static/js/main.30be29f6.js.map",
     "453.ec8ed3ec.chunk.js.map": "/static/js/453.ec8ed3ec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.abc1cea4.css",
-    "static/js/main.25f3c6a4.js"
+    "static/js/main.30be29f6.js"
   ]
 }
