@@ -1,6 +1,6 @@
 import React from "react";
 import { IconButton } from "@mui/material";
-import { Facebook, Instagram, WhatsApp, X } from "@mui/icons-material";
+import { Facebook, Instagram, WhatsApp } from "@mui/icons-material";
 
 import '../style/SocialIcons.css';
 
@@ -24,14 +24,11 @@ const SocialIcons = () => {
                         <Instagram className="mui-social-icons" />
                     </IconButton>
                 </a>
-                <a href="https://api.whatsapp.com/send?phone=YOUR_PHONE_NUMBER" target="_blank" rel="noopener noreferrer" className="social-icon-link">
+                <a href="https://wa.me/9878400186" target="_blank" rel="noopener noreferrer" className="social-icon-link">
                     <IconButton>
                         <WhatsApp className="mui-social-icons" />
                     </IconButton>
                 </a>
-                <IconButton>
-                    <X className="mui-social-icons" />
-                </IconButton>
             </div>
         </div>
     );
