@@ -8,6 +8,10 @@ import EmailIcon from '@mui/icons-material/Email';
 import '../style/QuickLinks.css';
 
 const QuickLinks = () => {
+
+    const handleClick = () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    }
     return (
         <><Grid item xs={12} lg={6}>
             <div className="quick-links">
@@ -15,22 +19,22 @@ const QuickLinks = () => {
                     <Typography variant="h6" gutterBottom className="quick-links-title-typo" textAlign={"center"} data-aos="fade-down" data-aos-duration="3000">
                         Quick Links
                     </Typography>
-                    <ListItem button component={Link} to="/" className="quick-links-items">
+                    <ListItem button component={Link} to="/" className="quick-links-items" onClick={handleClick}>
                         <Typography className="quick-links-text" data-aos="fade-down" data-aos-duration="3000">Home</Typography>
                     </ListItem>
-                    <ListItem button component={Link} to="/about" className="quick-links-items">
+                    <ListItem button component={Link} to="/about" className="quick-links-items" onClick={handleClick}>
                         <Typography className="quick-links-text" data-aos="fade-down" data-aos-duration="3000">About</Typography>
                     </ListItem>
-                    <ListItem button component={Link} to="/products" className="quick-links-items">
+                    <ListItem button component={Link} to="/products" className="quick-links-items" onClick={handleClick}>
                         <Typography className="quick-links-text" data-aos="fade-down" data-aos-duration="3000">Products</Typography>
                     </ListItem>
-                    <ListItem button component={Link} to="/events" className="quick-links-items">
+                    <ListItem button component={Link} to="/events" className="quick-links-items" onClick={handleClick}>
                         <Typography className="quick-links-text" data-aos="fade-down" data-aos-duration="3000">Events</Typography>
                     </ListItem>
-                    <ListItem button component={Link} to="/infrastructure" className="quick-links-items">
+                    <ListItem button component={Link} to="/infrastructure" className="quick-links-items" onClick={handleClick}>
                         <Typography className="quick-links-text" data-aos="fade-down" data-aos-duration="3000">infrastructure</Typography>
                     </ListItem>
-                    <ListItem button component={Link} to="/contacts" className="quick-links-items">
+                    <ListItem button component={Link} to="/contacts" className="quick-links-items" onClick={handleClick}>
                         <Typography className="quick-links-text" data-aos="fade-down" data-aos-duration="3000">Contact Us</Typography>
                     </ListItem>
                 </List>
