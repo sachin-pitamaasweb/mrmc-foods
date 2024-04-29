@@ -37,7 +37,7 @@ const Vision = () => {
                         <Card className="vision-card">
                             <CardContent className='vision-card-content'>
                                 <Typography variant="body1" component="p" gutterBottom align="center" className='vision-p-card' sx={{ fontWeight: 'bold' }}>
-                                    Late Sh.Krishan Avtar Mangal (Dabbu Seth)
+                                  Sh.Krishan Avtar Mangal
                                 </Typography>
                             </CardContent>
                         </Card>

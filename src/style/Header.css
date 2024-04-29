@@ -77,10 +77,10 @@
 
     .appbar-logo {
         width: 100% !important;
-        height: 6vh !important;
+        height: 7vh !important;
         object-fit: contain !important;
         margin-left: 0px !important;
-        margin-top: 5px !important;
+        margin-top: 0px !important;
         margin-bottom: 17px !important;
     }
 
@@ -119,10 +119,10 @@
 
     .appbar-logo {
         width: 100% !important;
-        height: 6vh !important;
+        height: 7vh !important;
         object-fit: contain !important;
         margin-left: 0px !important;
-        margin-top: 5px !important;
+        margin-top: 0px !important;
         margin-bottom: 17px !important;
     }
 
@@ -145,7 +145,7 @@
 
     .appbar-logo-div {
         background-color: #fff !important;
-        width: 128px !important;
+        width: 142px !important;
         margin-left: -20px !important;
         border-top-right-radius: 170px !important;
         border-bottom-right-radius: 170px !important;
@@ -153,10 +153,10 @@
 
     .appbar-logo {
         width: 100% !important;
-        height: 6vh !important;
+        height: 7vh !important;
         object-fit: contain !important;
         margin-left: 0px !important;
-        margin-top: 5px !important;
+        margin-top: 0px !important;
         margin-bottom: 17px !important;
     }
 
@@ -168,7 +168,7 @@
 
 @media screen and (min-width: 376px) and (max-width:400px) {
     .menu-icon {
-        margin-left: 60px !important;
+        margin-left: 41px !important;
         font-size: 36px !important;
     }
 
@@ -178,7 +178,7 @@
 
     .appbar-logo-div {
         background-color: #fff !important;
-        width: 117px !important;
+        width: 142px !important;
         margin-left: -20px !important;
         border-top-right-radius: 170px !important;
         border-bottom-right-radius: 170px !important;
@@ -186,10 +186,10 @@
 
     .appbar-logo {
         width: 100% !important;
-        height: 6vh !important;
+        height: 7vh !important;
         object-fit: contain !important;
         margin-left: 0px !important;
-        margin-top: 5px !important;
+        margin-top: 0px !important;
         margin-bottom: 17px !important;
     }
 
@@ -201,7 +201,7 @@
 
 @media screen and (min-width: 401px) and (max-width: 430px) {
     .menu-icon {
-        margin-left: 91px !important;
+        margin-left: 68px !important;
         font-size: 36px !important;
     }
 
@@ -211,7 +211,7 @@
 
     .appbar-logo-div {
         background-color: #fff !important;
-        width: 117px !important;
+        width: 142px !important;
         margin-left: -20px !important;
         border-top-right-radius: 170px !important;
         border-bottom-right-radius: 170px !important;
@@ -219,10 +219,10 @@
 
     .appbar-logo {
         width: 100% !important;
-        height: 6vh !important;
+        height: 7vh !important;
         object-fit: contain !important;
         margin-left: 0px !important;
-        margin-top: 5px !important;
+        margin-top: 0px !important;
         margin-bottom: 17px !important;
     }
 
@@ -245,7 +245,7 @@
 
     .appbar-logo-div {
         background-color: #fff !important;
-        width: 117px !important;
+        width: 142px !important;
         margin-left: -20px !important;
         border-top-right-radius: 170px !important;
         border-bottom-right-radius: 170px !important;
@@ -253,10 +253,10 @@
 
     .appbar-logo {
         width: 100% !important;
-        height: 6vh !important;
+        height:7vh !important;
         object-fit: contain !important;
         margin-left: 0px !important;
-        margin-top: 5px !important;
+        margin-top: 0px !important;
         margin-bottom: 17px !important;
     }
 
@@ -287,10 +287,10 @@
 
     .appbar-logo {
         width: 100% !important;
-        height: 6vh !important;
+        height: 7vh !important;
         object-fit: contain !important;
         margin-left: 0px !important;
-        margin-top: 5px !important;
+        margin-top: 0px !important;
         margin-bottom: 17px !important;
     }
 

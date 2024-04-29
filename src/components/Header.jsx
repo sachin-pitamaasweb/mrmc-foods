@@ -51,23 +51,9 @@ function Header() {
                 <Toolbar>
                     <Box >
                         <div className='appbar-logo-div' data-aos="fade-right" >
-                            <img src={require('../assets/images/Logo.png')} className="appbar-logo" alt='logo' onClick={handleLogoClick} style={{ cursor: 'pointer' }} />
+                            <img src={require('../assets/images/mrmc-logo.png')} className="appbar-logo" alt='logo' onClick={handleLogoClick} style={{ cursor: 'pointer' }} />
                         </div>
                     </Box>
-                    {/* {windowWidth <= 600 && (
-                        <div className='gov-approved-div'>
-                            <Typography className='gov-approved'>Govt Approved</Typography>
-                            <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', }} className='appbar-nav-Box'>
-
-                                <StarIcon style={{ marginRight: '10px', color: '#FDDB3D' }} />
-                                <StarIcon style={{ color: '#FDDB3D' }} />
-
-                            </Box>
-                            <Typography className='export-house'>Export House</Typography>
-                        </div>
-                    )} */}
-
-
                     {windowWidth <= 600 && (
                         <div>
                             <img src={require('../assets/images/export-house.png')} className="export-house-appbar" alt="Export House" />
