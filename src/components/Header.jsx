@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import MenuIcon from '@mui/icons-material/Menu';
-import StarIcon from '@mui/icons-material/Star';
+// import StarIcon from '@mui/icons-material/Star';
 import { AppBar, Toolbar, CssBaseline, Box, Typography, Drawer } from '@mui/material';
 
 import '../style/Header.css';
@@ -12,7 +12,7 @@ function Header() {
 
     const navigate = useNavigate();
     const [open, setOpen] = useState(false);
-    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+    // const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
     const toggleDrawer = (isOpen) => {
         setOpen(isOpen);
@@ -36,12 +36,12 @@ function Header() {
         window.scrollTo({ top: 0, behavior: "smooth" });
     }
 
-    const handleResize = () => {
-        setWindowWidth(window.innerWidth);
-    };
+    // const handleResize = () => {
+    //     setWindowWidth(window.innerWidth);
+    // };
 
     // Listen for window resize event
-    window.addEventListener('resize', handleResize);
+    // window.addEventListener('resize', handleResize);
 
 
     return (
@@ -54,7 +54,7 @@ function Header() {
                             <img src={require('../assets/images/Logo.png')} className="appbar-logo" alt='logo' onClick={handleLogoClick} style={{ cursor: 'pointer' }} />
                         </div>
                     </Box>
-                    {windowWidth <= 600 && (
+                    {/* {windowWidth <= 600 && (
                         <div className='gov-approved-div'>
                             <Typography className='gov-approved'>Govt Approved</Typography>
                             <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', }} className='appbar-nav-Box'>
@@ -65,7 +65,7 @@ function Header() {
                             </Box>
                             <Typography className='export-house'>Export House</Typography>
                         </div>
-                    )}
+                    )} */}
 
                     <MenuIcon className='menu-icon' color="inherit"
                         aria-label="open drawer"
