@@ -12,7 +12,7 @@ function Header() {
 
     const navigate = useNavigate();
     const [open, setOpen] = useState(false);
-    // const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
     const toggleDrawer = (isOpen) => {
         setOpen(isOpen);
@@ -36,12 +36,12 @@ function Header() {
         window.scrollTo({ top: 0, behavior: "smooth" });
     }
 
-    // const handleResize = () => {
-    //     setWindowWidth(window.innerWidth);
-    // };
+    const handleResize = () => {
+        setWindowWidth(window.innerWidth);
+    };
 
     // Listen for window resize event
-    // window.addEventListener('resize', handleResize);
+    window.addEventListener('resize', handleResize);
 
 
     return (
@@ -66,6 +66,14 @@ function Header() {
                             <Typography className='export-house'>Export House</Typography>
                         </div>
                     )} */}
+
+
+                    {windowWidth <= 600 && (
+                        <div>
+                            <img src={require('../assets/images/export-house.png')} className="export-house-appbar" alt="Export House" />
+                        </div>
+                    )}
+
 
                     <MenuIcon className='menu-icon' color="inherit"
                         aria-label="open drawer"
