@@ -22,15 +22,6 @@ const StickySocialMedia = () => {
       >
         <img  src={require('../assets/images/social/s2.png')} alt="Instagram" style={{ width: '30px', height: '30px', objectFit: 'contain' }} />
       </a>
-      {/* <a
-        href="https://twitter.com"
-        className="twitter"
-        target="_blank"
-        rel="noopener noreferrer"
-        data-aos="flip-left"
-      >
-        <img  src={require('../assets/images/social/s3.png')} alt="X" style={{ width: '30px', height: '30px', objectFit: 'contain' }} />
-      </a> */}
       <a
         href="https://wa.me/9878400186"
         className="whatsapp"

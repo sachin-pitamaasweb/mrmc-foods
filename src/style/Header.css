@@ -64,6 +64,8 @@
 }
 
 
+
+
 @media screen and (max-width: 325px) {
     .appbar-logo-div {
         background-color: #fff !important;
@@ -83,22 +85,70 @@
     }
 
     .menu-icon {
-        margin-left: 34px !important;
+        margin-left: 40px !important;
         font-size: 40px !important;
     }
 
-    .appbar-nav-Box{
+    .appbar-nav-Box {
         margin-left: 17px !important;
+    }
+
+    .gov-approved {
+        font-size: 10px !important;
+        margin-left: 8px !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+
+    .export-house {
+        font-size: 10px !important;
+        margin-left: 12px !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+    .gov-approved-div{
+        margin-left: 0px !important;
     }
 }
 
 @media screen and (min-width: 326px) and (max-width: 350px) {
     .menu-icon {
-        margin-left: 37px !important;
-        font-size: 40px !important;
+        margin-left: 33px !important;
+        font-size: 36px !important;
     }
-    .appbar-nav-Box{
-        margin-left: 50px !important;
+
+    .appbar-nav-Box {
+        margin-left: 21px !important;
+    }
+
+    .appbar-logo-div {
+        background-color: #fff !important;
+        width: 165px !important;
+        margin-left: -20px !important;
+        border-top-right-radius: 170px !important;
+        border-bottom-right-radius: 170px !important;
+    }
+
+    .appbar-logo {
+        width: 99% !important;
+        height: 7vh !important;
+        object-fit: contain !important;
+        margin-left: 0px !important;
+        margin-top: 0px !important;
+        margin-bottom: 17px !important;
+    }
+
+    .gov-approved {
+        font-size: 10px !important;
+        margin-left: 12px !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+
+    .export-house {
+        font-size: 10px !important;
+        margin-left: 15px !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+    .gov-approved-div{
+        margin-left: 19px !important;
     }
 }
 
@@ -121,12 +171,29 @@
     }
 
     .menu-icon {
-        margin-left: 34px !important;
-        font-size: 40px !important;
+        margin-left: 51px !important;
+        font-size: 36px !important
     }
 
-    .appbar-nav-Box{
-        margin-left: 34px !important;
+    .gov-approved-div{
+        margin-left: 20px !important;
+    }
+
+   
+    .appbar-nav-Box {
+        margin-left: 21px !important;
+    }
+
+    .gov-approved {
+        font-size: 10px !important;
+        margin-left: 12px !important;
+        font-family: 'Libre Baskerville', serif !important;
+    }
+
+    .export-house {
+        font-size: 10px !important;
+        margin-left: 15px !important;
+        font-family: 'Libre Baskerville', serif !important;
     }
 }
 
@@ -148,13 +215,31 @@
         margin-bottom: 17px !important;
     }
 
+    
+    .appbar-nav-Box {
+        margin-left: 42px !important;
+    }
+
     .menu-icon {
-        margin-left: 55px !important;
+        margin-left: 54px !important;
         font-size: 40px !important;
     }
 
-    .appbar-nav-Box{
-        margin-left: 57px !important;
+    .appbar-nav-Box {
+        margin-left: 21px !important;
+    }
+
+    .gov-approved {
+        font-size: 10px !important;
+        margin-left: 12px !important;
+    }
+
+    .export-house {
+        font-size: 10px !important;
+        margin-left: 15px !important;
+    }
+    .gov-approved-div{
+        margin-left: 43px !important;
     }
 }
 
@@ -177,17 +262,30 @@
     }
 
     .menu-icon {
-        margin-left: 67px !important;
+        margin-left: 55px !important;
         font-size: 40px !important;
     }
 
-    .appbar-nav-Box{
-        margin-left: 64px !important;
+    .appbar-nav-Box {
+        margin-left: 21px !important;
+    }
+
+    .gov-approved {
+        font-size: 10px !important;
+        margin-left: 12px !important;
+    }
+
+    .export-house {
+        font-size: 10px !important;
+        margin-left: 15px !important;
+    }
+    .gov-approved-div{
+        margin-left: 65px !important;
     }
 }
 
 
-@media screen and (min-width: 431px) and (max-width: 500px) {
+@media screen and (min-width: 431px) and (max-width: 450px) {
     .appbar-logo-div {
         background-color: #fff !important;
         width: 165px !important;
@@ -210,10 +308,66 @@
         font-size: 40px !important;
     }
 
-    .appbar-nav-Box{
-        margin-left: 92px !important;
+    .appbar-nav-Box {
+        margin-left: 21px !important;
+    }
+
+    .gov-approved {
+        font-size: 10px !important;
+        margin-left: 12px !important;
+    }
+
+    .export-house {
+        font-size: 10px !important;
+        margin-left: 15px !important;
+    }
+    .gov-approved-div{
+        margin-left: 65px !important;
     }
 }
+
+
+@media screen and (min-width: 451px) and (max-width: 500px) {
+    .appbar-logo-div {
+        background-color: #fff !important;
+        width: 165px !important;
+        margin-left: -20px !important;
+        border-top-right-radius: 170px !important;
+        border-bottom-right-radius: 170px !important;
+    }
+
+    .appbar-logo {
+        width: 99% !important;
+        height: 7vh !important;
+        object-fit: contain !important;
+        margin-left: 0px !important;
+        margin-top: 0px !important;
+        margin-bottom: 17px !important;
+    }
+
+    .menu-icon {
+        margin-left: 100px !important;
+        font-size: 40px !important;
+    }
+
+    .appbar-nav-Box {
+        margin-left: 21px !important;
+    }
+
+    .gov-approved {
+        font-size: 10px !important;
+        margin-left: 12px !important;
+    }
+
+    .export-house {
+        font-size: 10px !important;
+        margin-left: 15px !important;
+    }
+    .gov-approved-div{
+        margin-left: 65px !important;
+    }
+}
+
 
 @media screen and (min-width: 501px) and (max-width: 600px) {
     .menu-icon {
@@ -614,7 +768,7 @@
 
 
 @media screen and (min-width: 1801px) and (max-width: 2000px) {
-  
+
     .appbar-logo-div {
         background-color: #fff !important;
         width: 250px !important;
