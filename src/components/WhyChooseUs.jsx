@@ -7,7 +7,7 @@ import '../style/WhyChooseUs.css';
 const WhyChooseUs = () => {
   return (
     <>
-      <Grid container className="why-choose-us-container" spacing={2} data-aos="zoom-in" data-aos-duration="3000">
+      <Grid container className="why-choose-us-container" spacing={2} data-aos="zoom-in" data-aos-duration="1000">
         <Grid className="why-choose-us-image-text-grid" item xs={12} md={6} lg={6}>
           <div className="why-choose-us-text">
             <h4 className="why-choose-us-title">Why Choose Us?</h4>

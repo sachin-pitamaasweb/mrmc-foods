@@ -75,7 +75,6 @@ const QuickLinks = () => {
                             component="a"
                             target="_blank"
                             href="mailto:rajiv@mrmc.in"
-
                         >rajiv@mrmc.in
                         </Typography>
                     </Grid>

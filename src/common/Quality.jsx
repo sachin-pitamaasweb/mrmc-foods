@@ -31,7 +31,7 @@ const Quality = ({ applyAnimation }) => {
         <>
             <div className="quality">
                 <div className="quality-image-container">
-                    <div className="quality-image-text" style={QualityImageStyle} data-aos="zoom-in-up" data-aos-duration="3000">
+                    <div className="quality-image-text" style={QualityImageStyle} data-aos="zoom-in-up" data-aos-duration="1000">
                         <Grid container spacing={isMobile ? 2 : 0}>
                             {qualities.map((quality, index) => (
                                 <Grid key={index} item xs={6} sm={6} md={6} lg={3}>

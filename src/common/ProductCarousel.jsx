@@ -35,7 +35,7 @@ const ProductCarousel = ({ images }) => {
 
                 >
                     {images.map((image, index) => (
-                        <div key={index} className="product-carousel" data-aos="zoom-in-down" data-aos-duration="3000">
+                        <div key={index} className="product-carousel" data-aos="zoom-in-down" data-aos-duration="1000">
                             <img src={image.src} alt={image.alt} className="product-img" />
                         </div>
                     ))}

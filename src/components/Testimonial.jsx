@@ -11,10 +11,10 @@ const Testimonial = () => {
     return (
         <Grid container spacing={2} className="testimonials-container-grid">
             <Grid item xs={12} className="testimonials-grid">
-                <Typography variant="h4" align="center" component={"div"} className="testimonials-h4" data-aos="flip-left" data-aos-duration="3000">
+                <Typography variant="h4" align="center" component={"div"} className="testimonials-h4" data-aos="flip-left" data-aos-duration="1000">
                     TESTIMONIALS
                 </Typography>
-                <Typography variant="subtitle1" align="center" component={"div"} className="testimonials-subtitle" data-aos="flip-right" data-aos-duration="3000">
+                <Typography variant="subtitle1" align="center" component={"div"} className="testimonials-subtitle" data-aos="flip-right" data-aos-duration="1000">
                     Glowing reviews from customers
                 </Typography>
             </Grid>
