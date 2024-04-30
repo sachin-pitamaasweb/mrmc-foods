@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6e1e3650.css",
-    "main.js": "/static/js/main.eeb03046.js",
+    "main.js": "/static/js/main.314cc46c.js",
     "static/js/453.ec8ed3ec.chunk.js": "/static/js/453.ec8ed3ec.chunk.js",
     "static/media/silder4.png": "/static/media/silder4.0387495a9263d9810ddd.png",
     "static/media/silder5.png": "/static/media/silder5.bd9154a1a00250c75492.png",
@@ -40,12 +40,14 @@
     "static/media/Hunar3.png": "/static/media/Hunar3.f8a890eae37a7852c261.png",
     "static/media/Hunar2.png": "/static/media/Hunar2.c111f4d6bda10cda79a1.png",
     "static/media/Yashas4.png": "/static/media/Yashas4.4cf7f142e493c3cdf94e.png",
+    "static/media/Carousel-Image3.jpg": "/static/media/Carousel-Image3.1ec566ebcdd688438311.jpg",
     "static/media/Hunar1.png": "/static/media/Hunar1.f833f717afe6e358dced.png",
     "static/media/Hunar4.png": "/static/media/Hunar4.9cd314b2e7bc99592511.png",
     "static/media/Yashas5.png": "/static/media/Yashas5.06673a97eb94aa56be99.png",
     "static/media/Infrastructure.png": "/static/media/Infrastructure.dc529d77de2ad19dc71d.png",
     "static/media/Hunar5.png": "/static/media/Hunar5.05257f35759c80589611.png",
     "static/media/Infrastructure2.png": "/static/media/Infrastructure2.e835fa39efb100f330ae.png",
+    "static/media/Carousel-Image1.png": "/static/media/Carousel-Image1.967b4bb18ea5a32228ae.png",
     "static/media/local.png": "/static/media/local.db42fb76e43152ab324c.png",
     "static/media/p1.png": "/static/media/p1.d9808307eaaf78dba041.png",
     "static/media/event-3.png": "/static/media/event-3.ac6484597474c42aacd8.png",
@@ -55,11 +57,9 @@
     "static/media/p3.png": "/static/media/p3.fa8156e7d2c0930911d5.png",
     "static/media/event-10.png": "/static/media/event-10.96dd89a976cc4c3d13c6.png",
     "static/media/pro.png": "/static/media/pro.b28158a6423977e5a17e.png",
-    "static/media/Carousel-Image1.jpg": "/static/media/Carousel-Image1.4e987214a451c19a8919.jpg",
     "static/media/event-6.png": "/static/media/event-6.59983c0aa67ab3349d5b.png",
     "static/media/why1.png": "/static/media/why1.bd10dc64dcaf459cf82a.png",
     "static/media/event-5.png": "/static/media/event-5.8fc4b571f717bd9ae5b3.png",
-    "static/media/Carousel-Image3.jpg": "/static/media/Carousel-Image3.ba581fd87027c426b7f6.jpg",
     "static/media/Infrastructure1.png": "/static/media/Infrastructure1.90eda118ec4a107c3431.png",
     "static/media/Carousel-Image2.jpg": "/static/media/Carousel-Image2.71ae7de321d503aa1675.jpg",
     "static/media/why4.png": "/static/media/why4.1aac9e551e535a077ac0.png",
@@ -68,16 +68,16 @@
     "static/media/event-12.png": "/static/media/event-12.22dc3c7058dea1117495.png",
     "static/media/Event5.png": "/static/media/Event5.f3080c0b5a912e821dbe.png",
     "static/media/why2.png": "/static/media/why2.784e78c29f5f4e3d7f18.png",
-    "static/media/banner-for-mobile3.jpg": "/static/media/banner-for-mobile3.a8b572cac0ee7efaba27.jpg",
     "static/media/founding-story.png": "/static/media/founding-story.d273ad9291d548e7c7b2.png",
     "static/media/pro1.png": "/static/media/pro1.1acc08101139a41fe6d7.png",
     "static/media/banner-for-mobile.jpg": "/static/media/banner-for-mobile.4ec0c142585f544ad556.jpg",
     "static/media/story.png": "/static/media/story.473236de520cb64094dc.png",
     "static/media/inkn.png": "/static/media/inkn.c3e6ad601097b9478300.png",
     "static/media/Established.png": "/static/media/Established.d719e607d06652a66928.png",
-    "static/media/banner-for-mobile1.jpg": "/static/media/banner-for-mobile1.78ba68e90a3a96d9aea3.jpg",
     "static/media/event-4.png": "/static/media/event-4.315565bce4c291a53ad0.png",
     "static/media/event1.png": "/static/media/event1.3e0aa0ff8725589b2866.png",
+    "static/media/banner-for-mobile1.png": "/static/media/banner-for-mobile1.7be03f0072b81e7ea0a9.png",
+    "static/media/banner-for-mobile3.jpg": "/static/media/banner-for-mobile3.c771ee3578b07ef87551.jpg",
     "static/media/InfrastructureProcess1.png": "/static/media/InfrastructureProcess1.75156dce4def6ad13004.png",
     "static/media/bg-image4.png": "/static/media/bg-image4.3f1df629157355d621ba.png",
     "static/media/InfrastructureProcess2.png": "/static/media/InfrastructureProcess2.acc2982773373fec4a11.png",
@@ -154,11 +154,11 @@
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
     "main.6e1e3650.css.map": "/static/css/main.6e1e3650.css.map",
-    "main.eeb03046.js.map": "/static/js/main.eeb03046.js.map",
+    "main.314cc46c.js.map": "/static/js/main.314cc46c.js.map",
     "453.ec8ed3ec.chunk.js.map": "/static/js/453.ec8ed3ec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6e1e3650.css",
-    "static/js/main.eeb03046.js"
+    "static/js/main.314cc46c.js"
   ]
 }

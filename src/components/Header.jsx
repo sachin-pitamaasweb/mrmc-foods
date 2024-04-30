@@ -64,7 +64,7 @@ function Header() {
                     <MenuIcon className='menu-icon' color="inherit"
                         aria-label="open drawer"
                         edge="end"
-                        onClick={handleDrawerToggle} // Corrected function name
+                        onClick={handleDrawerToggle} 
                         sx={{ mr: 2, display: { sm: 'none' } }} />
 
                     <Box className='appbar-nav-div'>
