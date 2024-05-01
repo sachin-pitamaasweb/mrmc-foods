@@ -16,8 +16,9 @@ const ProductsCards = () => {
                 className='product-card-heading'
                 data-aos="fade-right"
                 data-aos-duration="3000"
+                
             >
-                Yashas Products
+                Yashas Range
             </Typography>
             <Grid container spacing={2} className="custom-container">
                 {yashasProducts.map((product, index) => (
@@ -54,7 +55,7 @@ const ProductsCards = () => {
                 data-aos="fade-right"
                 data-aos-duration="3000"
             >
-                Hunar Products
+                Hunar Range
             </Typography>
             <Grid container spacing={2} className="custom-container">
                 {hunarProducts.map((product, index) => (

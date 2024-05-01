@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import MenuIcon from '@mui/icons-material/Menu';
-// import StarIcon from '@mui/icons-material/Star';
-import { AppBar, Toolbar, CssBaseline, Box, Typography, Drawer } from '@mui/material';
+import { AppBar, Toolbar, CssBaseline, Box, Typography, Drawer, IconButton } from '@mui/material';
 
 import '../style/Header.css';
 
@@ -48,24 +47,30 @@ function Header() {
         <Box sx={{ display: 'flex' }}>
             <CssBaseline />
             <AppBar component="nav" className='appbar'>
-                <Toolbar>
+                <Toolbar className='appbar-toolbar'>
                     <Box >
                         <div className='appbar-logo-div' data-aos="fade-right" >
                             <img src={require('../assets/images/mrmc-logo.png')} className="appbar-logo" alt='logo' onClick={handleLogoClick} style={{ cursor: 'pointer' }} />
                         </div>
                     </Box>
-                    {windowWidth <= 600 && (
+                    {/* {windowWidth <= 600 && (
                         <div>
                             <img src={require('../assets/images/export-house.png')} className="export-house-appbar" alt="Export House" />
                         </div>
-                    )}
+                    )} */}
 
-
-                    <MenuIcon className='menu-icon' color="inherit"
+                <Box>
+                <IconButton
+                        className="menu-icon"
+                        color="inherit"
                         aria-label="open drawer"
                         edge="end"
-                        onClick={handleDrawerToggle} 
-                        sx={{ mr: 2, display: { sm: 'none' } }} />
+                        onClick={handleDrawerToggle}
+                        sx={{ mr: 2, display: { sm: 'none' } }} // Adjust margin or display settings here
+                    >
+                        <MenuIcon />
+                    </IconButton>
+                </Box>
 
                     <Box className='appbar-nav-div'>
                         {navLinks.map((item) => (
