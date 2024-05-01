@@ -11,8 +11,6 @@ function Header() {
 
     const navigate = useNavigate();
     const [open, setOpen] = useState(false);
-    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-
     const toggleDrawer = (isOpen) => {
         setOpen(isOpen);
     };
@@ -35,12 +33,6 @@ function Header() {
         window.scrollTo({ top: 0, behavior: "smooth" });
     }
 
-    const handleResize = () => {
-        setWindowWidth(window.innerWidth);
-    };
-
-    // Listen for window resize event
-    window.addEventListener('resize', handleResize);
 
 
     return (
@@ -53,12 +45,6 @@ function Header() {
                             <img src={require('../assets/images/mrmc-logo.png')} className="appbar-logo" alt='logo' onClick={handleLogoClick} style={{ cursor: 'pointer' }} />
                         </div>
                     </Box>
-                    {/* {windowWidth <= 600 && (
-                        <div>
-                            <img src={require('../assets/images/export-house.png')} className="export-house-appbar" alt="Export House" />
-                        </div>
-                    )} */}
-
                 <Box>
                 <IconButton
                         className="menu-icon"
@@ -66,7 +52,7 @@ function Header() {
                         aria-label="open drawer"
                         edge="end"
                         onClick={handleDrawerToggle}
-                        sx={{ mr: 2, display: { sm: 'none' } }} // Adjust margin or display settings here
+                        sx={{ mr: 2, display: { sm: 'none' } }}
                     >
                         <MenuIcon />
                     </IconButton>
