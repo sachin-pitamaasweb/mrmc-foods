@@ -44,7 +44,7 @@ const ImageCarousel = () => {
                 >
 
                     {carouselItemsforMobile.map((item, index) => (
-                        <Carousel.Item key={index} interval={1000}
+                        <Carousel.Item key={index} interval={4000}
                             className='carousel-item'
                         >
                             <ExampleCarouselImage src={item.src} alt={item.alt} />
@@ -63,7 +63,7 @@ const ImageCarousel = () => {
                     controls={false} indicators={true}
                 >
                     {carouselItemsforDesktop.map((item, index) => (
-                        <Carousel.Item key={index} interval={1000}
+                        <Carousel.Item key={index} interval={4000}
                             className='carousel-item'
 
                         >
