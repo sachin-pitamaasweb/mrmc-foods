@@ -48,11 +48,6 @@ const ImageCarousel = () => {
                             className='carousel-item'
                         >
                             <ExampleCarouselImage src={item.src} alt={item.alt} />
-                            {index === 0 && (
-                                <Carousel.Caption className='carousel-caption'>
-                                    <img src={require('../assets/images/bg-text.png')} alt="bg-text" className='bg-text-image-for-mobile' />
-                                </Carousel.Caption>
-                            )}
                         </Carousel.Item>
                     ))}
                 </Carousel>
@@ -68,11 +63,6 @@ const ImageCarousel = () => {
 
                         >
                             <ExampleCarouselImage src={item.src} alt={item.alt} />
-                            {index === 0 && (
-                                <Carousel.Caption className='carousel-caption'>
-                                    <img src={require('../assets/images/bg-text.png')} alt="bg-text" className='bg-text-image-web' />
-                                </Carousel.Caption>
-                            )}
                         </Carousel.Item>
                     ))}
                 </Carousel>

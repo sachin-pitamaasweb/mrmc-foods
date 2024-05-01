@@ -101,34 +101,38 @@ export const products = [
 
 export const carouselItemsforMobile = [
     {
-        src: require('./assets/images/banner-for-mobile.jpg'),
-        alt: "banner-for-mobile"
-    },
-    {
-        src: require('./assets/images/banner-for-mobile1.png'),
+        src: require('./assets/images/Carousel/banner-for-mobile.jpg'),
         alt: "Carousel-Image"
     },
     {
-        src: require('./assets/images/banner-for-mobile4.png'),
+        src: require('./assets/images/Carousel/banner-for-mobile1.png'),
+        alt: "Carousel-Image"
+    },
+    {
+        src: require('./assets/images/Carousel/banner-for-mobile2.jpg'),
+        alt: "Carousel-Image"
+    },
+    {
+        src: require('./assets/images/Carousel/banner-for-mobile3.png'),
         alt: "Carousel-Image"
     },
 ]
 
 export const carouselItemsforDesktop = [
     {
-        src: require('./assets/images/Carousel-Image.png'),
+        src: require('./assets/images/Carousel/Carousel-Image.jpg'),
         alt: "Carousel-Image"
     },
     {
-        src: require('./assets/images/Carousel-Image1.png'),
+        src: require('./assets/images/Carousel/Carousel-Image1.png'),
         alt: "Carousel-Image"
     },
     {
-        src: require('./assets/images/Carousel-Image2.jpg'),
+        src: require('./assets/images/Carousel/Carousel-Image2.jpg'),
         alt: "Carousel-Image"
     },
     {
-        src: require('./assets/images/Carousel-Image4.png'),
+        src: require('./assets/images/Carousel/Carousel-Image3.png'),
         alt: "Carousel-Image"
     },
 ]
