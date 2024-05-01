@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.15c161d1.css",
-    "main.js": "/static/js/main.94d7f693.js",
+    "main.js": "/static/js/main.5b383ac8.js",
     "static/js/453.ec8ed3ec.chunk.js": "/static/js/453.ec8ed3ec.chunk.js",
     "static/media/silder4.png": "/static/media/silder4.0387495a9263d9810ddd.png",
     "static/media/silder5.png": "/static/media/silder5.bd9154a1a00250c75492.png",
@@ -17,7 +17,6 @@
     "static/media/test2.jpg": "/static/media/test2.9e2d37b0e2c7bc1481f7.jpg",
     "static/media/test1.jpg": "/static/media/test1.49daf81fc0a646b998f1.jpg",
     "static/media/banner-about.png": "/static/media/banner-about.ccd4e8f9e2c46298e828.png",
-    "static/media/banner-for-mobile3.png": "/static/media/banner-for-mobile3.e9467ea6acf526d7d888.png",
     "static/media/contact-banner.png": "/static/media/contact-banner.d28f51aaa563155d889c.png",
     "static/media/event-8.png": "/static/media/event-8.95b45d58b792832e1f0e.png",
     "static/media/Carousel-Image.png": "/static/media/Carousel-Image.aec0425d33f4ce639817.png",
@@ -32,6 +31,7 @@
     "static/media/rice1.png": "/static/media/rice1.59446993e59f0db45220.png",
     "static/media/why-choose-us.png": "/static/media/why-choose-us.12ff4a03f7dab7e6987a.png",
     "static/media/event-11.png": "/static/media/event-11.201789ff1eccfc0ecb05.png",
+    "static/media/Carousel-Image4.png": "/static/media/Carousel-Image4.945d6f7e78b1c456cb1a.png",
     "static/media/Yashas2.png": "/static/media/Yashas2.6fc477e9a629c90e1571.png",
     "static/media/Yashas1.png": "/static/media/Yashas1.ef868460246a58ce2a70.png",
     "static/media/heritage.png": "/static/media/heritage.5647b7be2c30c9585904.png",
@@ -40,7 +40,6 @@
     "static/media/Hunar3.png": "/static/media/Hunar3.f8a890eae37a7852c261.png",
     "static/media/Hunar2.png": "/static/media/Hunar2.c111f4d6bda10cda79a1.png",
     "static/media/Yashas4.png": "/static/media/Yashas4.4cf7f142e493c3cdf94e.png",
-    "static/media/Carousel-Image3.jpg": "/static/media/Carousel-Image3.1ec566ebcdd688438311.jpg",
     "static/media/Hunar1.png": "/static/media/Hunar1.f833f717afe6e358dced.png",
     "static/media/Hunar4.png": "/static/media/Hunar4.9cd314b2e7bc99592511.png",
     "static/media/Yashas5.png": "/static/media/Yashas5.06673a97eb94aa56be99.png",
@@ -60,6 +59,7 @@
     "static/media/event-6.png": "/static/media/event-6.59983c0aa67ab3349d5b.png",
     "static/media/why1.png": "/static/media/why1.bd10dc64dcaf459cf82a.png",
     "static/media/event-5.png": "/static/media/event-5.8fc4b571f717bd9ae5b3.png",
+    "static/media/banner-for-mobile4.png": "/static/media/banner-for-mobile4.227d38e8fa4f0fe7cf0e.png",
     "static/media/Infrastructure1.png": "/static/media/Infrastructure1.90eda118ec4a107c3431.png",
     "static/media/Carousel-Image2.jpg": "/static/media/Carousel-Image2.71ae7de321d503aa1675.jpg",
     "static/media/why4.png": "/static/media/why4.1aac9e551e535a077ac0.png",
@@ -77,7 +77,6 @@
     "static/media/event-4.png": "/static/media/event-4.315565bce4c291a53ad0.png",
     "static/media/event1.png": "/static/media/event1.3e0aa0ff8725589b2866.png",
     "static/media/banner-for-mobile1.png": "/static/media/banner-for-mobile1.7be03f0072b81e7ea0a9.png",
-    "static/media/banner-for-mobile3.jpg": "/static/media/banner-for-mobile3.c771ee3578b07ef87551.jpg",
     "static/media/InfrastructureProcess1.png": "/static/media/InfrastructureProcess1.75156dce4def6ad13004.png",
     "static/media/bg-image4.png": "/static/media/bg-image4.3f1df629157355d621ba.png",
     "static/media/InfrastructureProcess2.png": "/static/media/InfrastructureProcess2.acc2982773373fec4a11.png",
@@ -154,11 +153,11 @@
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
     "main.15c161d1.css.map": "/static/css/main.15c161d1.css.map",
-    "main.94d7f693.js.map": "/static/js/main.94d7f693.js.map",
+    "main.5b383ac8.js.map": "/static/js/main.5b383ac8.js.map",
     "453.ec8ed3ec.chunk.js.map": "/static/js/453.ec8ed3ec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.15c161d1.css",
-    "static/js/main.94d7f693.js"
+    "static/js/main.5b383ac8.js"
   ]
 }
