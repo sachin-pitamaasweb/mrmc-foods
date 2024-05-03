@@ -48,8 +48,8 @@ const QuickLinks = () => {
                             variant="body1"
                             className="footer-contact-info-links"
                             component="a"
-                            href="tel:+919876543210"
-                        >+91 9876543210
+                            href="tel:+919878400186"
+                        >+91 98784-00186
                         </Typography>
                     </Grid>
                     <hr className="footer-contact-hr" />
