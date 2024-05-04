@@ -15,7 +15,7 @@ const ContactInfo = () => {
           <div className='icon-div'>  <PhoneIcon className="icon" /></div>
           <Card className="contact-card">
             <CardContent className='contact-card-content'>
-              <a style={{ textDecoration: 'none' }} href="tel:+91 9876543210"> <h4 className='contact-info centered'>+91 9876543210</h4></a>
+              <a style={{ textDecoration: 'none' }} href="tel:+919878400186"> <h4 className='contact-info centered'>+91 98784-00186</h4></a>
             </CardContent>
           </Card>
         </Grid>
